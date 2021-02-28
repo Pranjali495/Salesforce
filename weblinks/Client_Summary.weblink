@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPageWebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Client Summary</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>https://www.appextremes.com/apps/Conga/Composer.aspx
+?sessionId={!API.Session_ID}
+&amp;serverUrl={!API.Partner_Server_URL_80}
+&amp;id={!$User.Id}
+&amp;queryid=a0V7000000ASjOp
+&amp;templateid=a0U7000000UWsnt
+&amp;OFN=ClientSummary_{!Today}
+&amp;emailtoid=00370000015CVjr
+&amp;emailtemplateid=00X70000001Pcja
+&amp;lg3=2
+&amp;lg4=1
+&amp;AttachmentParentId=0017000000rxLlZ</url>
+</CustomPageWebLink>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Timecard Split Layout - Limited</layout>
+        <sections>
+            <label><!-- Hours and Notes --></label>
+            <section>Hours and Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Travel Notes --></label>
+            <section>Travel Notes</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

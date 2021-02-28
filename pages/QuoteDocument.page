@@ -1,0 +1,308 @@
+<apex:page standardController="Quote" extensions="QuoteDocumentController" showHeader="false" sidebar="false" renderAs="PDF" applyHtmlTag="false" applyBodyTag="false">
+<html>
+    <head>
+        <link rel="stylesheet" href="{! URLFOR($Resource.QuoteCss,'css/quote.css')}" type="text/css" />
+    </head>    
+    <body>
+        <div class="campany-info">
+            <img src="{! URLFOR($Resource.Images,'imgs/logo.png')}" width="255"/>
+            
+            <table style="margin-top:16px;">
+                <tbody>
+                    <tr>
+                        <td><b>{!$Organization.Name}</b></td>
+                    </tr>
+                    <tr>
+                        <td>{!$Label.QuoteStreet}</td>
+                    </tr>
+                    <tr>
+                        <td>{!$Label.QuoteCity}&nbsp;{!$Label.QuoteState}&nbsp;{!$Label.QuoteZipCode}&nbsp;{!$Label.QuoteCountry}</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <!--
+            <p style="margin-top:20px;">
+                <b>{!$Organization.Name}<br/></b>
+                <span style="margin-top:20px;">{!$Label.QuoteStreet}</span><br/>
+                <span style="margin-top:20px;">{!$Label.QuoteCity}&nbsp;{!$Label.QuoteState}&nbsp;{!$Label.QuoteZipCode}&nbsp;{!$Label.QuoteCountry}</span><br/>
+            </p> 
+             
+            <div style="Margin:20px 0 0 6px">
+                <b style="font-size:13px;">{!$Organization.Name}<br/></b>
+                <apex:outputText rendered="{!NOT(ISBLANK($Label.QuoteStreet))}">
+                    {!$Label.QuoteStreet}<br/>
+                </apex:outputText>
+                <apex:outputText rendered="{!NOT(ISBLANK($Label.QuoteCity))}">
+                    {!$Label.QuoteCity}&nbsp;
+                </apex:outputText>
+                <apex:outputText rendered="{!NOT(ISBLANK($Label.QuoteState))}">
+                    {!$Label.QuoteState}&nbsp;
+                </apex:outputText>
+                <apex:outputText rendered="{!NOT(ISBLANK($Label.QuoteZipCode))}">
+                    {!$Label.QuoteZipCode}&nbsp;
+                </apex:outputText>   
+                <apex:outputText rendered="{!NOT(ISBLANK($Label.QuoteCountry))}">
+                    {!$Label.QuoteCountry}
+                </apex:outputText>                
+                <apex:outputText rendered="{!OR(NOT(ISBLANK($Label.QuoteCity)),NOT(ISBLANK($Label.QuoteState)),NOT(ISBLANK($Label.QuoteZipCode)),NOT(ISBLANK($Label.QuoteCountry)))}"><br/></apex:outputText>                
+                <apex:outputText rendered="{!NOT(ISBLANK($Label.QuotePhone))}">
+                    Phone: {!$Label.Quotephone}
+                </apex:outputText>
+                -->
+                
+        </div>
+        <div class="quote_info" style="float:right;margin:60px 3px 0 0; width:228px;">
+            <table style="text-align:right;">
+                <tbody>
+                    <tr>
+                        <td><b>Quote #:</b></td>
+                        <td>&nbsp;{!quote.QuoteNumber}</td>
+                    </tr>
+                    <tr>
+                        <td><b>Date:</b></td>
+                        <td style="text-align:center;">&nbsp;&nbsp;
+                            <apex:outputText value="{0, date, MM/dd/yyyy}">
+                                <apex:param value="{!Quote.createdDate}" />
+                            </apex:outputText>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>ExpirationDate:</b></td>
+                        <td>&nbsp;&nbsp;
+                            <apex:outputText value="{0, date, MM/dd/yyyy}">
+                                <apex:param value="{!Quote.ExpirationDate}" />
+                            </apex:outputText>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>    
+        </div>
+        <div class="clear-fix" style="clear:both"></div>
+        
+        <div class="quote-address-info" cellpadding="8" width="100%">
+            <table>
+                <tbody>
+                    <tr>
+                        <td valign="top" width="71%">
+                            <b style="font-size:13px;">Prepared For:</b>
+                            <p>
+                                <apex:outputText rendered="{!NOT(ISBLANK(quote.Contact.Name))}"> {!quote.Contact.Name}<br/></apex:outputText>
+                                <apex:outputText rendered="{!NOT(ISBLANK(quote.Contact.MailingStreet))}"> {!quote.Contact.MailingStreet}<br/></apex:outputText>
+                                {!quote.Contact.MailingCity}{!IF(NOT(ISBLANK(quote.Contact.MailingState)), ', ', '')}{!quote.Contact.MailingState}
+                                <apex:outputText rendered="{!OR(NOT(ISBLANK(quote.Contact.MailingCity)), NOT(ISBLANK(quote.Contact.MailingState)))}"><br/></apex:outputText>
+                                {!quote.Contact.MailingPostalCode}<apex:outputText rendered="{!NOT(ISBLANK(quote.Contact.MailingPostalCode))}"><br/></apex:outputText>
+                                {!quote.Contact.MailingCountry}<apex:outputText rendered="{!NOT(ISBLANK(quote.Contact.MailingCountry))}"><br/></apex:outputText>
+                            </p>
+                        </td>
+                      
+                        <td valign="top">
+                            <b style="font-size:13px;">Prepared By:</b>
+                            <p>
+                                 <apex:outputText rendered="{!NOT(ISBLANK(quote.Opportunity.Owner.Name))}"> {!quote.Opportunity.Owner.Name}<br/></apex:outputText>
+                                 <apex:outputText rendered="{!NOT(ISBLANK(quote.Opportunity.Owner.Email))}">Email: {!quote.Opportunity.Owner.Email}<br/></apex:outputText>
+                                 <apex:outputText rendered="{!NOT(ISBLANK(quote.Opportunity.Owner.Phone))}">Phone: {!quote.Opportunity.Owner.Phone}</apex:outputText>  
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>       
+            </table>
+        </div>
+        <apex:variable var="totalSpan" value="{! 0}"/>
+        <apex:variable var="totalSpan" value="{! IF(quote.Show_Hours__c,totalSpan+1,totalSpan)}"/>
+        <apex:variable var="totalSpan" value="{! IF(quote.Show_List_Price__c,totalSpan+1,totalSpan)}"/>
+        <apex:variable var="totalSpan" value="{! IF(quote.Show_Discount__c,totalSpan+1,totalSpan)}"/>
+        <apex:variable var="totalSpan" value="{! IF(quote.Show_Special_Terms__c,totalSpan+1,totalSpan)}" />
+        <apex:variable var="totalSpan" value="{! IF(quote.Show_Sales_Price__c,totalSpan+1,totalSpan)}"/>
+        <div class="product-list">
+            <table class="quote-table" cellpadding="5" cellspacing="0" width="100%" >
+                <thead>
+                    <tr height="20">
+                        <th>Product Type</th>
+                        <th>Product Category</th>
+                        <th>Product Name</th>
+                        <!--Change Hours Column Header to Quantity-->
+                        <th style="{! IF( quote.Show_Hours__c,'','display:none;')}">Quantity</th>                      
+                        <th style="{! IF( quote.Show_List_Price__c,'','display:none;')}">List Price</th>                       
+                        <th style="{! IF( quote.Show_Discount__c,'','display:none;')};">Discount(%)</th>                        
+                        <th style="{! IF( quote.Show_Sales_Price__c,'','display:none;')};">Sales Price</th>   
+                        <th style="{! IF( quote.Show_Special_Terms__c,'','display:none;')}">Special Terms</th>  
+                    </tr>
+                </thead>
+                <tbody style="text-align:right;" >
+                    <apex:repeat value="{! quoteLineItems}" var="item">
+                        <tr>
+                            <td style="text-align:left;">{! item.PricebookEntry.Product2.Family}</td>
+                            <td style="text-align:left;">{! item.PricebookEntry.Product2.Product_Sub_Category__c}</td>
+                            <td style="text-align:left;">{! item.PricebookEntry.Product2.Name}</td>
+                            <td style="text-align:center;{! IF(quote.Show_hours__c,'','display:none;')}" >
+                                {! item.PricebookEntry.Product2.Hours__c}
+                            </td>                            
+                            <td style="{! IF(quote.Show_List_Price__c,'','display:none')}">
+                                <apex:outputPanel layout="none" rendered="{!item.List_Price__c == null || item.List_Price__c == 0}">
+                                    &nbsp;
+                                </apex:outputPanel>
+                                <apex:outputPanel layout="none" rendered="{!item.List_Price__c != null && item.List_Price__c != 0}">
+                                    <apex:outputText value="{! quote.Opportunity.CurrencyISOCode}"></apex:outputText> &nbsp;
+                                    <apex:outputText value="{0,number,###,###,##0.00}">
+                                        <apex:param value="{! item.List_Price__c}" />
+                                    </apex:outputText>
+                                </apex:outputPanel>                                    
+                            </td>
+                            <td style="{! IF(quote.Show_Discount__c,'','display:none')}">
+                                <apex:outputPanel layout="none" rendered="{!item.Discount__c == null || item.Discount__c == 0}">
+                                    &nbsp;
+                                </apex:outputPanel>
+                                <apex:outputPanel layout="none" rendered="{!item.Discount__c != null && item.Discount__c != 0}">
+                                    <apex:outputText value="{0,number,###,###,##0.00}">
+                                        <apex:param value="{! item.Discount__c}"/>
+                                    </apex:outputText>%
+                                </apex:outputPanel>    
+                            </td>                           
+                            <td style="{! IF(quote.Show_Sales_Price__c,'','display:none')}">
+                                <apex:outputPanel layout="none" rendered="{!item.UnitPrice == null || item.UnitPrice == 0}">
+                                    &nbsp;
+                                </apex:outputPanel>
+                                <apex:outputPanel layout="none" rendered="{!item.UnitPrice != null && item.UnitPrice != 0}">
+                                    <apex:outputText value="{! quote.Opportunity.CurrencyISOCode}"></apex:outputText> &nbsp;
+                                    <apex:outputText value="{0,number,###,###,##0.00}">
+                                        <apex:param value="{! item.UnitPrice}"/>
+                                    </apex:outputText>
+                                </apex:outputPanel>                                
+                            </td>
+                            <td style="{! IF(quote.Show_Special_Terms__c,'','display:none')}">
+                                <apex:outputText value="{! item.POC_Terms__c}"></apex:outputText>
+                            </td>                                                
+                        </tr>
+                    </apex:repeat>
+                </tbody>
+                <tfoot>
+                    <apex:outputPanel layout="none" rendered="{!OR(quote.Show_Cumulative_List_Price__c,quote.Show_Cumulative_Sales_Price__c,quote.Show_Cumulative_Discount__c)}">                  
+                        <!--
+                            <tr style="{! IF(quote.Show_Cumulative_List_Price__c,'','display:none;')}">
+                                <td colspan="{! IF(totalSpan==0,totalSpan,totalSpan+1)}" style="text-align:right;">
+                                    <b>Total List Price:</b>
+                                </td>
+                                <td>
+                                    <apex:outputText value="{! quote.Opportunity.CurrencyISOCode}"></apex:outputText> &nbsp;
+                                    <apex:outputText value="{0,number,###,###,##0.00}">
+                                        <apex:param value="{! quote.Total_List_Price__c}"/>
+                                    </apex:outputText>
+                                </td>
+                             </tr>
+                            <tr style="{! IF(quote.Show_Cumulative_Sales_Price__c,'','display:none;')}">
+                                <td colspan="{! IF(totalSpan==0,totalSpan,totalSpan+1)}" style="text-align:right;">
+                                    <b>Total Sales Price:</b>
+                                </td>
+                                <td>                                     
+                                    <apex:outputText value="{! quote.Opportunity.CurrencyISOCode}"></apex:outputText> &nbsp;
+                                    <apex:outputText value="{0,number,###,###,##0.00}">
+                                        <apex:param value="{! quote.TotalPrice}"/>
+                                    </apex:outputText>
+                                </td>    
+                            </tr>
+                        -->
+                            <apex:outputPanel layout="none" rendered="{! totalSpan != 0}">
+                                <tr style="{! IF(quote.Show_Cumulative_List_Price__c,'','display:none;')}">                                
+                                    <td colspan="{! totalSpan+2}">
+                                        <b>Total List Price:</b>
+                                    </td>
+                                    <td>
+                                        <apex:outputPanel layout="none" rendered="{!quote.Total_List_Price__c == 0}">&nbsp;</apex:outputPanel>
+                                        <apex:outputPanel layout="none" rendered="{!quote.Total_List_Price__c != 0}">
+                                            <apex:outputText value="{! quote.Opportunity.CurrencyISOCode}"></apex:outputText> &nbsp;
+                                            <apex:outputText value="{0,number,###,###,##0.00}">
+                                                <apex:param value="{! quote.Total_List_Price__c}"/>
+                                            </apex:outputText>
+                                        </apex:outputPanel>                                        
+                                    </td>
+                                </tr>
+                                <tr style="{! IF(quote.Show_Cumulative_Discount__c,'','display:none;')}">
+                                    <td colspan="{! totalSpan +2 }">
+                                        <b>Total Discount %:</b>
+                                    </td>
+                                    <td>
+                                        <apex:outputPanel layout="none" rendered="{! quote.Discount__c == 0}">&nbsp;</apex:outputPanel>
+                                        <apex:outputPanel layout="none" rendered="{! quote.Discount__c != 0}">
+                                            <apex:outputText value="{0,number,###,###,##0.00}">
+                                                <apex:param value="{! quote.Discount__c}"/>
+                                            </apex:outputText>%
+                                        </apex:outputPanel> 
+                                    </td>    
+                                </tr>
+                                <tr style="{! IF(quote.Show_Cumulative_Sales_Price__c,'','display:none;')}">
+                                    <td colspan="{! totalSpan +2 }">
+                                        <b>Total Sales Price:</b>
+                                    </td>
+                                    <td>
+                                        <apex:outputPanel layout="none" rendered="{!quote.TotalPrice == 0}">&nbsp;</apex:outputPanel>
+                                        <apex:outputPanel layout="none" rendered="{!quote.TotalPrice != 0}">
+                                            <apex:outputText value="{! quote.Opportunity.CurrencyISOCode}"></apex:outputText> &nbsp;
+                                            <apex:outputText value="{0,number,###,###,##0.00}">
+                                                <apex:param value="{! quote.TotalPrice}"/>
+                                            </apex:outputText>
+                                        </apex:outputPanel>                                        
+                                    </td>    
+                                </tr>
+                             </apex:outputPanel>                                                               
+                   </apex:outputPanel>
+                 </tfoot>       
+            </table>
+            <table class="quote-table-tfoot" cellpadding="5" cellspacing="0" width="100%">
+                <apex:outputPanel layout="none" rendered="{! totalSpan == 0}">
+                    <tr style="{! IF(quote.Show_Cumulative_List_Price__c,'','display:none;')}">
+                        <td></td>
+                        <td>
+                            <b>Total List Price:&nbsp;&nbsp;</b>
+                            <apex:outputPanel layout="none" rendered="{!quote.Total_List_Price__c == 0}">&nbsp;</apex:outputPanel>
+                            <apex:outputPanel layout="none" rendered="{!quote.Total_List_Price__c != 0}">
+                                <apex:outputText value="{! quote.Opportunity.CurrencyISOCode}"></apex:outputText> &nbsp;
+                                <apex:outputText value="{0,number,###,###,##0.00}">
+                                    <apex:param value="{! quote.Total_List_Price__c}"/>
+                                </apex:outputText>
+                            </apex:outputPanel>
+                        </td>
+                    </tr>
+                     <tr style="{! IF(quote.Show_Cumulative_Discount__c,'','display:none;')}">
+                         <td></td>
+                         <td>
+                             <b>Total Discount %:&nbsp;&nbsp;&nbsp;&nbsp;</b>
+                             <apex:outputPanel layout="none" rendered="{! quote.Discount__c == 0}">
+                                    &nbsp;
+                             </apex:outputPanel>
+                             <apex:outputPanel layout="none" rendered="{! quote.Discount__c != 0}">
+                                 <apex:outputText value="{0,number,###,###,##0.00}">
+                                     <apex:param value="{! quote.Discount__c}"/>
+                                 </apex:outputText>%
+                             </apex:outputPanel> 
+                         </td>    
+                    </tr>
+                    <tr style="{! IF(quote.Show_Cumulative_Sales_Price__c,'','display:none;')}">
+                        <td></td>
+                        <td>
+                            <b>Total Sales Price:&nbsp;&nbsp;</b>  
+                            <apex:outputPanel layout="none" rendered="{!quote.TotalPrice == 0}">&nbsp;</apex:outputPanel>                               
+                            <apex:outputPanel layout="none" rendered="{!quote.TotalPrice != 0}">
+                                <apex:outputText value="{! quote.Opportunity.CurrencyISOCode}"></apex:outputText> &nbsp;
+                                <apex:outputText value="{0,number,###,###,##0.00}">
+                                    <apex:param value="{! quote.TotalPrice}"/>
+                                </apex:outputText>
+                            </apex:outputPanel>                            
+                        </td>    
+                    </tr>
+                </apex:outputPanel>
+            </table>
+        </div>
+        <div class="quote-bottom">
+            <apex:outputPanel rendered="{!NOT(ISBLANK(quote.Opportunity.OwnerId))}" layout="none">
+                 <p>
+                    Please email any questions to {!quote.Opportunity.Owner.Name} at {!quote.Opportunity.Owner.Email}.   
+                </p>
+            </apex:outputPanel>
+            <div>
+                Thank you for your business!
+            </div>
+        </div>
+    </body>
+</html>
+</apex:page>

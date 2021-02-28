@@ -1,0 +1,4 @@
+<apex:page standardController="Opportunity"> 
+<apex:iframe id="jiraWindow"
+src="https://jira.richrelevance.com/jira/plugins/servlet/customware/connector/issue/5/Opportunity/fetch.action?id={!Opportunity.Id}"></apex:iframe> 
+</apex:page>

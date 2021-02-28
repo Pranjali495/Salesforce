@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>BundleDiscount__c</fullName>
+        <externalId>false</externalId>
+        <label>Bundle Discount</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DependentProduct__c</fullName>
+        <externalId>false</externalId>
+        <label>Dependent Product</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PercentOfBase__c</fullName>
+        <externalId>false</externalId>
+        <label>% of Base</label>
+        <precision>5</precision>
+        <required>true</required>
+        <scale>4</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ProductFamily__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Family</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>ProductPriceTable</label>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,6 @@
+<apex:page standardController="Opportunity" >
+    <flow:interview name="Milestone_Creation" finishLocation="/{!Opportunity.Id}">
+        <apex:param name="ProjectId" value="{!Opportunity.pse__Primary_Project__r.id}"/>      
+        <apex:param name="OppId" value="{!Opportunity.id}"/>  
+    </flow:interview>
+</apex:page>

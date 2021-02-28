@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Agency Clients --></help>
+        <label><!-- Agency Clients --></label>
+        <name>Agency_Clients__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of the ad agency buying ads on behalf of the brand --></help>
+        <label><!-- Agency Name (Buyer) --></label>
+        <name>Agency_Name_Buyer__c</name>
+        <picklistValues>
+            <masterLabel>AKQA</masterLabel>
+            <translation><!-- AKQA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Avenue A Razorfish</masterLabel>
+            <translation><!-- Avenue A Razorfish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Butler, Shine Stern +</masterLabel>
+            <translation><!-- Butler, Shine Stern + --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carat Fusion</masterLabel>
+            <translation><!-- Carat Fusion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digitas</masterLabel>
+            <translation><!-- Digitas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Godfry Q &amp; Partners</masterLabel>
+            <translation><!-- Godfry Q &amp; Partners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEC</masterLabel>
+            <translation><!-- MEC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media Storm</masterLabel>
+            <translation><!-- Media Storm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mindshare</masterLabel>
+            <translation><!-- Mindshare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moxie Interactive</masterLabel>
+            <translation><!-- Moxie Interactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OMD</masterLabel>
+            <translation><!-- OMD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ogilvy</masterLabel>
+            <translation><!-- Ogilvy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PhD</masterLabel>
+            <translation><!-- PhD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spark Communications</masterLabel>
+            <translation><!-- Spark Communications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Universal McCann</masterLabel>
+            <translation><!-- Universal McCann --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wieden + Kennedy</masterLabel>
+            <translation><!-- Wieden + Kennedy --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Behavior Score --></label>
+        <name>Behavior_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field brings the first language when we convert the lead into an account --></help>
+        <label><!-- Company First Language --></label>
+        <name>First_Language__c</name>
+        <picklistValues>
+            <masterLabel>CHINESE</masterLabel>
+            <translation><!-- CHINESE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CZECH</masterLabel>
+            <translation><!-- CZECH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DANISH</masterLabel>
+            <translation><!-- DANISH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DUTCH</masterLabel>
+            <translation><!-- DUTCH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENGLISH</masterLabel>
+            <translation><!-- ENGLISH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FINNISH</masterLabel>
+            <translation><!-- FINNISH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FRENCH</masterLabel>
+            <translation><!-- FRENCH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GERMAN</masterLabel>
+            <translation><!-- GERMAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HUNGARIAN</masterLabel>
+            <translation><!-- HUNGARIAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ITALIAN</masterLabel>
+            <translation><!-- ITALIAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JAPANESE</masterLabel>
+            <translation><!-- JAPANESE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NORWEGIAN</masterLabel>
+            <translation><!-- NORWEGIAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POLISH</masterLabel>
+            <translation><!-- POLISH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PORTUGUESE</masterLabel>
+            <translation><!-- PORTUGUESE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROMANIAN</masterLabel>
+            <translation><!-- ROMANIAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RUSSIAN</masterLabel>
+            <translation><!-- RUSSIAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPANISH</masterLabel>
+            <translation><!-- SPANISH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SWEDISH</masterLabel>
+            <translation><!-- SWEDISH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TURKISH</masterLabel>
+            <translation><!-- TURKISH --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Job Function --></label>
+        <name>Job_Function__c</name>
+        <picklistValues>
+            <masterLabel>Business Development</masterLabel>
+            <translation><!-- Business Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulting</masterLabel>
+            <translation><!-- Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital Marketing</masterLabel>
+            <translation><!-- Digital Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E-commerce</masterLabel>
+            <translation><!-- E-commerce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive</masterLabel>
+            <translation><!-- Executive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Human Resources</masterLabel>
+            <translation><!-- Human Resources --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merchandising</masterLabel>
+            <translation><!-- Merchandising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operations</masterLabel>
+            <translation><!-- Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technology/Engineering</masterLabel>
+            <translation><!-- Technology/Engineering --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Job Level --></label>
+        <name>Job_Level__c</name>
+        <picklistValues>
+            <masterLabel>Assistant</masterLabel>
+            <translation><!-- Assistant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Board member</masterLabel>
+            <translation><!-- Board member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C-level</masterLabel>
+            <translation><!-- C-level --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consultant</masterLabel>
+            <translation><!-- Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director</masterLabel>
+            <translation><!-- Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entry</masterLabel>
+            <translation><!-- Entry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manager</masterLabel>
+            <translation><!-- Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner/Founder</masterLabel>
+            <translation><!-- Owner/Founder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation><!-- Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>President</masterLabel>
+            <translation><!-- President --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SVP</masterLabel>
+            <translation><!-- SVP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Director</masterLabel>
+            <translation><!-- Senior Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Manager</masterLabel>
+            <translation><!-- Senior Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VP</masterLabel>
+            <translation><!-- VP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- LinkedIn Company Id --></label>
+        <name>LID__LinkedIn_Company_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- LinkedIn Member Token --></label>
+        <name>LID__LinkedIn_Member_Token__c</name>
+    </fields>
+    <fields>
+        <help><!-- Value in days for Lead Status &quot;Sales Accepted&quot; or &quot;Qualified&quot;
+Blank Values are for Different Lead Status --></help>
+        <label><!-- Lead Aging --></label>
+        <name>Lead_Aging__c</name>
+    </fields>
+    <fields>
+        <label><!-- LinkedIn Profile --></label>
+        <name>LinkedIn_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- List Acquisition --></label>
+        <name>List_Acquisition__c</name>
+        <picklistValues>
+            <masterLabel>Datanyze</masterLabel>
+            <translation><!-- Datanyze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LeadGenius</masterLabel>
+            <translation><!-- LeadGenius --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Navigator</masterLabel>
+            <translation><!-- Sales Navigator --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Open Leads Aging --></label>
+        <name>Open_Leads_Aging__c</name>
+    </fields>
+    <fields>
+        <label><!-- Qualified Lead Aging --></label>
+        <name>Qualified_Lead_Aging__c</name>
+    </fields>
+    <fields>
+        <label><!-- Queue --></label>
+        <name>Queue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+        <picklistValues>
+            <masterLabel>Africa</masterLabel>
+            <translation><!-- Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia/Pacific</masterLabel>
+            <translation><!-- Asia/Pacific --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe</masterLabel>
+            <translation><!-- Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latin America</masterLabel>
+            <translation><!-- Latin America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middle East</masterLabel>
+            <translation><!-- Middle East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North America</masterLabel>
+            <translation><!-- North America --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lead Override DupeCatcher --></label>
+        <name>SFSSDupeCatcher__Override_DupeCatcher__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Accepted Lead Aging --></label>
+        <name>Sales_Accepted_Lead_Aging__c</name>
+    </fields>
+    <fields>
+        <label><!-- SD Checked Date --></label>
+        <name>Sifdata__SD_Checked_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- SD Company Match --></label>
+        <name>Sifdata__SD_Company_Match__c</name>
+    </fields>
+    <fields>
+        <label><!-- SD Company --></label>
+        <name>Sifdata__SD_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- SD Custom Update Cadence --></label>
+        <name>Sifdata__SD_Custom_Update_Cadence__c</name>
+    </fields>
+    <fields>
+        <label><!-- SD First Alert --></label>
+        <name>Sifdata__SD_First_Alert__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SD Linkedin URL --></label>
+        <name>Sifdata__SD_Linkedin_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- SD Location --></label>
+        <name>Sifdata__SD_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- SD Next Custom Update --></label>
+        <name>Sifdata__SD_Next_Custom_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- SD Title Match --></label>
+        <name>Sifdata__SD_Title_Match__c</name>
+    </fields>
+    <fields>
+        <label><!-- SD Title --></label>
+        <name>Sifdata__SD_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- SD Tracking --></label>
+        <name>Sifdata__SD_Tracking__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIC Code --></label>
+        <name>Sifdata__SICCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field transfers to subregion field at the account level when converted from lead to account --></help>
+        <label><!-- Sub Region --></label>
+        <name>Sub_Region__c</name>
+        <picklistValues>
+            <masterLabel>APAC</masterLabel>
+            <translation><!-- APAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DACH</masterLabel>
+            <translation><!-- DACH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FraBeLux</masterLabel>
+            <translation><!-- FraBeLux --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LATAM</masterLabel>
+            <translation><!-- LATAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nordics</masterLabel>
+            <translation><!-- Nordics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK</masterLabel>
+            <translation><!-- UK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US East</masterLabel>
+            <translation><!-- US East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US West</masterLabel>
+            <translation><!-- US West --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select an Option when Manually Unqualified Lead Status is Selected --></help>
+        <label><!-- Unqualified Reason --></label>
+        <name>Unqualified_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Company size</masterLabel>
+            <translation><!-- Company size --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal e-mail</masterLabel>
+            <translation><!-- Personal e-mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor</masterLabel>
+            <translation><!-- Vendor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wrong e-mail</masterLabel>
+            <translation><!-- Wrong e-mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wrong person</masterLabel>
+            <translation><!-- Wrong person --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Web Comment --></label>
+        <name>Web_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Attempt --></label>
+        <name>cas__FirstAttempt__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Conversation --></label>
+        <name>cas__First_Conversation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Attempt --></label>
+        <name>cas__LastAttempt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Conversation --></label>
+        <name>cas__Last_Connect__c</name>
+    </fields>
+    <fields>
+        <label><!-- List Name --></label>
+        <name>cas__List_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Most Recent Attempt Disposition --></label>
+        <name>cas__Most_Recent_Attempt_Disposition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Most Recent Conversation Disposition --></label>
+        <name>cas__Most_Recent_Conversation_Disposition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Most Recent Disposition --></label>
+        <name>cas__Most_Recent_Disposition__c</name>
+        <picklistValues>
+            <masterLabel>Conversation</masterLabel>
+            <translation><!-- Conversation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DoNotCall – 24 Hour Pause</masterLabel>
+            <translation><!-- DoNotCall – 24 Hour Pause --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Answer</masterLabel>
+            <translation><!-- No Answer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Problem - Blocked by Gatekeeper</masterLabel>
+            <translation><!-- Problem - Blocked by Gatekeeper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Problem - Target Left Organization</masterLabel>
+            <translation><!-- Problem - Target Left Organization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Problem – Fax Tone</masterLabel>
+            <translation><!-- Problem – Fax Tone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Problem – Incomplete Record</masterLabel>
+            <translation><!-- Problem – Incomplete Record --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Problem – Target In Different Location</masterLabel>
+            <translation><!-- Problem – Target In Different Location --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Problem – Target Inaccurate</masterLabel>
+            <translation><!-- Problem – Target Inaccurate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Problem – Wrong Company</masterLabel>
+            <translation><!-- Problem – Wrong Company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Target Not Available</masterLabel>
+            <translation><!-- Target Not Available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Not Available</masterLabel>
+            <translation><!-- User Not Available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Voicemail Dropped</masterLabel>
+            <translation><!-- Voicemail Dropped --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Voicemail Reached</masterLabel>
+            <translation><!-- Voicemail Reached --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Voicemail Reached – Direct Number</masterLabel>
+            <translation><!-- Voicemail Reached – Direct Number --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Number of Attempts --></label>
+        <name>cas__NumberAttempts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Conversations --></label>
+        <name>cas__NumberConnects__c</name>
+    </fields>
+    <fields>
+        <label><!-- Penalty Box Status --></label>
+        <name>cas__Penalty_Box_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Date --></label>
+        <name>mkto2__Acquisition_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Program Id --></label>
+        <name>mkto2__Acquisition_Program_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Program --></label>
+        <name>mkto2__Acquisition_Program__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred City --></label>
+        <name>mkto2__Inferred_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Company --></label>
+        <name>mkto2__Inferred_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Country --></label>
+        <name>mkto2__Inferred_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Metropolitan Area --></label>
+        <name>mkto2__Inferred_Metropolitan_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Phone Area Code --></label>
+        <name>mkto2__Inferred_Phone_Area_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Postal Code --></label>
+        <name>mkto2__Inferred_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred State Region --></label>
+        <name>mkto2__Inferred_State_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Score --></label>
+        <name>mkto2__Lead_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Referrer --></label>
+        <name>mkto2__Original_Referrer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Search Engine --></label>
+        <name>mkto2__Original_Search_Engine__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Search Phrase --></label>
+        <name>mkto2__Original_Search_Phrase__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Source Info --></label>
+        <name>mkto2__Original_Source_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Source Type --></label>
+        <name>mkto2__Original_Source_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Date --></label>
+        <name>mkto71_Acquisition_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Program Id --></label>
+        <name>mkto71_Acquisition_Program_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Program --></label>
+        <name>mkto71_Acquisition_Program__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>mkto71_Comments_c__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred City --></label>
+        <name>mkto71_Inferred_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Company --></label>
+        <name>mkto71_Inferred_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Country --></label>
+        <name>mkto71_Inferred_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Metropolitan Area --></label>
+        <name>mkto71_Inferred_Metropolitan_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Phone Area Code --></label>
+        <name>mkto71_Inferred_Phone_Area_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Postal Code --></label>
+        <name>mkto71_Inferred_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred State Region --></label>
+        <name>mkto71_Inferred_State_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Score --></label>
+        <name>mkto71_Lead_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Referrer --></label>
+        <name>mkto71_Original_Referrer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Search Engine --></label>
+        <name>mkto71_Original_Search_Engine__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Search Phrase --></label>
+        <name>mkto71_Original_Search_Phrase__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Source Info --></label>
+        <name>mkto71_Original_Source_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Source Type --></label>
+        <name>mkto71_Original_Source_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Add to Marketo Campaign --></label>
+        <name>mkto_si__Add_to_Marketo_Campaign__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide Date --></label>
+        <name>mkto_si__HideDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Interesting Moment Date --></label>
+        <name>mkto_si__Last_Interesting_Moment_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Interesting Moment Desc --></label>
+        <name>mkto_si__Last_Interesting_Moment_Desc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Interesting Moment Source --></label>
+        <name>mkto_si__Last_Interesting_Moment_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Interesting Moment Type --></label>
+        <name>mkto_si__Last_Interesting_Moment_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Interesting Moment --></label>
+        <name>mkto_si__Last_Interesting_Moment__c</name>
+    </fields>
+    <fields>
+        <label><!-- MSIContactId --></label>
+        <name>mkto_si__MSIContactId__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Engagement --></label>
+        <name>mkto_si__Priority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relative Score Value --></label>
+        <name>mkto_si__Relative_Score_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relative Score --></label>
+        <name>mkto_si__Relative_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Insight --></label>
+        <name>mkto_si__Sales_Insight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Urgency Value --></label>
+        <name>mkto_si__Urgency_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Urgency --></label>
+        <name>mkto_si__Urgency__c</name>
+    </fields>
+    <fields>
+        <label><!-- View in Marketo --></label>
+        <name>mkto_si__View_in_Marketo__c</name>
+    </fields>
+    <fields>
+        <label><!-- utm_campaign --></label>
+        <name>utm_campaign__c</name>
+    </fields>
+    <fields>
+        <label><!-- utm_medium --></label>
+        <name>utm_medium__c</name>
+    </fields>
+    <fields>
+        <label><!-- utm_source --></label>
+        <name>utm_source__c</name>
+    </fields>
+    <fields>
+        <label><!-- utm_term --></label>
+        <name>utm_term__c</name>
+    </fields>
+    <fields>
+        <label><!-- xuid --></label>
+        <name>xuid__c</name>
+    </fields>
+    <layouts>
+        <layout>E4B Lead Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Emails --></label>
+            <section>Emails</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Marketo Sales Insight --></label>
+            <section>Marketo Sales Insight</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>New Lead Layout</layout>
+        <sections>
+            <label><!-- ConnectAndSell --></label>
+            <section>ConnectAndSell</section>
+        </sections>
+        <sections>
+            <label><!-- Emails --></label>
+            <section>Emails</section>
+        </sections>
+        <sections>
+            <label><!-- LinkedIn Company Page --></label>
+            <section>LinkedIn Company Page</section>
+        </sections>
+        <sections>
+            <label><!-- LinkedIn Member Profile --></label>
+            <section>LinkedIn Member Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Marketo Sales Insight --></label>
+            <section>Marketo Sales Insight</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Retail Lead Layout</layout>
+        <sections>
+            <label><!-- ConnectAndSell --></label>
+            <section>ConnectAndSell</section>
+        </sections>
+        <sections>
+            <label><!-- Emails --></label>
+            <section>Emails</section>
+        </sections>
+        <sections>
+            <label><!-- LinkedIn Company Page --></label>
+            <section>LinkedIn Company Page</section>
+        </sections>
+        <sections>
+            <label><!-- LinkedIn Member Profile --></label>
+            <section>LinkedIn Member Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing - Marketo fields --></label>
+            <section>Marketing - Marketo fields</section>
+        </sections>
+        <sections>
+            <label><!-- Marketo Sales Insight --></label>
+            <section>Marketo Sales Insight</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Event --></label>
+        <name>Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>Log_a_Call</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log A Note --></label>
+        <name>Note</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Task --></label>
+        <name>Task</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- SaaS Lead Process --></description>
+        <label><!-- SaaS --></label>
+        <name>SaaS</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- CompanyId should be a numeric value --></errorMessage>
+        <name>LID__Check_CompanyId_Value</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select an Option for Unqualified Reason --></errorMessage>
+        <name>Unqualified_Reason_Required</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Convert_Leads --></label>
+        <name>Mass_Convert_Leads</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Edit --></label>
+        <name>Mass_Edit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Update --></label>
+        <name>Mass_Update</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Tasks_Lead --></label>
+        <name>activities__Create_Tasks_Lead</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Download_Attachments --></label>
+        <name>attachmentzip__Download_Attachments</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Click_To_Call --></label>
+        <name>cas__Click_To_Call</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Click_To_Dial --></label>
+        <name>cas__Click_To_Dial</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_to_EchoSign --></label>
+        <name>echosign_dev1__Send_to_EchoSign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Marketo_Campaign --></label>
+        <name>mkto_si__Add_to_Marketo_Campaign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Marketo_Campaign_Details --></label>
+        <name>mkto_si__Add_to_Marketo_Campaign_Details</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Marketo_Campaign_Lightning --></label>
+        <name>mkto_si__Add_to_Marketo_Campaign_Lightning</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Watch_List --></label>
+        <name>mkto_si__Add_to_Watch_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Marketo_Email --></label>
+        <name>mkto_si__Send_Marketo_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Marketo_Email_Details --></label>
+        <name>mkto_si__Send_Marketo_Email_Details</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Marketo_Email_Lightning --></label>
+        <name>mkto_si__Send_Marketo_Email_Lightning</name>
+    </webLinks>
+</CustomObjectTranslation>

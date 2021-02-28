@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Training Plan</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Training Plans</value>
+    </caseValues>
+    <fields>
+        <label><!-- Completion Ratio --></label>
+        <name>Completion_Ratio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Courses Completed --></label>
+        <name>Courses_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Courses --></label>
+        <name>Total_Courses__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

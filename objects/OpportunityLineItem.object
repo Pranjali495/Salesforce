@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddProduct</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddProduct</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddProduct</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChoosePricebook</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChoosePricebook</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChoosePricebook</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EditAllProduct</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EditAllProduct</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EditAllProduct</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>Products_Highlights</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Products_Highlights</fullName>
+        <fields>Product2Id</fields>
+        <fields>ProductTypeText__c</fields>
+        <fields>Quantity</fields>
+        <fields>ListPrice</fields>
+        <fields>List_Price__c</fields>
+        <fields>UnitPrice</fields>
+        <fields>Contract_Sales_Price_Fair_Value__c</fields>
+        <label>Products Highlights</label>
+    </compactLayouts>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Account_Name_Product_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>LEFT( Opportunity.Account.Name &amp;&quot; - &quot;&amp; Name__c , 80)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Name - Product Name</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Booked_eCPM__c</fullName>
+        <externalId>false</externalId>
+        <label>Booked eCPM</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Closed_by_AE__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity.Closed_by_AE__c</formula>
+        <label>Closed by AE</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Commission_Notes__c</fullName>
+        <description>Used to view notes for commissions - Finance Only</description>
+        <externalId>false</externalId>
+        <label>Commission Notes</label>
+        <length>150</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ContractType__c</fullName>
+        <externalId>false</externalId>
+        <label>Contract Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Fixed Fee</fullName>
+                    <default>false</default>
+                    <label>Fixed Fee</label>
+                </value>
+                <value>
+                    <fullName>Time and Materials</fullName>
+                    <default>false</default>
+                    <label>Time and Materials</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Contract_Sales_Price_Fair_Value__c</fullName>
+        <description>Fair value in dollars allocated to specific product used for financial reporting.</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(PricebookEntry.Product2.ProductSubFamily__c, &apos;Monthly API&apos;),
+    UnitPrice,    
+    CASE(PricebookEntry.Product2.Family, 
+        &quot;Services&quot;, UnitPrice, 
+        &quot;Services Annual Recurring&quot;, UnitPrice, 
+        &quot;Integration&quot;, UnitPrice, 
+        &quot;License&quot;, (Opportunity.Roll_up_of_Contract_Sales_Price__c * Fair_Value_Allocation__c),
+        null
+    )
+)</formula>
+        <inlineHelpText>Fair value in dollars allocated to specific product used for financial reporting.</inlineHelpText>
+        <label>Fair Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Contract_Type__c</fullName>
+        <description>List if the product contract type is fixed or attributable</description>
+        <externalId>false</externalId>
+        <label>Contract Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Fixed</fullName>
+                    <default>true</default>
+                    <label>Fixed</label>
+                </value>
+                <value>
+                    <fullName>Attributable</fullName>
+                    <default>false</default>
+                    <label>Attributable</label>
+                </value>
+                <value>
+                    <fullName>Fixed/Attributable</fullName>
+                    <default>false</default>
+                    <label>Fixed/Attributable</label>
+                </value>
+                <value>
+                    <fullName>Grid</fullName>
+                    <default>false</default>
+                    <label>Grid</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Default_Resource_Role__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( ISBLANK(TEXT( PricebookEntry.Product2.Resource_Role__c )),&quot;Technical Consultant&quot;, TEXT(PricebookEntry.Product2.Resource_Role__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Default Resource Role</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Delayed_Release_FINANCE_ONLY__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>used to correct back commissions for one time use only</description>
+        <externalId>false</externalId>
+        <label>Delayed Release (FINANCE ONLY)</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>Discount</fullName>
+    </fields>
+    <fields>
+        <fullName>Discount_Calculated__c</fullName>
+        <description>Calculated discount %.</description>
+        <externalId>false</externalId>
+        <formula>IF(List_Price__c =0,0, 
+1-( UnitPrice/List_Price__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Calculated discount % 1- (Contract Sales Price/ List Price)</inlineHelpText>
+        <label>Discount %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Discount__c</fullName>
+        <externalId>false</externalId>
+        <label>Discount %</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Discount_from_List__c</fullName>
+        <description>Discount in Dollars (Discount % * List Price)</description>
+        <externalId>false</externalId>
+        <formula>IF(List_Price__c == 0, 0, List_Price__c - UnitPrice)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Discount in Dollars (Discount % * List Price)</inlineHelpText>
+        <label>Discount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Effective_Bill_Rate__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+
+ Milestone_Category__c &lt;&gt; &quot;Hourly&quot;
+
+,
+0
+,
+UnitPrice /  Hours_Info_Only__c
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Effective Bill Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>FV_Impacted_Commission__c</fullName>
+        <description>Contract Sales Price * % Paid Out</description>
+        <externalId>false</externalId>
+        <formula>Percentage_Paid_Out__c  *  UnitPrice</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Contract Sales Price * % Paid Out</inlineHelpText>
+        <label>Balance Paid</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Fair_Value_Allocation__c</fullName>
+        <description>Finance field used to allocate value of products for reporting purposes.</description>
+        <externalId>false</externalId>
+        <formula>IF(Opportunity.Roll_Up_Indiv_License_List__c &lt;&gt; 0,
+    IF(ISPICKVAL(PricebookEntry.Product2.ProductSubFamily__c, &apos;Monthly API&apos;),
+        1,
+        CASE(PricebookEntry.Product2.X2_0_Product_Family__c, 
+            &quot;Recommend&quot;, (List_Price__c / Opportunity.Roll_Up_Indiv_License_List__c), 
+            &quot;BYOS&quot;, (List_Price__c / Opportunity.Roll_Up_Indiv_License_List__c), 
+            &quot;Services&quot;, 1,
+            &quot;Services Annual Recurring&quot;, 1, 
+            &quot;Integration&quot;, 1, 
+            &quot;Discover&quot;, (List_Price__c / Opportunity.Roll_Up_Indiv_License_List__c), 
+            &quot;Engage&quot;, (List_Price__c / Opportunity.Roll_Up_Indiv_License_List__c), 
+            &quot;Build&quot;, (List_Price__c / Opportunity.Roll_Up_Indiv_License_List__c), 
+            &quot;Find&quot;, (List_Price__c / Opportunity.Roll_Up_Indiv_License_List__c),
+            &quot;Renewal&quot;, (List_Price__c / Opportunity.Roll_Up_Indiv_License_List__c),
+            null
+        )
+    ),
+    null
+)</formula>
+        <inlineHelpText>Finance field used to allocate value of products for reporting purposes.</inlineHelpText>
+        <label>Fair Value Allocation %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Fair_Value_In_store_Prod_Allocation__c</fullName>
+        <description>Takes the Fair Value at the product level and distributes it by channel allocation for In-Store Revenue.</description>
+        <externalId>false</externalId>
+        <formula>Contract_Sales_Price_Fair_Value__c * (  Opportunity.In_Store_Opportunity_Amount__c  / Opportunity.Amount )</formula>
+        <inlineHelpText>Takes the Fair Value at the product level and distributes it by channel allocation for In-Store Revenue.</inlineHelpText>
+        <label>Fair Value In-store Prod Allocation</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Fair_Value_Mobile_Allocation__c</fullName>
+        <description>Takes the Fair Value and distributes at the product level to the Mobile Channel</description>
+        <externalId>false</externalId>
+        <formula>Contract_Sales_Price_Fair_Value__c * (  Opportunity.Mobile_Opportunity_Amount__c / Opportunity.Amount )</formula>
+        <inlineHelpText>Takes the Fair Value and distributes at the product level to the Mobile Channel</inlineHelpText>
+        <label>Fair Value Mobile Product Allocation</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Fair_Value_Phone__c</fullName>
+        <externalId>false</externalId>
+        <formula>Contract_Sales_Price_Fair_Value__c * (  Opportunity.Phone_Call_Center_Opportunity_Amount__c  / Opportunity.Amount )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Fair Value Phone Product Allocation</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Fair_Value_Web_Online_Allocation__c</fullName>
+        <externalId>false</externalId>
+        <formula>Contract_Sales_Price_Fair_Value__c * ( Opportunity.Online_Opportunity_Amount__c / Opportunity.Amount )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Fair Value Web (Online) Prod Allocation</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Finance_Check_Complete__c</fullName>
+        <description>Financial Operations must verify Opportunity is correct prior to Client Services creating a project from an opportunity.</description>
+        <externalId>false</externalId>
+        <formula>Opportunity.Operations_Check_Complete__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Financial Operations must verify Opportunity is correct prior to Client Services creating a project from an opportunity.</inlineHelpText>
+        <label>Finance Check Complete</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Finance_Fair_Value__c</fullName>
+        <externalId>false</externalId>
+        <label>Hold: Old Fair Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Hours_Info_Only__c</fullName>
+        <description>Number of Hours for a services Engagement. This is not a calculated field, but used to capture hours for informational purposes.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of Hours for a services Engagement. This is not a calculated field, but used to capture hours for informational purposes.</inlineHelpText>
+        <label>Quantity</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IsCloned__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity.isCloned__c</formula>
+        <label>IsCloned</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ListPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>List_Price__c</fullName>
+        <description>Custom list price for Sales folks to enter</description>
+        <externalId>false</externalId>
+        <label>List Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Milestone_Category__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(TEXT (PricebookEntry.Product2.Recognition_Type__c) = &apos;Hourly&apos; &amp;&amp; TEXT(PricebookEntry.Product2.Family) = &quot;Services&quot; , &quot;Hourly&quot;, 
+
+IF( TEXT (PricebookEntry.Product2.Recognition_Type__c) = &apos;On Completion&apos; &amp;&amp; TEXT(PricebookEntry.Product2.Family) = &quot;Services&quot;, &quot;None&quot;, 
+
+IF(TEXT(PricebookEntry.Product2.Family) = &quot;License&quot;, TEXT(PricebookEntry.Product2.X2_0_Product_Family__c),
+
+IF(TEXT(PricebookEntry.Product2.Family) = &quot;Integration&quot;, TEXT(PricebookEntry.Product2.Product_Sub_Category__c),
+
+CASE(PricebookEntry.Product2.Family, 
+
+&quot;Recommend&quot;, &quot;Recommend&quot;, 
+&quot;Discover&quot;, &quot;Discover&quot;, 
+&quot;Engage&quot;, &quot;Engage&quot;, 
+&quot;Build&quot;, &quot;Build&quot;, 
+&quot;Platform&quot;, &quot;Platform&quot;, 
+&quot;Legacy&quot;, &quot;Recommend&quot;, 
+
+&quot;None&quot;)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>PSA Category</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Milestone__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Milestone</label>
+        <referenceTo>pse__Milestone__c</referenceTo>
+        <relationshipLabel>Opportunity Product</relationshipLabel>
+        <relationshipName>Opportunity_Product</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Miscellaneous_Adjustment__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Miscellaneous Adjustment</label>
+        <referenceTo>pse__Miscellaneous_Adjustment__c</referenceTo>
+        <relationshipLabel>Opportunity Product</relationshipLabel>
+        <relationshipName>Opportunity_Product</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+    </fields>
+    <fields>
+        <fullName>Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Next_Deferral_Release_Date__c</fullName>
+        <description>If % Paid out is modified, edit Next Deferral&apos;s release date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If you modified the % Paid out, make sure to edit the next Deferral&apos;s release date</inlineHelpText>
+        <label>Next Deferral Release Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OpportunityId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Region__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity.pse__Region__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Region</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>POC_Terms__c</fullName>
+        <externalId>false</externalId>
+        <label>Special Terms</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PSA_ProjectType__c</fullName>
+        <externalId>false</externalId>
+        <formula>PricebookEntry.Product2.PSA_Project_Type__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>PSA Project Type</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PSA_Project_Type__c</fullName>
+        <description>Read-only Field that populated PSA Project Type for Milestone/Misc Adjustment Determination</description>
+        <externalId>false</externalId>
+        <formula>PricebookEntry.Product2.PSA_Project_Type__c</formula>
+        <inlineHelpText>Read-only Field that populated PSA Project Type for Milestone/Misc Adjustment Determination</inlineHelpText>
+        <label>PSA Project Type</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Percentage_Paid_Out__c</fullName>
+        <defaultValue>1</defaultValue>
+        <description>% of commission that will be paid</description>
+        <externalId>false</externalId>
+        <inlineHelpText>% of commission that will be paid</inlineHelpText>
+        <label>% Paid Out</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Processed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Processed</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Product2Id</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProductCategoryText__c</fullName>
+        <description>Stores text value from Product Category picklist on Product Record.  Used to calculate fair value.</description>
+        <externalId>false</externalId>
+        <label>Product Category Text</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ProductCode</fullName>
+    </fields>
+    <fields>
+        <fullName>ProductTypeText__c</fullName>
+        <description>Stores text value of Product Type field from the product record.  Used for fair value calculation</description>
+        <externalId>false</externalId>
+        <label>Product Type Text</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity</fullName>
+    </fields>
+    <fields>
+        <fullName>Resource_Request__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Resource Request</label>
+        <referenceTo>pse__Resource_Request__c</referenceTo>
+        <relationshipLabel>Opportunity Product</relationshipLabel>
+        <relationshipName>Opportunity_Product</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Retailer__c</fullName>
+        <externalId>false</externalId>
+        <label>Retailer</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Target</fullName>
+                    <default>false</default>
+                    <label>Target</label>
+                </value>
+                <value>
+                    <fullName>Kohls</fullName>
+                    <default>false</default>
+                    <label>Kohls</label>
+                </value>
+                <value>
+                    <fullName>Meijer</fullName>
+                    <default>false</default>
+                    <label>Meijer</label>
+                </value>
+                <value>
+                    <fullName>Costco</fullName>
+                    <default>false</default>
+                    <label>Costco</label>
+                </value>
+                <value>
+                    <fullName>Sears</fullName>
+                    <default>false</default>
+                    <label>Sears</label>
+                </value>
+                <value>
+                    <fullName>RichRelevance</fullName>
+                    <default>false</default>
+                    <label>RichRelevance</label>
+                </value>
+                <value>
+                    <fullName>Home Depot</fullName>
+                    <default>false</default>
+                    <label>Home Depot</label>
+                </value>
+                <value>
+                    <fullName>1-800-Flowers</fullName>
+                    <default>false</default>
+                    <label>1-800-Flowers</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ServiceDate</fullName>
+    </fields>
+    <fields>
+        <fullName>Subtotal</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>UnitPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>X2_0_Product_Family2__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(PricebookEntry.Product2.X2_0_Product_Family__c)</formula>
+        <label>2.0 Product Family</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <validationRules>
+        <fullName>Contract_Type_Required</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND (  ISPICKVAL(Opportunity.StageName, &quot;90% - Legal Review&quot;) ,  ISPICKVAL(Contract_Type__c,&quot;&quot; ))</errorConditionFormula>
+        <errorDisplayField>Contract_Type__c</errorDisplayField>
+        <errorMessage>Contract Type Needs to be filled out before going to 90%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Percentage_paid_out_higher_100</fullName>
+        <active>true</active>
+        <description>Error if user tries to enter number higher than 100%</description>
+        <errorConditionFormula>Percentage_Paid_Out__c &gt; 1</errorConditionFormula>
+        <errorDisplayField>Percentage_Paid_Out__c</errorDisplayField>
+        <errorMessage>You cannot enter a percentage higher than 100%</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>New_Site</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Site</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/a03/e?retURL={!Opportunity.Id}&amp;Owner_id={!$User.Id}&amp;CF00NF000000Bywn5={!Opportunity.Name}&amp;CF00NF0000009DwSk={!Account.Name}&amp;00NF000000BzccV={!Account.Online_Revenue__c}</url>
+    </webLinks>
+</CustomObject>

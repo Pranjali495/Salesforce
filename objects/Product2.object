@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Add</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Add</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Add</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Cost_Method__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost Method</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Average</fullName>
+                    <default>false</default>
+                    <label>Average</label>
+                </value>
+                <value>
+                    <fullName>Standard</fullName>
+                    <default>false</default>
+                    <label>Standard</label>
+                </value>
+                <value>
+                    <fullName>FIFO</fullName>
+                    <default>false</default>
+                    <label>FIFO</label>
+                </value>
+                <value>
+                    <fullName>LIFO</fullName>
+                    <default>false</default>
+                    <label>LIFO</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DisplayUrl</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ExternalDataSourceId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ExternalId</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Family</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>HoursEditable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>The hours will be editable when the product is added to opportunity when it&apos;s checked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The hours will be editable when the product is added to opportunity when it&apos;s checked.</inlineHelpText>
+        <label>Hours Editable</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Hours__c</fullName>
+        <externalId>false</externalId>
+        <label>Hours</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Integration_Rate__c</fullName>
+        <description>The hourly rate for integration services.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the rate per hour for integration service products.</inlineHelpText>
+        <label>Integration Rate</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>IsActive</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Item_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Item Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Non-Inventory (Sales only)</fullName>
+                    <default>false</default>
+                    <label>Non-Inventory (Sales only)</label>
+                </value>
+                <value>
+                    <fullName>Non-Inventory</fullName>
+                    <default>false</default>
+                    <label>Non-Inventory</label>
+                </value>
+                <value>
+                    <fullName>Inventory</fullName>
+                    <default>false</default>
+                    <label>Inventory</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PSA_Project_Type__c</fullName>
+        <description>This field determines if the product is assigned to Milestones or a Misc. Adjustment</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field determines if the product is assigned to Milestones or a Misc. Adjustment</inlineHelpText>
+        <label>PSA Project Type</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ProductCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ProductSubFamily__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Add-On</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Product_Sub_Category__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CNET DataSource</fullName>
+                    <default>false</default>
+                    <label>CNET DataSource</label>
+                </value>
+                <value>
+                    <fullName>BYOS</fullName>
+                    <default>false</default>
+                    <label>BYOS</label>
+                </value>
+                <value>
+                    <fullName>BYO-API</fullName>
+                    <default>false</default>
+                    <label>BYO-API</label>
+                </value>
+                <value>
+                    <fullName>Monthly API</fullName>
+                    <default>false</default>
+                    <label>Monthly API</label>
+                </value>
+                <value>
+                    <fullName>Language Surcharge 1</fullName>
+                    <default>false</default>
+                    <label>Language Surcharge 1</label>
+                </value>
+                <value>
+                    <fullName>Language Surcharge 2</fullName>
+                    <default>false</default>
+                    <label>Language Surcharge 2</label>
+                </value>
+                <value>
+                    <fullName>Language Surcharge 3</fullName>
+                    <default>false</default>
+                    <label>Language Surcharge 3</label>
+                </value>
+                <value>
+                    <fullName>Language Surcharge 4</fullName>
+                    <default>false</default>
+                    <label>Language Surcharge 4</label>
+                </value>
+                <value>
+                    <fullName>Language Surcharge 5</fullName>
+                    <default>false</default>
+                    <label>Language Surcharge 5</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Recommend</controllingFieldValue>
+                <valueName>CNET DataSource</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Recommend</controllingFieldValue>
+                <controllingFieldValue>Build</controllingFieldValue>
+                <valueName>BYOS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Build</controllingFieldValue>
+                <valueName>BYO-API</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Find</controllingFieldValue>
+                <valueName>Monthly API</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Find</controllingFieldValue>
+                <valueName>Language Surcharge 1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Find</controllingFieldValue>
+                <valueName>Language Surcharge 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Find</controllingFieldValue>
+                <valueName>Language Surcharge 3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Find</controllingFieldValue>
+                <valueName>Language Surcharge 4</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Find</controllingFieldValue>
+                <valueName>Language Surcharge 5</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Product_Id__c</fullName>
+        <externalId>false</externalId>
+        <formula>Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Id</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Sub_Category__c</fullName>
+        <description>This field categorizes products by license type. Products that are not specific to license type are categorized as Platform.</description>
+        <externalId>false</externalId>
+        <label>Product Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Recommend</fullName>
+                    <default>false</default>
+                    <label>Recommend</label>
+                </value>
+                <value>
+                    <fullName>Discover</fullName>
+                    <default>false</default>
+                    <label>Discover</label>
+                </value>
+                <value>
+                    <fullName>Engage</fullName>
+                    <default>false</default>
+                    <label>Engage</label>
+                </value>
+                <value>
+                    <fullName>Build</fullName>
+                    <default>false</default>
+                    <label>Build</label>
+                </value>
+                <value>
+                    <fullName>Find</fullName>
+                    <default>false</default>
+                    <label>Find</label>
+                </value>
+                <value>
+                    <fullName>Platform</fullName>
+                    <default>false</default>
+                    <label>Platform</label>
+                </value>
+                <value>
+                    <fullName>Training</fullName>
+                    <default>false</default>
+                    <label>Training</label>
+                </value>
+                <value>
+                    <fullName>Legacy</fullName>
+                    <default>false</default>
+                    <label>Legacy</label>
+                </value>
+                <value>
+                    <fullName>CDP</fullName>
+                    <default>false</default>
+                    <label>CDP</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Purchasing_Unit__c</fullName>
+        <externalId>false</externalId>
+        <label>Purchasing Unit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>list units of measure setup in Intacct</fullName>
+                    <default>false</default>
+                    <label>list units of measure setup in Intacct</label>
+                </value>
+                <value>
+                    <fullName>EA</fullName>
+                    <default>false</default>
+                    <label>EA</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QuantityUnitOfMeasure</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Ratio_to_OE_Standard__c</fullName>
+        <defaultValue>1</defaultValue>
+        <externalId>false</externalId>
+        <label>Ratio to OE Standard</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ratio_to_PO_Standard__c</fullName>
+        <defaultValue>1</defaultValue>
+        <externalId>false</externalId>
+        <label>Ratio to PO Standard</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Recognition_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Recognition Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>On Completion</fullName>
+                    <default>false</default>
+                    <label>On Completion</label>
+                </value>
+                <value>
+                    <fullName>Hourly</fullName>
+                    <default>false</default>
+                    <label>Hourly</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Resource_Role__c</fullName>
+        <externalId>false</externalId>
+        <label>Resource Role</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Support Analyst</fullName>
+                    <default>false</default>
+                    <label>Support Analyst</label>
+                </value>
+                <value>
+                    <fullName>Personalization Consultant</fullName>
+                    <default>false</default>
+                    <label>Personalization Consultant</label>
+                </value>
+                <value>
+                    <fullName>Technical Consultant</fullName>
+                    <default>false</default>
+                    <label>Technical Consultant</label>
+                </value>
+                <value>
+                    <fullName>Data Consultant</fullName>
+                    <default>false</default>
+                    <label>Data Consultant</label>
+                </value>
+                <value>
+                    <fullName>Integration Consultant</fullName>
+                    <default>false</default>
+                    <label>Integration Consultant</label>
+                </value>
+                <value>
+                    <fullName>Trainer</fullName>
+                    <default>false</default>
+                    <label>Trainer</label>
+                </value>
+                <value>
+                    <fullName>Project Manager</fullName>
+                    <default>false</default>
+                    <label>Project Manager</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sales_Unit__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Unit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>list units of measure setup in Intacct</fullName>
+                    <default>false</default>
+                    <label>list units of measure setup in Intacct</label>
+                </value>
+                <value>
+                    <fullName>EA</fullName>
+                    <default>false</default>
+                    <label>EA</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Standard_Unit__c</fullName>
+        <externalId>false</externalId>
+        <label>Standard Unit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>list units of measure setup in Intacct</fullName>
+                    <default>false</default>
+                    <label>list units of measure setup in Intacct</label>
+                </value>
+                <value>
+                    <fullName>EA</fullName>
+                    <default>false</default>
+                    <label>EA</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>StockKeepingUnit</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>UseStandardPrice__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>The price defined on the standard price book for this product will be used when it&apos;s checked.</inlineHelpText>
+        <label>Use Standard Price</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X2_0_Product_Family__c</fullName>
+        <description>For RR 2.0 new product categorization</description>
+        <externalId>false</externalId>
+        <label>2.0 Product Family</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Adjustments</fullName>
+                    <default>false</default>
+                    <label>Adjustments</label>
+                </value>
+                <value>
+                    <fullName>Build</fullName>
+                    <default>false</default>
+                    <label>Build</label>
+                </value>
+                <value>
+                    <fullName>Bundle</fullName>
+                    <default>false</default>
+                    <label>Bundle</label>
+                </value>
+                <value>
+                    <fullName>Discover</fullName>
+                    <default>false</default>
+                    <label>Discover</label>
+                </value>
+                <value>
+                    <fullName>Engage</fullName>
+                    <default>false</default>
+                    <label>Engage</label>
+                </value>
+                <value>
+                    <fullName>Find</fullName>
+                    <default>false</default>
+                    <label>Find</label>
+                </value>
+                <value>
+                    <fullName>Recommend</fullName>
+                    <default>false</default>
+                    <label>Recommend</label>
+                </value>
+                <value>
+                    <fullName>Renewal</fullName>
+                    <default>false</default>
+                    <label>Renewal</label>
+                </value>
+                <value>
+                    <fullName>Services</fullName>
+                    <default>false</default>
+                    <label>Services</label>
+                </value>
+                <value>
+                    <fullName>CDP</fullName>
+                    <default>false</default>
+                    <label>CDP</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <searchLayouts>
+        <customTabListAdditionalFields>PRODUCT2.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRODUCT2.DESCRIPTION</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>PRODUCT2.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>PRODUCT2.DESCRIPTION</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>PRODUCT2.FAMILY</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PRODUCT2.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PRODUCT2.DESCRIPTION</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PRODUCT2.FAMILY</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.DESCRIPTION</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.FAMILY</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Hours_Required</fullName>
+        <active>true</active>
+        <description>This rule requires the hours field for new records when Integration field is checked.</description>
+        <errorConditionFormula>AND(
+ISPICKVAL(Family,&apos;Integration&apos;),
+ISNULL(Hours__c)
+)</errorConditionFormula>
+        <errorDisplayField>Hours__c</errorDisplayField>
+        <errorMessage>Please enter the number of hours.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Product_Category_Sub_Category</fullName>
+        <active>true</active>
+        <description>This rule requires the Product Category (ProductFamily) and Product Sub-Category fields for product records.</description>
+        <errorConditionFormula>OR(
+ISBLANK(TEXT(Family)),
+ISBLANK(TEXT(Product_Sub_Category__c))
+)</errorConditionFormula>
+        <errorMessage>Product Category and Product Sub-Category are required.</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Inventory_Status</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Inventory Status</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://www.intacct.com/ia/acct/sforcerouter.phtml?.action=SHOW_INVSTATUS&amp;.itemid={! Product2.ProductCode }&amp;.sforcekey={!API.Session_ID}&amp;.endpoint={!API.Partner_Server_URL_70}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Mass_Edit</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Mass Edit</masterLabel>
+        <openType>sidebar</openType>
+        <page>MassEditProduct</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>Mass_Update</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Mass Update</masterLabel>
+        <openType>sidebar</openType>
+        <page>MassUpdateProduct2</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>Sync_to_Intacct</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Sync to Intacct</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://www.intacct.com/ia/acct/sforcerouter.phtml?.action=SYNC_PRODUCT&amp;.product_name={!Product2.ProductCode}&amp;.product_id={!Product2.Id}&amp;.sforcekey={!API.Session_ID}&amp;.endpoint={!API.Partner_Server_URL_70}</url>
+    </webLinks>
+</CustomObject>

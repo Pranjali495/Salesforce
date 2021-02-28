@@ -1,0 +1,5 @@
+<apex:page standardController="pse__Milestone__c" tabStyle="pse__Milestone__c" >
+    <flow:interview name="ApproveAdjust" finishLocation="/{!pse__Milestone__c.Id}">
+        <apex:param name="RecID" value="{!pse__Milestone__c.id}"/>
+    </flow:interview>
+</apex:page>

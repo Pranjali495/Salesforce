@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <description>Used to check process task</description>
+    <interviewLabel>ProcessTasks {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>ProcessTasks</label>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>UpdateProject</name>
+        <label>UpdateProject</label>
+        <locationX>125</locationX>
+        <locationY>128</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>ProjectId</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Process_Tasks__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <object>pse__Proj__c</object>
+    </recordUpdates>
+    <startElementReference>UpdateProject</startElementReference>
+    <status>Active</status>
+    <variables>
+        <name>ProjectId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

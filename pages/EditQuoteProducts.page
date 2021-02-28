@@ -1,0 +1,448 @@
+<apex:page sidebar="false" standardController="Opportunity" extensions="EditQuoteProductsExtension" docType="html-5.0">    
+    <style type="text/css">
+        table#oppProducts {
+            border-top: 1px solid #DBDBDB;
+            border-left: 1px solid #DBDBDB;        
+        }
+        table#oppProducts > thead th {
+            border-right: 1px solid #DBDBDB;
+            border-bottom: 2px solid #DBDBDB;
+            background-color: #FAEBD7;
+            text-align: center;
+        }
+        table#oppProducts > tbody td {
+            border-right: 1px solid #DBDBDB;
+            border-bottom: 1px solid #DBDBDB;
+            background-color: #fff;
+        }
+        table#oppProducts > tbody tr.highlight td.hover-event {
+            background-color: #e6e6e6;
+        }
+        table#oppProducts > tbody td.category {
+            background-color: #F0FFFF;
+            text-align: center;
+            vertical-align: middle;
+            font-weight: bold;
+        }
+        table#oppProducts > tbody td.sub-category {
+            background-color: #F0F8FF;
+            text-align: center;
+            vertical-align: middle;
+            font-weight: bold;
+        }
+        table#oppProducts > tfoot th {
+            border-right: 1px solid #DBDBDB;
+            border-bottom: 1px solid #DBDBDB;
+            background-color: #FFFF00;
+        }     
+        .align-right {
+            text-align: right;
+        }
+        .align-center {
+            text-align: center;
+        }
+        .high-light {
+            background-color: #e3f3ff;
+        }        
+        #errorAlert {
+            color: #a94442;
+            background-color: #f2dede;
+            border-color: #ebccd1;
+            padding: 10px 15px;
+            margin-bottom: 10px;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            display: none;
+        }
+    </style>
+
+    <apex:sectionHeader title="Opportunity" subtitle="{!Opportunity.Name}" />
+    <div id="errorAlert"></div>
+    <div ng-app="quoteApp" ng-controller="quoteController">
+        <apex:form >
+            <apex:pageBlock title="Opportunity Products" mode="edit">
+                <apex:pageBlockButtons >      
+                    <input type="button" class="btn" value="Add Product" ng-click="lookupProducts()" />
+                    <input type="button" class="btn" value="Save and Sync Quote" ng-click="save()" />
+                    <input type="button" class="btn" value="Cancel" ng-click="cancel()" />
+                </apex:pageBlockButtons>
+                
+                <apex:pageBlockSection columns="1">
+                    <table width="100%" cellpadding="5" cellspacing="0" id="oppProducts">
+                        <thead>
+                            <tr>
+                                <th>Product Type</th>
+                                <th>Product Category</th>
+                                <th>Product Name</th>
+                                <!--Change Hours Column Header to Quantity-->
+                                <th>Quantity</th>
+                                <th>List Price</th>
+                                <th>Discount %</th>
+                                <th>Sales Price</th>
+                                <!--Change: Add new fields ContractType__c and BillingCommitment__c-->
+                                <th>Contract Type</th>
+                                <!--<th>Billing Commitment</th>-->
+                                <!--End Change: Add new fields ContractType__c and BillingCommitment__c-->
+                                <th>Special Terms</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr ng-repeat="item in oppProducts">
+                                <td class="category">{{ item.PricebookEntry.Product2.Family }}</td>
+                                <td class="sub-category">{{ item.PricebookEntry.Product2.Product_Sub_Category__c }}</td>
+                                <td class="hover-event">{{ item.PricebookEntry.Product2.Name }}</td>
+                                <td class="align-right hover-event">
+                                    <span ng-bind="item.Hours_Info_Only__c" ng-hide="item.PricebookEntry.Product2.HoursEditable__c" style="padding-right: 3px;"></span>
+                                    <input type="text" ng-model="item.Hours_Info_Only__c" class="align-right" style="width: 60px;" ng-show="item.PricebookEntry.Product2.HoursEditable__c" ng-change="calculateListPrice($index)" />
+                                </td>
+                                <td class="align-right hover-event">{!Opportunity.CurrencyIsoCode} {{ item.List_Price__c | number:2 }}</td>
+                                <td class="align-right hover-event">
+                                    <input type="text" ng-model="item.Discount__c" ng-change="calculateSalesPrice($index)" class="align-right" />
+                                </td>
+                                <td class="align-right hover-event">
+                                    <!--making contract sales price editable only when if hours editable is true for product-->
+                                    <span ng-bind="item.UnitPrice" ng-hide="!item.PricebookEntry.Product2.HoursEditable__c" style="padding-right: 3px;"></span>
+                                    <input type="text" ng-model="item.UnitPrice" class="align-right" style="width: 60px;" ng-show="!item.PricebookEntry.Product2.HoursEditable__c" ng-change="calculateDiscount($index)" />
+                                    <!--<input type="text" ng-model="item.UnitPrice" ng-change="calculateDiscount($index)" class="align-right" />-->
+                                </td>
+                                <!--Change: Add new fields ContractType__c and BillingCommitment__c-->
+                                <td class="align-center hover-event">
+                                    <!-- Contract Type applies to Services & Integration products only -->
+                                    <select ng-model="item.ContractType__c" ng-options="option.Value as option.Label for option in contractTypeOptions" ng-disabled="item.PricebookEntry.Product2.Family != 'Services' && item.PricebookEntry.Product2.Family != 'Integration'"></select>
+                                </td>
+                                <!--<td class="align-center hover-event">-->
+                                    <!--<select ng-model="item.BillingCommitment__c" ng-options="option.Value as option.Label for option in billingCommittmentOptions"></select>-->
+                                <!--</td>-->
+                                <!--End Change: Add new fields ContractType__c and BillingCommitment__c-->
+                                <td class="align-center hover-event">
+                                    <input type="text" ng-model="item.POC_Terms__c" />
+                                </td>
+                                <td class="align-center hover-event">
+                                    <a href="" style="cursor: pointer; color: #0275d8;" ng-click="removeProduct($index)">Remove</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="11">
+                                    <div class="loading" style="display: none">
+                                        <img src="/img/loading.gif" alt="Processing..." width="16" height="16" title="Processing..." />
+                                        <span class="loadingText">Loading...</span>
+                                    </div>
+                                    <span ng-show="oppProducts.length==0">
+                                        No product is selected, click Add Product button to start.
+                                    </span>
+                                    &nbsp;
+                                </td>
+                            </tr>                            
+                        </tbody>
+                        <tfoot ng-show="oppProducts.length>0">
+                            <tr>
+                                <th colspan="4" class="align-center">TOTAL</th>
+                                <th class="align-right">{!Opportunity.CurrencyIsoCode} {{ rollupSummary.TotalListPrice | number:2 }}</th>
+                                <th class="align-right">{{ rollupSummary.TotalDiscount | number:2 }}%</th>
+                                <th class="align-right">{!Opportunity.CurrencyIsoCode} {{ rollupSummary.TotalUnitPrice | number:2 }}</th>
+                                <th></th>
+                                <th></th>
+                                <!--Change: Add new fields ContractType__c and BillingCommitment__c-->
+                                <!--<th></th>-->
+                                <th></th>
+                                <!--End Change: Add new fields ContractType__c and BillingCommitment__c-->
+                            </tr>
+                        </tfoot>
+                    </table>
+                </apex:pageBlockSection>
+            </apex:pageBlock>
+        </apex:form>
+
+        <div id="addedPricebookEntryIds" style="display: none"></div>
+        <input type="button" value="Add Products" id="addProductsBtn" style="display: none" ng-click="addProducts()" />    
+
+        <div id="pricebookEntryDiv" style="display:none">
+            <span ng-repeat="item in oppProducts" class="entryid-hidden">{{ item.PricebookEntryId }}</span>
+        </div>    
+    </div>    
+
+    <script type="text/javascript" src="{!URLFOR($Resource.QuoteLib, 'QuoteLib/js/jquery-2.1.4.min.js')}" />
+    <script type="text/javascript" src="{!URLFOR($Resource.QuoteLib, 'QuoteLib/js/angular.min.js')}" />
+    <script type="text/javascript" src="{!URLFOR($Resource.QuoteLib, 'QuoteLib/js/jquery.blockUI.js')}" />
+    <script type="text/javascript">
+        var oppId = '{!Opportunity.Id}';
+        var conversionRate = {!conversionRate};       
+        var sites = '{!Opportunity.NumberOfSites__c}';
+        var contractTypeOptions = {!ContractTypeOptions};
+        <!--//var billingCommittmentOptions = {!BillingCommittmentOptions};-->
+        
+        (function() {
+            var quoteApp = angular.module('quoteApp', []);
+            quoteApp.controller('quoteController', ['$scope', function($scope) {       
+                init();
+
+                function init() {
+                    $scope.rollupSummary = {TotalListPrice: 0, TotalUnitPrice: 0, TotalDiscount: 0};
+                    $scope.contractTypeOptions = contractTypeOptions;
+                    <!--//$scope.billingCommittmentOptions = billingCommittmentOptions;-->
+
+                    jQuery('div.loading').show();
+                    EditQuoteProductsExtension.getOpportunityProducts(
+                        oppId, 
+                        function(result, event) {
+                            if(event.status) {                                
+                                $scope.oppProducts = result;
+                                setDefaultPicklistValue();
+                                calculateSummary();
+                                $scope.$apply($scope.oppProducts);  
+                                drawTableLayout();
+                                addHoverStyle();
+                                jQuery('div.loading').hide();
+                            }                        
+                            else {
+                                jQuery('div.loading').hide();
+                                jQuery('#errorAlert').text(event.message).show();
+                                setTimeout(hideAlert, 10000);
+                            }
+                        },
+                        { escape: false }
+                    );
+                }
+                // Change: Add new fields ContractType__c and BillingCommitment__c
+                function setDefaultPicklistValue() {
+                    var arrayLength = $scope.oppProducts.length;
+                    for(var i = 0; i < arrayLength; i++) {
+                        if(!$scope.oppProducts[i].ContractType__c) {      
+                            $scope.oppProducts[i].ContractType__c = '';                            
+                        }                        
+                        /*if(!$scope.oppProducts[i].BillingCommitment__c) {      
+                            $scope.oppProducts[i].BillingCommitment__c = '';                            
+                        }*/
+                    }
+                }
+                function hideAlert() {
+                    jQuery('#errorAlert').text('').hide();
+                }
+                function calculateSummary() {
+                    var totalListPrice = totalUnitPrice = totalDiscount = 0;
+                    var arrayLength = $scope.oppProducts.length;
+                    var lineItem;
+
+                    for(var i = 0; i < arrayLength; i++) {
+                        lineItem = $scope.oppProducts[i];
+                        if(lineItem.List_Price__c != '') {
+                            totalListPrice += Number(lineItem.List_Price__c);
+                        }
+                        if(lineItem.UnitPrice != '') {
+                            totalUnitPrice += Number(lineItem.UnitPrice);
+                        }
+                    }
+                    $scope.rollupSummary.TotalListPrice = totalListPrice;
+                    $scope.rollupSummary.TotalUnitPrice = totalUnitPrice;
+                    
+                    if(totalListPrice == 0) {
+                        $scope.rollupSummary.TotalDiscount = 0;
+                    }
+                    else {
+                        $scope.rollupSummary.TotalDiscount = (1 - totalUnitPrice/totalListPrice) * 100;
+                    }
+                }
+
+                function calculateListPrice(lineItem) {
+                    var hours = lineItem.Hours_Info_Only__c;
+                    if(hours == '' || hours == 0) {
+                        return 0;
+                    }
+                    if(lineItem.PricebookEntry.Product2.UseStandardPrice__c) {
+                        return lineItem.PricebookEntry.UnitPrice * hours;
+                    }                                    
+                    
+                    var rates = lineItem.PricebookEntry.Product2.Integration_Rate__c;
+                    if(rates === undefined || rates == '' || rates == 0) {
+                        return 0;
+                    }
+                    
+                    // Based on Julie's response on 10/18/2016, the NumberofSites should not be 
+                    // included in the pricing calculation.
+                    /*
+                    if(lineItem.PricebookEntry.Product2.Family != 'Integration') {
+                        return rates * hours * conversionRate;
+                    }
+                    if(sites == null || sites == 0)
+                    {
+                        return 0;
+                    }
+                    return (rates * hours + rates * hours * (sites - 1) * 0.8) * conversionRate;
+                    */
+                    return rates * hours * conversionRate;
+                }
+
+                function drawTableLayout() {                    
+                    drawCategoryLayout('sub-category');
+                    drawCategoryLayout('category');
+                }
+
+                function drawCategoryLayout(className) {
+                    var rowspans = new Array();
+                    var category = '';
+                    var rowspan = 0;
+                    jQuery('td.'+className).each(function(index) {
+                        var nodeValue;
+                        if(className == 'category') {
+                            nodeValue = jQuery(this).text();
+                        }
+                        else {
+                            nodeValue = jQuery(this).prev().text() + '-' + jQuery(this).text();
+                        }
+                        if(category != nodeValue) {
+                            category = nodeValue;
+                            if(rowspan != '') {
+                                rowspans.push(rowspan);
+                            }
+                            rowspan = 1;
+                        }
+                        else {
+                            jQuery(this).addClass('remove');
+                            rowspan++;
+                        }
+                    });
+                    rowspans.push(rowspan);
+
+                    jQuery('td.remove').remove();
+                    jQuery('td.'+className).each(function(index) {
+                        jQuery(this).attr('rowspan', rowspans[index]);
+                    });
+                }
+
+                function updateTableLayout(index) {
+                    updateCategoryLayout(index, 'sub-category');
+                    updateCategoryLayout(index, 'category');
+                }
+
+                function updateCategoryLayout(index, className) {
+                    var row = jQuery('#oppProducts tbody tr').eq(index);
+                    var categoryCol = row.find('td.'+className);
+                    if(categoryCol.length == 1) {
+                        var rowspan = categoryCol.attr('rowspan');
+                        if(rowspan > 1) {
+                            rowspan = rowspan - 1;
+                            row.next().prepend('<td class="'+className+'" rowspan="' + rowspan + '">' + categoryCol.text() + '</td>');
+                        }                        
+                    }
+                    else {
+                        row.prevAll().each(function(index) {
+                            categoryCol = jQuery(this).find('td.'+className);
+                            if(categoryCol.length == 1) {
+                                categoryCol.attr('rowspan', categoryCol.attr('rowspan')-1);
+                                return false;
+                            }
+                        });
+                    }
+                }
+
+                function addHoverStyle() {
+                    jQuery('#oppProducts tbody').on('mouseover', 'tr td.hover-event', function() {
+                        jQuery(this).parent().addClass('highlight');
+                    });
+                    jQuery('#oppProducts tbody').on('mouseout', 'tr td.hover-event', function() {
+                        jQuery(this).parent().removeClass('highlight');
+                    });
+                }
+
+                $scope.save = function() {
+                    $.blockUI({message: '<h1>Saving...</h1>'});
+                    var arrayLength = $scope.oppProducts.length;
+                    for(var i = 0; i < arrayLength; i++) {
+                        if($scope.oppProducts[i].UnitPrice == '') {      
+                            $scope.oppProducts[i].UnitPrice = 0;                            
+                        }                        
+                    }
+                    /*remove angular added properties e.g. $$hashKey*/                    
+                    var temp = angular.copy($scope.oppProducts);                       
+                    EditQuoteProductsExtension.save(
+                        oppId, 
+                        temp, 
+                        function(result, event){
+                            if(event.status) {
+                                window.location.href = '/' + oppId;
+                            }
+                            else {
+                                $.unblockUI();
+                                jQuery('#errorAlert').text(event.message).show();
+                                setTimeout(hideAlert, 10000);
+                            }
+                        }
+                    );
+                };
+
+                $scope.cancel = function() {
+                    window.location.href = '/' + oppId;
+                }
+
+                $scope.lookupProducts = function() {
+                    var lookupProductsPage = '/apex/ProductLookup?id=' + oppId;
+                    openPopup(lookupProductsPage, '_blank', 1200, 680, 'width=1200,height=680,resizable=yes,toolbar=no,status=no,scrollbars=yes,menubar=yes,directories=yes,location=no,dependant=no', false, false);
+                };
+
+                $scope.addProducts = function() {
+                    jQuery('div.loading').show();
+                    var addedPricebookEntryIds = jQuery('#addedPricebookEntryIds').text();
+                    /*remove angular added properties e.g. $$hashKey*/
+                    var temp = angular.copy($scope.oppProducts);
+                    EditQuoteProductsExtension.addProducts(
+                        oppId, 
+                        addedPricebookEntryIds,
+                        temp,
+                        function(result, event) {
+                            if(event.status) {
+                                $scope.oppProducts = result;
+                                setDefaultPicklistValue();
+                                calculateSummary();
+                                $scope.$apply($scope.oppProducts);
+                                drawTableLayout();
+                                addHoverStyle();                                
+                            }                        
+                            else {
+                                jQuery('#errorAlert').text(event.message).show();
+                                setTimeout(hideAlert, 10000);
+                            }
+                            jQuery('div.loading').hide();
+                        },
+                        { escape: false }
+                    );
+                };
+
+                $scope.calculateListPrice = function(index) {
+                    var lineItem = $scope.oppProducts[index];                    
+                    lineItem.List_Price__c = calculateListPrice(lineItem);
+                    if(lineItem.List_Price__c == 0) {
+                        lineItem.Discount__c = 0;
+                    }
+                    $scope.calculateSalesPrice(index);
+                };
+
+                $scope.calculateDiscount = function(index) {                    
+                    var lineItem = $scope.oppProducts[index];
+                    if(lineItem.List_Price__c == 0) {
+                        lineItem.Discount__c = 0.00;
+                    }                    
+                    else {
+                        lineItem.Discount__c = ((1 - lineItem.UnitPrice / lineItem.List_Price__c) * 100).toFixed(2);
+                    }  
+
+                    calculateSummary();          
+                };
+
+                $scope.calculateSalesPrice = function(index) {                    
+                    var lineItem = $scope.oppProducts[index];
+                    lineItem.UnitPrice = (lineItem.List_Price__c * (1 - lineItem.Discount__c / 100)).toFixed(2);
+
+                    calculateSummary();
+                };
+
+                $scope.removeProduct = function(index) {
+                    updateTableLayout(index);
+                    $scope.oppProducts.splice(index, 1);
+                    calculateSummary();
+                }
+            }]);
+        })();
+    </script>
+</apex:page>

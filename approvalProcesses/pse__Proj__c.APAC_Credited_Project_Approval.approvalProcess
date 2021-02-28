@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+        <field>pse__Account__c</field>
+        <field>pse__Opportunity__c</field>
+        <field>pse__Planned_Hours__c</field>
+        <field>pse__Start_Date__c</field>
+        <field>pse__End_Date__c</field>
+        <field>pse__Time_Credited__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>ssvedevi@richrelevance.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <label>Step 1</label>
+        <name>Step_1</name>
+    </approvalStep>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <formula>( pse__Region__r.Name =&quot;APAC&quot;||pse__Region__r.Name =&quot;Japan&quot;) 
+
+&amp;&amp; 
+
+pse__Time_Credited__c = TRUE &amp;&amp; pse__Allow_Timecards_Without_Assignment__c = TRUE</formula>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>APAC_Credited_Project_Approved</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>Mark_project_as_Active</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Credited_Project_Rejected</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>Mark_project_as_Active</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>APAC_Credited_Project_Approval_Request</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>Mark_project_as_Not_Active</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>APAC Credited Project Approval</label>
+    <processOrder>2</processOrder>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

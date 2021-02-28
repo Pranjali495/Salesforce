@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Actor</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Actors</value>
+    </caseValues>
+    <fields>
+        <label><!-- Abstract --></label>
+        <name>Abstract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actor --></label>
+        <name>Actor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Kind Of Actor --></label>
+        <name>Is_Kind_Of_Actor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Kind Of Ref --></label>
+        <name>Is_Kind_Of_Ref__c</name>
+        <relationshipLabel><!-- Subtype Actors --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Original Actor --></label>
+        <name>Original_Actor__c</name>
+        <relationshipLabel><!-- Derived Actors --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Project --></label>
+        <name>Project__c</name>
+        <relationshipLabel><!-- Actors --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Actor Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

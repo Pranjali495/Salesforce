@@ -1,0 +1,34 @@
+<apex:page standardController="Opportunity" showHeader="false" extensions="QuoteAttachmentController">
+    <apex:sectionHeader title="Generate Quote PDF" subtitle="{! Opportunity.Name }" />
+    <script>
+        if({! Succeeded }){
+            opener.location='/{! Opportunity.Id}';
+            window.setTimeout("top.close()",3000);
+        }
+    </script>
+    <apex:form >
+        <apex:pageMessages />
+        <apex:pageBlock >
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton value="Generate" action="{!updateQuote}" oncomplete="attach()"/>
+                <apex:actionFunction name="attach" action="{!attachQuote}" />
+                <input type="button" value="Cancel" class="btn" onclick="top.close()" />
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection columns="2">
+                <apex:inputField value="{!quote.Show_Hours__c}" />
+                <apex:inputField value="{!quote.Show_Special_Terms__c}" />
+                <apex:inputField value="{!quote.Show_List_Price__c}" /> 
+                <apex:inputField value="{!quote.Show_Cumulative_List_Price__c}" />
+                <apex:inputField value="{!quote.Show_Sales_Price__c}"/>
+                <apex:inputField value="{!quote.Show_Cumulative_Sales_Price__c}" />
+                <apex:inputField value="{!quote.Show_Discount__c}"/>
+                <apex:inputField value="{!quote.Show_Cumulative_Discount__c}" />
+                <!--<apex:inputField value="{!quote.ContactId }" />-->
+                <apex:selectList value="{!quote.ContactId}" size="1" multiselect="false">
+                    <apex:selectOptions value="{!relatedContactOptions}" />
+                </apex:selectList>
+                <apex:inputField value="{!quote.ExpirationDate}"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,5 @@
+<apex:page standardController="Opportunity" >
+    <flow:interview name="IsWonCheck" finishLocation="{!$Page.Create_Resource_Request}&id={!Opportunity.Id}">
+        <apex:param name="OppId" value="{!Opportunity.Id}"/>      
+    </flow:interview>
+</apex:page>

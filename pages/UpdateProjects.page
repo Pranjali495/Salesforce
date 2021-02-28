@@ -1,0 +1,14 @@
+<apex:page controller="UpdateProjectsController" >
+    
+    <apex:pageMessages id="messages" />
+    
+    <apex:form >
+        <apex:outputPanel id="mainblock" layout="block" >
+            <p>
+                To start a batch job to update all projects and related records that have converted currency fields, click this button.
+            </p>
+            <apex:commandButton action="{!startJob}" value="Start Job" rerender="mainblock,messages" disabled="{!jobStarted}" />
+        </apex:outputPanel>
+    </apex:form>
+    
+</apex:page>

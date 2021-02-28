@@ -1,0 +1,2376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Sites</relationshipLabel>
+        <relationshipName>Sites</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Online_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <label>Online Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Sites</relationshipLabel>
+        <relationshipName>Sites</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Site_Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Site Country</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Afghanistan </fullName>
+                    <default>false</default>
+                    <label>Afghanistan </label>
+                </value>
+                <value>
+                    <fullName>Albania </fullName>
+                    <default>false</default>
+                    <label>Albania </label>
+                </value>
+                <value>
+                    <fullName>Algeria </fullName>
+                    <default>false</default>
+                    <label>Algeria </label>
+                </value>
+                <value>
+                    <fullName>Andorra </fullName>
+                    <default>false</default>
+                    <label>Andorra </label>
+                </value>
+                <value>
+                    <fullName>Angola </fullName>
+                    <default>false</default>
+                    <label>Angola </label>
+                </value>
+                <value>
+                    <fullName>Antigua and Barbuda </fullName>
+                    <default>false</default>
+                    <label>Antigua and Barbuda </label>
+                </value>
+                <value>
+                    <fullName>Argentina </fullName>
+                    <default>false</default>
+                    <label>Argentina </label>
+                </value>
+                <value>
+                    <fullName>Armenia </fullName>
+                    <default>false</default>
+                    <label>Armenia </label>
+                </value>
+                <value>
+                    <fullName>Australia </fullName>
+                    <default>false</default>
+                    <label>Australia </label>
+                </value>
+                <value>
+                    <fullName>Austria </fullName>
+                    <default>false</default>
+                    <label>Austria </label>
+                </value>
+                <value>
+                    <fullName>Azerbaijan </fullName>
+                    <default>false</default>
+                    <label>Azerbaijan </label>
+                </value>
+                <value>
+                    <fullName>Bahamas </fullName>
+                    <default>false</default>
+                    <label>Bahamas </label>
+                </value>
+                <value>
+                    <fullName>Bahrain </fullName>
+                    <default>false</default>
+                    <label>Bahrain </label>
+                </value>
+                <value>
+                    <fullName>Bangladesh </fullName>
+                    <default>false</default>
+                    <label>Bangladesh </label>
+                </value>
+                <value>
+                    <fullName>Barbados </fullName>
+                    <default>false</default>
+                    <label>Barbados </label>
+                </value>
+                <value>
+                    <fullName>Belarus </fullName>
+                    <default>false</default>
+                    <label>Belarus </label>
+                </value>
+                <value>
+                    <fullName>Belgium </fullName>
+                    <default>false</default>
+                    <label>Belgium </label>
+                </value>
+                <value>
+                    <fullName>Belize </fullName>
+                    <default>false</default>
+                    <label>Belize </label>
+                </value>
+                <value>
+                    <fullName>Benin </fullName>
+                    <default>false</default>
+                    <label>Benin </label>
+                </value>
+                <value>
+                    <fullName>Bhutan </fullName>
+                    <default>false</default>
+                    <label>Bhutan </label>
+                </value>
+                <value>
+                    <fullName>Bolivia </fullName>
+                    <default>false</default>
+                    <label>Bolivia </label>
+                </value>
+                <value>
+                    <fullName>Bosnia and Herzegovina </fullName>
+                    <default>false</default>
+                    <label>Bosnia and Herzegovina </label>
+                </value>
+                <value>
+                    <fullName>Botswana </fullName>
+                    <default>false</default>
+                    <label>Botswana </label>
+                </value>
+                <value>
+                    <fullName>Brazil </fullName>
+                    <default>false</default>
+                    <label>Brazil </label>
+                </value>
+                <value>
+                    <fullName>Brunei </fullName>
+                    <default>false</default>
+                    <label>Brunei </label>
+                </value>
+                <value>
+                    <fullName>Bulgaria </fullName>
+                    <default>false</default>
+                    <label>Bulgaria </label>
+                </value>
+                <value>
+                    <fullName>Burkina Faso </fullName>
+                    <default>false</default>
+                    <label>Burkina Faso </label>
+                </value>
+                <value>
+                    <fullName>Burma</fullName>
+                    <default>false</default>
+                    <label>Burma</label>
+                </value>
+                <value>
+                    <fullName>Burundi </fullName>
+                    <default>false</default>
+                    <label>Burundi </label>
+                </value>
+                <value>
+                    <fullName>Cambodia </fullName>
+                    <default>false</default>
+                    <label>Cambodia </label>
+                </value>
+                <value>
+                    <fullName>Cameroon </fullName>
+                    <default>false</default>
+                    <label>Cameroon </label>
+                </value>
+                <value>
+                    <fullName>Canada </fullName>
+                    <default>false</default>
+                    <label>Canada </label>
+                </value>
+                <value>
+                    <fullName>Cape Verde </fullName>
+                    <default>false</default>
+                    <label>Cape Verde </label>
+                </value>
+                <value>
+                    <fullName>Central African Republic </fullName>
+                    <default>false</default>
+                    <label>Central African Republic </label>
+                </value>
+                <value>
+                    <fullName>Chad </fullName>
+                    <default>false</default>
+                    <label>Chad </label>
+                </value>
+                <value>
+                    <fullName>Chile </fullName>
+                    <default>false</default>
+                    <label>Chile </label>
+                </value>
+                <value>
+                    <fullName>China </fullName>
+                    <default>false</default>
+                    <label>China </label>
+                </value>
+                <value>
+                    <fullName>Colombia </fullName>
+                    <default>false</default>
+                    <label>Colombia </label>
+                </value>
+                <value>
+                    <fullName>Comoros </fullName>
+                    <default>false</default>
+                    <label>Comoros </label>
+                </value>
+                <value>
+                    <fullName>Congo </fullName>
+                    <default>false</default>
+                    <label>Congo </label>
+                </value>
+                <value>
+                    <fullName>Congo, Democratic Republic of </fullName>
+                    <default>false</default>
+                    <label>Congo, Democratic Republic of </label>
+                </value>
+                <value>
+                    <fullName>Costa Rica </fullName>
+                    <default>false</default>
+                    <label>Costa Rica </label>
+                </value>
+                <value>
+                    <fullName>Cote d&apos;Ivoire</fullName>
+                    <default>false</default>
+                    <label>Cote d&apos;Ivoire</label>
+                </value>
+                <value>
+                    <fullName>Croatia </fullName>
+                    <default>false</default>
+                    <label>Croatia </label>
+                </value>
+                <value>
+                    <fullName>Cuba </fullName>
+                    <default>false</default>
+                    <label>Cuba </label>
+                </value>
+                <value>
+                    <fullName>Cyprus </fullName>
+                    <default>false</default>
+                    <label>Cyprus </label>
+                </value>
+                <value>
+                    <fullName>Czech Republic </fullName>
+                    <default>false</default>
+                    <label>Czech Republic </label>
+                </value>
+                <value>
+                    <fullName>Denmark </fullName>
+                    <default>false</default>
+                    <label>Denmark </label>
+                </value>
+                <value>
+                    <fullName>Djibouti </fullName>
+                    <default>false</default>
+                    <label>Djibouti </label>
+                </value>
+                <value>
+                    <fullName>Dominica </fullName>
+                    <default>false</default>
+                    <label>Dominica </label>
+                </value>
+                <value>
+                    <fullName>Dominican Republic </fullName>
+                    <default>false</default>
+                    <label>Dominican Republic </label>
+                </value>
+                <value>
+                    <fullName>East Timor </fullName>
+                    <default>false</default>
+                    <label>East Timor </label>
+                </value>
+                <value>
+                    <fullName>Ecuador </fullName>
+                    <default>false</default>
+                    <label>Ecuador </label>
+                </value>
+                <value>
+                    <fullName>Egypt </fullName>
+                    <default>false</default>
+                    <label>Egypt </label>
+                </value>
+                <value>
+                    <fullName>El Salvador </fullName>
+                    <default>false</default>
+                    <label>El Salvador </label>
+                </value>
+                <value>
+                    <fullName>Equatorial Guinea </fullName>
+                    <default>false</default>
+                    <label>Equatorial Guinea </label>
+                </value>
+                <value>
+                    <fullName>Eritrea </fullName>
+                    <default>false</default>
+                    <label>Eritrea </label>
+                </value>
+                <value>
+                    <fullName>Estonia </fullName>
+                    <default>false</default>
+                    <label>Estonia </label>
+                </value>
+                <value>
+                    <fullName>Ethiopia </fullName>
+                    <default>false</default>
+                    <label>Ethiopia </label>
+                </value>
+                <value>
+                    <fullName>Fiji </fullName>
+                    <default>false</default>
+                    <label>Fiji </label>
+                </value>
+                <value>
+                    <fullName>Finland </fullName>
+                    <default>false</default>
+                    <label>Finland </label>
+                </value>
+                <value>
+                    <fullName>France </fullName>
+                    <default>false</default>
+                    <label>France </label>
+                </value>
+                <value>
+                    <fullName>Gabon </fullName>
+                    <default>false</default>
+                    <label>Gabon </label>
+                </value>
+                <value>
+                    <fullName>Gambia </fullName>
+                    <default>false</default>
+                    <label>Gambia </label>
+                </value>
+                <value>
+                    <fullName>Georgia </fullName>
+                    <default>false</default>
+                    <label>Georgia </label>
+                </value>
+                <value>
+                    <fullName>Germany </fullName>
+                    <default>false</default>
+                    <label>Germany </label>
+                </value>
+                <value>
+                    <fullName>Ghana </fullName>
+                    <default>false</default>
+                    <label>Ghana </label>
+                </value>
+                <value>
+                    <fullName>Greece </fullName>
+                    <default>false</default>
+                    <label>Greece </label>
+                </value>
+                <value>
+                    <fullName>Grenada </fullName>
+                    <default>false</default>
+                    <label>Grenada </label>
+                </value>
+                <value>
+                    <fullName>Guatemala </fullName>
+                    <default>false</default>
+                    <label>Guatemala </label>
+                </value>
+                <value>
+                    <fullName>Guinea </fullName>
+                    <default>false</default>
+                    <label>Guinea </label>
+                </value>
+                <value>
+                    <fullName>Guinea-Bissau </fullName>
+                    <default>false</default>
+                    <label>Guinea-Bissau </label>
+                </value>
+                <value>
+                    <fullName>Guyana </fullName>
+                    <default>false</default>
+                    <label>Guyana </label>
+                </value>
+                <value>
+                    <fullName>Haiti </fullName>
+                    <default>false</default>
+                    <label>Haiti </label>
+                </value>
+                <value>
+                    <fullName>Honduras </fullName>
+                    <default>false</default>
+                    <label>Honduras </label>
+                </value>
+                <value>
+                    <fullName>Hungary </fullName>
+                    <default>false</default>
+                    <label>Hungary </label>
+                </value>
+                <value>
+                    <fullName>Iceland </fullName>
+                    <default>false</default>
+                    <label>Iceland </label>
+                </value>
+                <value>
+                    <fullName>India </fullName>
+                    <default>false</default>
+                    <label>India </label>
+                </value>
+                <value>
+                    <fullName>Indonesia </fullName>
+                    <default>false</default>
+                    <label>Indonesia </label>
+                </value>
+                <value>
+                    <fullName>Iran </fullName>
+                    <default>false</default>
+                    <label>Iran </label>
+                </value>
+                <value>
+                    <fullName>Iraq </fullName>
+                    <default>false</default>
+                    <label>Iraq </label>
+                </value>
+                <value>
+                    <fullName>Ireland </fullName>
+                    <default>false</default>
+                    <label>Ireland </label>
+                </value>
+                <value>
+                    <fullName>Israel </fullName>
+                    <default>false</default>
+                    <label>Israel </label>
+                </value>
+                <value>
+                    <fullName>Italy </fullName>
+                    <default>false</default>
+                    <label>Italy </label>
+                </value>
+                <value>
+                    <fullName>Jamaica </fullName>
+                    <default>false</default>
+                    <label>Jamaica </label>
+                </value>
+                <value>
+                    <fullName>Japan </fullName>
+                    <default>false</default>
+                    <label>Japan </label>
+                </value>
+                <value>
+                    <fullName>Jordan </fullName>
+                    <default>false</default>
+                    <label>Jordan </label>
+                </value>
+                <value>
+                    <fullName>Kazakhstan </fullName>
+                    <default>false</default>
+                    <label>Kazakhstan </label>
+                </value>
+                <value>
+                    <fullName>Kenya </fullName>
+                    <default>false</default>
+                    <label>Kenya </label>
+                </value>
+                <value>
+                    <fullName>Kiribati </fullName>
+                    <default>false</default>
+                    <label>Kiribati </label>
+                </value>
+                <value>
+                    <fullName>Korea, North </fullName>
+                    <default>false</default>
+                    <label>Korea, North </label>
+                </value>
+                <value>
+                    <fullName>Korea, South </fullName>
+                    <default>false</default>
+                    <label>Korea, South </label>
+                </value>
+                <value>
+                    <fullName>Kuwait </fullName>
+                    <default>false</default>
+                    <label>Kuwait </label>
+                </value>
+                <value>
+                    <fullName>Kyrgyzstan </fullName>
+                    <default>false</default>
+                    <label>Kyrgyzstan </label>
+                </value>
+                <value>
+                    <fullName>Laos </fullName>
+                    <default>false</default>
+                    <label>Laos </label>
+                </value>
+                <value>
+                    <fullName>Latvia </fullName>
+                    <default>false</default>
+                    <label>Latvia </label>
+                </value>
+                <value>
+                    <fullName>Lebanon </fullName>
+                    <default>false</default>
+                    <label>Lebanon </label>
+                </value>
+                <value>
+                    <fullName>Lesotho </fullName>
+                    <default>false</default>
+                    <label>Lesotho </label>
+                </value>
+                <value>
+                    <fullName>Liberia </fullName>
+                    <default>false</default>
+                    <label>Liberia </label>
+                </value>
+                <value>
+                    <fullName>Libya </fullName>
+                    <default>false</default>
+                    <label>Libya </label>
+                </value>
+                <value>
+                    <fullName>Liechtenstein </fullName>
+                    <default>false</default>
+                    <label>Liechtenstein </label>
+                </value>
+                <value>
+                    <fullName>Lithuania </fullName>
+                    <default>false</default>
+                    <label>Lithuania </label>
+                </value>
+                <value>
+                    <fullName>Luxembourg </fullName>
+                    <default>false</default>
+                    <label>Luxembourg </label>
+                </value>
+                <value>
+                    <fullName>Macedonia </fullName>
+                    <default>false</default>
+                    <label>Macedonia </label>
+                </value>
+                <value>
+                    <fullName>Madagascar </fullName>
+                    <default>false</default>
+                    <label>Madagascar </label>
+                </value>
+                <value>
+                    <fullName>Malawi </fullName>
+                    <default>false</default>
+                    <label>Malawi </label>
+                </value>
+                <value>
+                    <fullName>Malaysia </fullName>
+                    <default>false</default>
+                    <label>Malaysia </label>
+                </value>
+                <value>
+                    <fullName>Maldives </fullName>
+                    <default>false</default>
+                    <label>Maldives </label>
+                </value>
+                <value>
+                    <fullName>Mali </fullName>
+                    <default>false</default>
+                    <label>Mali </label>
+                </value>
+                <value>
+                    <fullName>Malta </fullName>
+                    <default>false</default>
+                    <label>Malta </label>
+                </value>
+                <value>
+                    <fullName>Marshall Islands </fullName>
+                    <default>false</default>
+                    <label>Marshall Islands </label>
+                </value>
+                <value>
+                    <fullName>Mauritania </fullName>
+                    <default>false</default>
+                    <label>Mauritania </label>
+                </value>
+                <value>
+                    <fullName>Mauritius </fullName>
+                    <default>false</default>
+                    <label>Mauritius </label>
+                </value>
+                <value>
+                    <fullName>Mexico </fullName>
+                    <default>false</default>
+                    <label>Mexico </label>
+                </value>
+                <value>
+                    <fullName>Micronesia </fullName>
+                    <default>false</default>
+                    <label>Micronesia </label>
+                </value>
+                <value>
+                    <fullName>Moldova </fullName>
+                    <default>false</default>
+                    <label>Moldova </label>
+                </value>
+                <value>
+                    <fullName>Monaco </fullName>
+                    <default>false</default>
+                    <label>Monaco </label>
+                </value>
+                <value>
+                    <fullName>Mongolia </fullName>
+                    <default>false</default>
+                    <label>Mongolia </label>
+                </value>
+                <value>
+                    <fullName>Montenegro </fullName>
+                    <default>false</default>
+                    <label>Montenegro </label>
+                </value>
+                <value>
+                    <fullName>Morocco </fullName>
+                    <default>false</default>
+                    <label>Morocco </label>
+                </value>
+                <value>
+                    <fullName>Mozambique </fullName>
+                    <default>false</default>
+                    <label>Mozambique </label>
+                </value>
+                <value>
+                    <fullName>Namibia </fullName>
+                    <default>false</default>
+                    <label>Namibia </label>
+                </value>
+                <value>
+                    <fullName>Nauru </fullName>
+                    <default>false</default>
+                    <label>Nauru </label>
+                </value>
+                <value>
+                    <fullName>Nepal </fullName>
+                    <default>false</default>
+                    <label>Nepal </label>
+                </value>
+                <value>
+                    <fullName>Netherlands </fullName>
+                    <default>false</default>
+                    <label>Netherlands </label>
+                </value>
+                <value>
+                    <fullName>New Zealand </fullName>
+                    <default>false</default>
+                    <label>New Zealand </label>
+                </value>
+                <value>
+                    <fullName>Nicaragua </fullName>
+                    <default>false</default>
+                    <label>Nicaragua </label>
+                </value>
+                <value>
+                    <fullName>Niger </fullName>
+                    <default>false</default>
+                    <label>Niger </label>
+                </value>
+                <value>
+                    <fullName>Nigeria </fullName>
+                    <default>false</default>
+                    <label>Nigeria </label>
+                </value>
+                <value>
+                    <fullName>Norway </fullName>
+                    <default>false</default>
+                    <label>Norway </label>
+                </value>
+                <value>
+                    <fullName>Oman </fullName>
+                    <default>false</default>
+                    <label>Oman </label>
+                </value>
+                <value>
+                    <fullName>Pakistan </fullName>
+                    <default>false</default>
+                    <label>Pakistan </label>
+                </value>
+                <value>
+                    <fullName>Palau </fullName>
+                    <default>false</default>
+                    <label>Palau </label>
+                </value>
+                <value>
+                    <fullName>Panama </fullName>
+                    <default>false</default>
+                    <label>Panama </label>
+                </value>
+                <value>
+                    <fullName>Papua New Guinea </fullName>
+                    <default>false</default>
+                    <label>Papua New Guinea </label>
+                </value>
+                <value>
+                    <fullName>Paraguay </fullName>
+                    <default>false</default>
+                    <label>Paraguay </label>
+                </value>
+                <value>
+                    <fullName>Peru </fullName>
+                    <default>false</default>
+                    <label>Peru </label>
+                </value>
+                <value>
+                    <fullName>Philippines </fullName>
+                    <default>false</default>
+                    <label>Philippines </label>
+                </value>
+                <value>
+                    <fullName>Poland </fullName>
+                    <default>false</default>
+                    <label>Poland </label>
+                </value>
+                <value>
+                    <fullName>Portugal </fullName>
+                    <default>false</default>
+                    <label>Portugal </label>
+                </value>
+                <value>
+                    <fullName>Qatar </fullName>
+                    <default>false</default>
+                    <label>Qatar </label>
+                </value>
+                <value>
+                    <fullName>Romania </fullName>
+                    <default>false</default>
+                    <label>Romania </label>
+                </value>
+                <value>
+                    <fullName>Russian Federation </fullName>
+                    <default>false</default>
+                    <label>Russian Federation </label>
+                </value>
+                <value>
+                    <fullName>Rwanda </fullName>
+                    <default>false</default>
+                    <label>Rwanda </label>
+                </value>
+                <value>
+                    <fullName>Saint Kitts and Nevis </fullName>
+                    <default>false</default>
+                    <label>Saint Kitts and Nevis </label>
+                </value>
+                <value>
+                    <fullName>Saint Lucia </fullName>
+                    <default>false</default>
+                    <label>Saint Lucia </label>
+                </value>
+                <value>
+                    <fullName>Saint Vincent and the Grenadines </fullName>
+                    <default>false</default>
+                    <label>Saint Vincent and the Grenadines </label>
+                </value>
+                <value>
+                    <fullName>Samoa </fullName>
+                    <default>false</default>
+                    <label>Samoa </label>
+                </value>
+                <value>
+                    <fullName>San Marino </fullName>
+                    <default>false</default>
+                    <label>San Marino </label>
+                </value>
+                <value>
+                    <fullName>Sao Tome and Principe </fullName>
+                    <default>false</default>
+                    <label>Sao Tome and Principe </label>
+                </value>
+                <value>
+                    <fullName>Saudi Arabia </fullName>
+                    <default>false</default>
+                    <label>Saudi Arabia </label>
+                </value>
+                <value>
+                    <fullName>Senegal </fullName>
+                    <default>false</default>
+                    <label>Senegal </label>
+                </value>
+                <value>
+                    <fullName>Serbia </fullName>
+                    <default>false</default>
+                    <label>Serbia </label>
+                </value>
+                <value>
+                    <fullName>Seychelles </fullName>
+                    <default>false</default>
+                    <label>Seychelles </label>
+                </value>
+                <value>
+                    <fullName>Sierra Leone </fullName>
+                    <default>false</default>
+                    <label>Sierra Leone </label>
+                </value>
+                <value>
+                    <fullName>Singapore </fullName>
+                    <default>false</default>
+                    <label>Singapore </label>
+                </value>
+                <value>
+                    <fullName>Slovakia </fullName>
+                    <default>false</default>
+                    <label>Slovakia </label>
+                </value>
+                <value>
+                    <fullName>Slovenia </fullName>
+                    <default>false</default>
+                    <label>Slovenia </label>
+                </value>
+                <value>
+                    <fullName>Solomon Islands </fullName>
+                    <default>false</default>
+                    <label>Solomon Islands </label>
+                </value>
+                <value>
+                    <fullName>Somalia </fullName>
+                    <default>false</default>
+                    <label>Somalia </label>
+                </value>
+                <value>
+                    <fullName>South Africa </fullName>
+                    <default>false</default>
+                    <label>South Africa </label>
+                </value>
+                <value>
+                    <fullName>South Sudan </fullName>
+                    <default>false</default>
+                    <label>South Sudan </label>
+                </value>
+                <value>
+                    <fullName>Spain </fullName>
+                    <default>false</default>
+                    <label>Spain </label>
+                </value>
+                <value>
+                    <fullName>Sri Lanka </fullName>
+                    <default>false</default>
+                    <label>Sri Lanka </label>
+                </value>
+                <value>
+                    <fullName>Sudan </fullName>
+                    <default>false</default>
+                    <label>Sudan </label>
+                </value>
+                <value>
+                    <fullName>Suriname </fullName>
+                    <default>false</default>
+                    <label>Suriname </label>
+                </value>
+                <value>
+                    <fullName>Swaziland </fullName>
+                    <default>false</default>
+                    <label>Swaziland </label>
+                </value>
+                <value>
+                    <fullName>Sweden </fullName>
+                    <default>false</default>
+                    <label>Sweden </label>
+                </value>
+                <value>
+                    <fullName>Switzerland </fullName>
+                    <default>false</default>
+                    <label>Switzerland </label>
+                </value>
+                <value>
+                    <fullName>Syria </fullName>
+                    <default>false</default>
+                    <label>Syria </label>
+                </value>
+                <value>
+                    <fullName>Tajikistan </fullName>
+                    <default>false</default>
+                    <label>Tajikistan </label>
+                </value>
+                <value>
+                    <fullName>Tanzania </fullName>
+                    <default>false</default>
+                    <label>Tanzania </label>
+                </value>
+                <value>
+                    <fullName>Thailand </fullName>
+                    <default>false</default>
+                    <label>Thailand </label>
+                </value>
+                <value>
+                    <fullName>Togo </fullName>
+                    <default>false</default>
+                    <label>Togo </label>
+                </value>
+                <value>
+                    <fullName>Tonga </fullName>
+                    <default>false</default>
+                    <label>Tonga </label>
+                </value>
+                <value>
+                    <fullName>Trinidad and Tobago </fullName>
+                    <default>false</default>
+                    <label>Trinidad and Tobago </label>
+                </value>
+                <value>
+                    <fullName>Tunisia </fullName>
+                    <default>false</default>
+                    <label>Tunisia </label>
+                </value>
+                <value>
+                    <fullName>Turkey </fullName>
+                    <default>false</default>
+                    <label>Turkey </label>
+                </value>
+                <value>
+                    <fullName>Turkmenistan </fullName>
+                    <default>false</default>
+                    <label>Turkmenistan </label>
+                </value>
+                <value>
+                    <fullName>Tuvalu </fullName>
+                    <default>false</default>
+                    <label>Tuvalu </label>
+                </value>
+                <value>
+                    <fullName>Uganda </fullName>
+                    <default>false</default>
+                    <label>Uganda </label>
+                </value>
+                <value>
+                    <fullName>Ukraine </fullName>
+                    <default>false</default>
+                    <label>Ukraine </label>
+                </value>
+                <value>
+                    <fullName>United Arab Emirates </fullName>
+                    <default>false</default>
+                    <label>United Arab Emirates </label>
+                </value>
+                <value>
+                    <fullName>United Kingdom </fullName>
+                    <default>false</default>
+                    <label>United Kingdom </label>
+                </value>
+                <value>
+                    <fullName>United States </fullName>
+                    <default>false</default>
+                    <label>United States </label>
+                </value>
+                <value>
+                    <fullName>Uruguay </fullName>
+                    <default>false</default>
+                    <label>Uruguay </label>
+                </value>
+                <value>
+                    <fullName>Uzbekistan </fullName>
+                    <default>false</default>
+                    <label>Uzbekistan </label>
+                </value>
+                <value>
+                    <fullName>Vanuatu </fullName>
+                    <default>false</default>
+                    <label>Vanuatu </label>
+                </value>
+                <value>
+                    <fullName>Vatican City </fullName>
+                    <default>false</default>
+                    <label>Vatican City </label>
+                </value>
+                <value>
+                    <fullName>Venezuela </fullName>
+                    <default>false</default>
+                    <label>Venezuela </label>
+                </value>
+                <value>
+                    <fullName>Vietnam </fullName>
+                    <default>false</default>
+                    <label>Vietnam </label>
+                </value>
+                <value>
+                    <fullName>Yemen </fullName>
+                    <default>false</default>
+                    <label>Yemen </label>
+                </value>
+                <value>
+                    <fullName>Zambia </fullName>
+                    <default>false</default>
+                    <label>Zambia </label>
+                </value>
+                <value>
+                    <fullName>Zimbabwe</fullName>
+                    <default>false</default>
+                    <label>Zimbabwe</label>
+                </value>
+                <value>
+                    <fullName>RR_Test</fullName>
+                    <default>false</default>
+                    <label>RR_Test</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Site_Currency__c</fullName>
+        <externalId>false</externalId>
+        <label>Site Currency</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AED</fullName>
+                    <default>false</default>
+                    <label>AED</label>
+                </value>
+                <value>
+                    <fullName>AFN</fullName>
+                    <default>false</default>
+                    <label>AFN</label>
+                </value>
+                <value>
+                    <fullName>ALL</fullName>
+                    <default>false</default>
+                    <label>ALL</label>
+                </value>
+                <value>
+                    <fullName>AMD</fullName>
+                    <default>false</default>
+                    <label>AMD</label>
+                </value>
+                <value>
+                    <fullName>ANG</fullName>
+                    <default>false</default>
+                    <label>ANG</label>
+                </value>
+                <value>
+                    <fullName>AOA</fullName>
+                    <default>false</default>
+                    <label>AOA</label>
+                </value>
+                <value>
+                    <fullName>ARS</fullName>
+                    <default>false</default>
+                    <label>ARS</label>
+                </value>
+                <value>
+                    <fullName>AUD</fullName>
+                    <default>false</default>
+                    <label>AUD</label>
+                </value>
+                <value>
+                    <fullName>AWG</fullName>
+                    <default>false</default>
+                    <label>AWG</label>
+                </value>
+                <value>
+                    <fullName>AZN</fullName>
+                    <default>false</default>
+                    <label>AZN</label>
+                </value>
+                <value>
+                    <fullName>BAM</fullName>
+                    <default>false</default>
+                    <label>BAM</label>
+                </value>
+                <value>
+                    <fullName>BBD</fullName>
+                    <default>false</default>
+                    <label>BBD</label>
+                </value>
+                <value>
+                    <fullName>BDT</fullName>
+                    <default>false</default>
+                    <label>BDT</label>
+                </value>
+                <value>
+                    <fullName>BGN</fullName>
+                    <default>false</default>
+                    <label>BGN</label>
+                </value>
+                <value>
+                    <fullName>BHD</fullName>
+                    <default>false</default>
+                    <label>BHD</label>
+                </value>
+                <value>
+                    <fullName>BIF</fullName>
+                    <default>false</default>
+                    <label>BIF</label>
+                </value>
+                <value>
+                    <fullName>BMD</fullName>
+                    <default>false</default>
+                    <label>BMD</label>
+                </value>
+                <value>
+                    <fullName>BND</fullName>
+                    <default>false</default>
+                    <label>BND</label>
+                </value>
+                <value>
+                    <fullName>BOB</fullName>
+                    <default>false</default>
+                    <label>BOB</label>
+                </value>
+                <value>
+                    <fullName>BRL</fullName>
+                    <default>false</default>
+                    <label>BRL</label>
+                </value>
+                <value>
+                    <fullName>BSD</fullName>
+                    <default>false</default>
+                    <label>BSD</label>
+                </value>
+                <value>
+                    <fullName>BTN</fullName>
+                    <default>false</default>
+                    <label>BTN</label>
+                </value>
+                <value>
+                    <fullName>BWP</fullName>
+                    <default>false</default>
+                    <label>BWP</label>
+                </value>
+                <value>
+                    <fullName>BYR</fullName>
+                    <default>false</default>
+                    <label>BYR</label>
+                </value>
+                <value>
+                    <fullName>BZD</fullName>
+                    <default>false</default>
+                    <label>BZD</label>
+                </value>
+                <value>
+                    <fullName>CAD</fullName>
+                    <default>false</default>
+                    <label>CAD</label>
+                </value>
+                <value>
+                    <fullName>CDF</fullName>
+                    <default>false</default>
+                    <label>CDF</label>
+                </value>
+                <value>
+                    <fullName>CHF</fullName>
+                    <default>false</default>
+                    <label>CHF</label>
+                </value>
+                <value>
+                    <fullName>CLP</fullName>
+                    <default>false</default>
+                    <label>CLP</label>
+                </value>
+                <value>
+                    <fullName>CNY</fullName>
+                    <default>false</default>
+                    <label>CNY</label>
+                </value>
+                <value>
+                    <fullName>COP</fullName>
+                    <default>false</default>
+                    <label>COP</label>
+                </value>
+                <value>
+                    <fullName>CRC</fullName>
+                    <default>false</default>
+                    <label>CRC</label>
+                </value>
+                <value>
+                    <fullName>CUC</fullName>
+                    <default>false</default>
+                    <label>CUC</label>
+                </value>
+                <value>
+                    <fullName>CUP</fullName>
+                    <default>false</default>
+                    <label>CUP</label>
+                </value>
+                <value>
+                    <fullName>CVE</fullName>
+                    <default>false</default>
+                    <label>CVE</label>
+                </value>
+                <value>
+                    <fullName>CZK</fullName>
+                    <default>false</default>
+                    <label>CZK</label>
+                </value>
+                <value>
+                    <fullName>DJF</fullName>
+                    <default>false</default>
+                    <label>DJF</label>
+                </value>
+                <value>
+                    <fullName>DKK</fullName>
+                    <default>false</default>
+                    <label>DKK</label>
+                </value>
+                <value>
+                    <fullName>DOP</fullName>
+                    <default>false</default>
+                    <label>DOP</label>
+                </value>
+                <value>
+                    <fullName>DZD</fullName>
+                    <default>false</default>
+                    <label>DZD</label>
+                </value>
+                <value>
+                    <fullName>EGP</fullName>
+                    <default>false</default>
+                    <label>EGP</label>
+                </value>
+                <value>
+                    <fullName>ERN</fullName>
+                    <default>false</default>
+                    <label>ERN</label>
+                </value>
+                <value>
+                    <fullName>ETB</fullName>
+                    <default>false</default>
+                    <label>ETB</label>
+                </value>
+                <value>
+                    <fullName>EUR</fullName>
+                    <default>false</default>
+                    <label>EUR</label>
+                </value>
+                <value>
+                    <fullName>FJD</fullName>
+                    <default>false</default>
+                    <label>FJD</label>
+                </value>
+                <value>
+                    <fullName>FKP</fullName>
+                    <default>false</default>
+                    <label>FKP</label>
+                </value>
+                <value>
+                    <fullName>GBP</fullName>
+                    <default>false</default>
+                    <label>GBP</label>
+                </value>
+                <value>
+                    <fullName>GEL</fullName>
+                    <default>false</default>
+                    <label>GEL</label>
+                </value>
+                <value>
+                    <fullName>GGP</fullName>
+                    <default>false</default>
+                    <label>GGP</label>
+                </value>
+                <value>
+                    <fullName>GHS</fullName>
+                    <default>false</default>
+                    <label>GHS</label>
+                </value>
+                <value>
+                    <fullName>GIP</fullName>
+                    <default>false</default>
+                    <label>GIP</label>
+                </value>
+                <value>
+                    <fullName>GMD</fullName>
+                    <default>false</default>
+                    <label>GMD</label>
+                </value>
+                <value>
+                    <fullName>GNF</fullName>
+                    <default>false</default>
+                    <label>GNF</label>
+                </value>
+                <value>
+                    <fullName>GTQ</fullName>
+                    <default>false</default>
+                    <label>GTQ</label>
+                </value>
+                <value>
+                    <fullName>GYD</fullName>
+                    <default>false</default>
+                    <label>GYD</label>
+                </value>
+                <value>
+                    <fullName>HKD</fullName>
+                    <default>false</default>
+                    <label>HKD</label>
+                </value>
+                <value>
+                    <fullName>HNL</fullName>
+                    <default>false</default>
+                    <label>HNL</label>
+                </value>
+                <value>
+                    <fullName>HRK</fullName>
+                    <default>false</default>
+                    <label>HRK</label>
+                </value>
+                <value>
+                    <fullName>HTG</fullName>
+                    <default>false</default>
+                    <label>HTG</label>
+                </value>
+                <value>
+                    <fullName>HUF</fullName>
+                    <default>false</default>
+                    <label>HUF</label>
+                </value>
+                <value>
+                    <fullName>IDR</fullName>
+                    <default>false</default>
+                    <label>IDR</label>
+                </value>
+                <value>
+                    <fullName>ILS</fullName>
+                    <default>false</default>
+                    <label>ILS</label>
+                </value>
+                <value>
+                    <fullName>IMP</fullName>
+                    <default>false</default>
+                    <label>IMP</label>
+                </value>
+                <value>
+                    <fullName>INR</fullName>
+                    <default>false</default>
+                    <label>INR</label>
+                </value>
+                <value>
+                    <fullName>IQD</fullName>
+                    <default>false</default>
+                    <label>IQD</label>
+                </value>
+                <value>
+                    <fullName>IRR</fullName>
+                    <default>false</default>
+                    <label>IRR</label>
+                </value>
+                <value>
+                    <fullName>ISK</fullName>
+                    <default>false</default>
+                    <label>ISK</label>
+                </value>
+                <value>
+                    <fullName>JEP</fullName>
+                    <default>false</default>
+                    <label>JEP</label>
+                </value>
+                <value>
+                    <fullName>JMD</fullName>
+                    <default>false</default>
+                    <label>JMD</label>
+                </value>
+                <value>
+                    <fullName>JOD</fullName>
+                    <default>false</default>
+                    <label>JOD</label>
+                </value>
+                <value>
+                    <fullName>JPY</fullName>
+                    <default>false</default>
+                    <label>JPY</label>
+                </value>
+                <value>
+                    <fullName>KES</fullName>
+                    <default>false</default>
+                    <label>KES</label>
+                </value>
+                <value>
+                    <fullName>KGS</fullName>
+                    <default>false</default>
+                    <label>KGS</label>
+                </value>
+                <value>
+                    <fullName>KHR</fullName>
+                    <default>false</default>
+                    <label>KHR</label>
+                </value>
+                <value>
+                    <fullName>KMF</fullName>
+                    <default>false</default>
+                    <label>KMF</label>
+                </value>
+                <value>
+                    <fullName>KPW</fullName>
+                    <default>false</default>
+                    <label>KPW</label>
+                </value>
+                <value>
+                    <fullName>KRW</fullName>
+                    <default>false</default>
+                    <label>KRW</label>
+                </value>
+                <value>
+                    <fullName>KWD</fullName>
+                    <default>false</default>
+                    <label>KWD</label>
+                </value>
+                <value>
+                    <fullName>KYD</fullName>
+                    <default>false</default>
+                    <label>KYD</label>
+                </value>
+                <value>
+                    <fullName>KZT</fullName>
+                    <default>false</default>
+                    <label>KZT</label>
+                </value>
+                <value>
+                    <fullName>LAK</fullName>
+                    <default>false</default>
+                    <label>LAK</label>
+                </value>
+                <value>
+                    <fullName>LBP</fullName>
+                    <default>false</default>
+                    <label>LBP</label>
+                </value>
+                <value>
+                    <fullName>LKR</fullName>
+                    <default>false</default>
+                    <label>LKR</label>
+                </value>
+                <value>
+                    <fullName>LRD</fullName>
+                    <default>false</default>
+                    <label>LRD</label>
+                </value>
+                <value>
+                    <fullName>LSL</fullName>
+                    <default>false</default>
+                    <label>LSL</label>
+                </value>
+                <value>
+                    <fullName>LYD</fullName>
+                    <default>false</default>
+                    <label>LYD</label>
+                </value>
+                <value>
+                    <fullName>MAD</fullName>
+                    <default>false</default>
+                    <label>MAD</label>
+                </value>
+                <value>
+                    <fullName>MDL</fullName>
+                    <default>false</default>
+                    <label>MDL</label>
+                </value>
+                <value>
+                    <fullName>MGA</fullName>
+                    <default>false</default>
+                    <label>MGA</label>
+                </value>
+                <value>
+                    <fullName>MKD</fullName>
+                    <default>false</default>
+                    <label>MKD</label>
+                </value>
+                <value>
+                    <fullName>MMK</fullName>
+                    <default>false</default>
+                    <label>MMK</label>
+                </value>
+                <value>
+                    <fullName>MNT</fullName>
+                    <default>false</default>
+                    <label>MNT</label>
+                </value>
+                <value>
+                    <fullName>MOP</fullName>
+                    <default>false</default>
+                    <label>MOP</label>
+                </value>
+                <value>
+                    <fullName>MRO</fullName>
+                    <default>false</default>
+                    <label>MRO</label>
+                </value>
+                <value>
+                    <fullName>MUR</fullName>
+                    <default>false</default>
+                    <label>MUR</label>
+                </value>
+                <value>
+                    <fullName>MVR</fullName>
+                    <default>false</default>
+                    <label>MVR</label>
+                </value>
+                <value>
+                    <fullName>MWK</fullName>
+                    <default>false</default>
+                    <label>MWK</label>
+                </value>
+                <value>
+                    <fullName>MXN</fullName>
+                    <default>false</default>
+                    <label>MXN</label>
+                </value>
+                <value>
+                    <fullName>MYR</fullName>
+                    <default>false</default>
+                    <label>MYR</label>
+                </value>
+                <value>
+                    <fullName>MZN</fullName>
+                    <default>false</default>
+                    <label>MZN</label>
+                </value>
+                <value>
+                    <fullName>NAD</fullName>
+                    <default>false</default>
+                    <label>NAD</label>
+                </value>
+                <value>
+                    <fullName>NGN</fullName>
+                    <default>false</default>
+                    <label>NGN</label>
+                </value>
+                <value>
+                    <fullName>NIO</fullName>
+                    <default>false</default>
+                    <label>NIO</label>
+                </value>
+                <value>
+                    <fullName>NOK</fullName>
+                    <default>false</default>
+                    <label>NOK</label>
+                </value>
+                <value>
+                    <fullName>NPR</fullName>
+                    <default>false</default>
+                    <label>NPR</label>
+                </value>
+                <value>
+                    <fullName>NZD</fullName>
+                    <default>false</default>
+                    <label>NZD</label>
+                </value>
+                <value>
+                    <fullName>OMR</fullName>
+                    <default>false</default>
+                    <label>OMR</label>
+                </value>
+                <value>
+                    <fullName>PAB</fullName>
+                    <default>false</default>
+                    <label>PAB</label>
+                </value>
+                <value>
+                    <fullName>PEN</fullName>
+                    <default>false</default>
+                    <label>PEN</label>
+                </value>
+                <value>
+                    <fullName>PGK</fullName>
+                    <default>false</default>
+                    <label>PGK</label>
+                </value>
+                <value>
+                    <fullName>PHP</fullName>
+                    <default>false</default>
+                    <label>PHP</label>
+                </value>
+                <value>
+                    <fullName>PKR</fullName>
+                    <default>false</default>
+                    <label>PKR</label>
+                </value>
+                <value>
+                    <fullName>PLN</fullName>
+                    <default>false</default>
+                    <label>PLN</label>
+                </value>
+                <value>
+                    <fullName>PYG</fullName>
+                    <default>false</default>
+                    <label>PYG</label>
+                </value>
+                <value>
+                    <fullName>QAR</fullName>
+                    <default>false</default>
+                    <label>QAR</label>
+                </value>
+                <value>
+                    <fullName>RON</fullName>
+                    <default>false</default>
+                    <label>RON</label>
+                </value>
+                <value>
+                    <fullName>RR0</fullName>
+                    <default>false</default>
+                    <label>RR0</label>
+                </value>
+                <value>
+                    <fullName>RSD</fullName>
+                    <default>false</default>
+                    <label>RSD</label>
+                </value>
+                <value>
+                    <fullName>RUB</fullName>
+                    <default>false</default>
+                    <label>RUB</label>
+                </value>
+                <value>
+                    <fullName>RWF</fullName>
+                    <default>false</default>
+                    <label>RWF</label>
+                </value>
+                <value>
+                    <fullName>SAR</fullName>
+                    <default>false</default>
+                    <label>SAR</label>
+                </value>
+                <value>
+                    <fullName>SBD</fullName>
+                    <default>false</default>
+                    <label>SBD</label>
+                </value>
+                <value>
+                    <fullName>SCR</fullName>
+                    <default>false</default>
+                    <label>SCR</label>
+                </value>
+                <value>
+                    <fullName>SDG</fullName>
+                    <default>false</default>
+                    <label>SDG</label>
+                </value>
+                <value>
+                    <fullName>SEK</fullName>
+                    <default>false</default>
+                    <label>SEK</label>
+                </value>
+                <value>
+                    <fullName>SGD</fullName>
+                    <default>false</default>
+                    <label>SGD</label>
+                </value>
+                <value>
+                    <fullName>SHP</fullName>
+                    <default>false</default>
+                    <label>SHP</label>
+                </value>
+                <value>
+                    <fullName>SLL</fullName>
+                    <default>false</default>
+                    <label>SLL</label>
+                </value>
+                <value>
+                    <fullName>SOS</fullName>
+                    <default>false</default>
+                    <label>SOS</label>
+                </value>
+                <value>
+                    <fullName>SPL</fullName>
+                    <default>false</default>
+                    <label>SPL</label>
+                </value>
+                <value>
+                    <fullName>SRD</fullName>
+                    <default>false</default>
+                    <label>SRD</label>
+                </value>
+                <value>
+                    <fullName>STD</fullName>
+                    <default>false</default>
+                    <label>STD</label>
+                </value>
+                <value>
+                    <fullName>SVC</fullName>
+                    <default>false</default>
+                    <label>SVC</label>
+                </value>
+                <value>
+                    <fullName>SYP</fullName>
+                    <default>false</default>
+                    <label>SYP</label>
+                </value>
+                <value>
+                    <fullName>SZL</fullName>
+                    <default>false</default>
+                    <label>SZL</label>
+                </value>
+                <value>
+                    <fullName>THB</fullName>
+                    <default>false</default>
+                    <label>THB</label>
+                </value>
+                <value>
+                    <fullName>TJS</fullName>
+                    <default>false</default>
+                    <label>TJS</label>
+                </value>
+                <value>
+                    <fullName>TMT</fullName>
+                    <default>false</default>
+                    <label>TMT</label>
+                </value>
+                <value>
+                    <fullName>TND</fullName>
+                    <default>false</default>
+                    <label>TND</label>
+                </value>
+                <value>
+                    <fullName>TOP</fullName>
+                    <default>false</default>
+                    <label>TOP</label>
+                </value>
+                <value>
+                    <fullName>TRY</fullName>
+                    <default>false</default>
+                    <label>TRY</label>
+                </value>
+                <value>
+                    <fullName>TTD</fullName>
+                    <default>false</default>
+                    <label>TTD</label>
+                </value>
+                <value>
+                    <fullName>TVD</fullName>
+                    <default>false</default>
+                    <label>TVD</label>
+                </value>
+                <value>
+                    <fullName>TWD</fullName>
+                    <default>false</default>
+                    <label>TWD</label>
+                </value>
+                <value>
+                    <fullName>TZS</fullName>
+                    <default>false</default>
+                    <label>TZS</label>
+                </value>
+                <value>
+                    <fullName>UAH</fullName>
+                    <default>false</default>
+                    <label>UAH</label>
+                </value>
+                <value>
+                    <fullName>UGX</fullName>
+                    <default>false</default>
+                    <label>UGX</label>
+                </value>
+                <value>
+                    <fullName>USD</fullName>
+                    <default>false</default>
+                    <label>USD</label>
+                </value>
+                <value>
+                    <fullName>UYU</fullName>
+                    <default>false</default>
+                    <label>UYU</label>
+                </value>
+                <value>
+                    <fullName>UZS</fullName>
+                    <default>false</default>
+                    <label>UZS</label>
+                </value>
+                <value>
+                    <fullName>VEF</fullName>
+                    <default>false</default>
+                    <label>VEF</label>
+                </value>
+                <value>
+                    <fullName>VND</fullName>
+                    <default>false</default>
+                    <label>VND</label>
+                </value>
+                <value>
+                    <fullName>VUV</fullName>
+                    <default>false</default>
+                    <label>VUV</label>
+                </value>
+                <value>
+                    <fullName>WST</fullName>
+                    <default>false</default>
+                    <label>WST</label>
+                </value>
+                <value>
+                    <fullName>XAF</fullName>
+                    <default>false</default>
+                    <label>XAF</label>
+                </value>
+                <value>
+                    <fullName>XCD</fullName>
+                    <default>false</default>
+                    <label>XCD</label>
+                </value>
+                <value>
+                    <fullName>XDR</fullName>
+                    <default>false</default>
+                    <label>XDR</label>
+                </value>
+                <value>
+                    <fullName>XOF</fullName>
+                    <default>false</default>
+                    <label>XOF</label>
+                </value>
+                <value>
+                    <fullName>XPF</fullName>
+                    <default>false</default>
+                    <label>XPF</label>
+                </value>
+                <value>
+                    <fullName>YER</fullName>
+                    <default>false</default>
+                    <label>YER</label>
+                </value>
+                <value>
+                    <fullName>ZAR</fullName>
+                    <default>false</default>
+                    <label>ZAR</label>
+                </value>
+                <value>
+                    <fullName>ZMW</fullName>
+                    <default>false</default>
+                    <label>ZMW</label>
+                </value>
+                <value>
+                    <fullName>ZWD</fullName>
+                    <default>false</default>
+                    <label>ZWD</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Site_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Site ID</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Site_Locale__c</fullName>
+        <externalId>false</externalId>
+        <label>Site Locale</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>AE</fullName>
+                    <default>false</default>
+                    <label>AE</label>
+                </value>
+                <value>
+                    <fullName>AF</fullName>
+                    <default>false</default>
+                    <label>AF</label>
+                </value>
+                <value>
+                    <fullName>AT</fullName>
+                    <default>false</default>
+                    <label>AT</label>
+                </value>
+                <value>
+                    <fullName>AU</fullName>
+                    <default>false</default>
+                    <label>AU</label>
+                </value>
+                <value>
+                    <fullName>BD</fullName>
+                    <default>false</default>
+                    <label>BD</label>
+                </value>
+                <value>
+                    <fullName>BE</fullName>
+                    <default>false</default>
+                    <label>BE</label>
+                </value>
+                <value>
+                    <fullName>BR</fullName>
+                    <default>false</default>
+                    <label>BR</label>
+                </value>
+                <value>
+                    <fullName>CA</fullName>
+                    <default>false</default>
+                    <label>CA</label>
+                </value>
+                <value>
+                    <fullName>CH</fullName>
+                    <default>false</default>
+                    <label>CH</label>
+                </value>
+                <value>
+                    <fullName>CI</fullName>
+                    <default>false</default>
+                    <label>CI</label>
+                </value>
+                <value>
+                    <fullName>CL</fullName>
+                    <default>false</default>
+                    <label>CL</label>
+                </value>
+                <value>
+                    <fullName>CN</fullName>
+                    <default>false</default>
+                    <label>CN</label>
+                </value>
+                <value>
+                    <fullName>CO</fullName>
+                    <default>false</default>
+                    <label>CO</label>
+                </value>
+                <value>
+                    <fullName>CZ</fullName>
+                    <default>false</default>
+                    <label>CZ</label>
+                </value>
+                <value>
+                    <fullName>DA</fullName>
+                    <default>false</default>
+                    <label>DA</label>
+                </value>
+                <value>
+                    <fullName>DE</fullName>
+                    <default>false</default>
+                    <label>DE</label>
+                </value>
+                <value>
+                    <fullName>DK</fullName>
+                    <default>false</default>
+                    <label>DK</label>
+                </value>
+                <value>
+                    <fullName>EE</fullName>
+                    <default>false</default>
+                    <label>EE</label>
+                </value>
+                <value>
+                    <fullName>EG</fullName>
+                    <default>false</default>
+                    <label>EG</label>
+                </value>
+                <value>
+                    <fullName>EN</fullName>
+                    <default>false</default>
+                    <label>EN</label>
+                </value>
+                <value>
+                    <fullName>ES</fullName>
+                    <default>false</default>
+                    <label>ES</label>
+                </value>
+                <value>
+                    <fullName>EU</fullName>
+                    <default>false</default>
+                    <label>EU</label>
+                </value>
+                <value>
+                    <fullName>FI</fullName>
+                    <default>false</default>
+                    <label>FI</label>
+                </value>
+                <value>
+                    <fullName>FR</fullName>
+                    <default>false</default>
+                    <label>FR</label>
+                </value>
+                <value>
+                    <fullName>GB</fullName>
+                    <default>false</default>
+                    <label>GB</label>
+                </value>
+                <value>
+                    <fullName>GH</fullName>
+                    <default>false</default>
+                    <label>GH</label>
+                </value>
+                <value>
+                    <fullName>GR</fullName>
+                    <default>false</default>
+                    <label>GR</label>
+                </value>
+                <value>
+                    <fullName>HK</fullName>
+                    <default>false</default>
+                    <label>HK</label>
+                </value>
+                <value>
+                    <fullName>ID</fullName>
+                    <default>false</default>
+                    <label>ID</label>
+                </value>
+                <value>
+                    <fullName>IE</fullName>
+                    <default>false</default>
+                    <label>IE</label>
+                </value>
+                <value>
+                    <fullName>IN</fullName>
+                    <default>false</default>
+                    <label>IN</label>
+                </value>
+                <value>
+                    <fullName>IT</fullName>
+                    <default>false</default>
+                    <label>IT</label>
+                </value>
+                <value>
+                    <fullName>JP</fullName>
+                    <default>false</default>
+                    <label>JP</label>
+                </value>
+                <value>
+                    <fullName>KE</fullName>
+                    <default>false</default>
+                    <label>KE</label>
+                </value>
+                <value>
+                    <fullName>KR</fullName>
+                    <default>false</default>
+                    <label>KR</label>
+                </value>
+                <value>
+                    <fullName>LT</fullName>
+                    <default>false</default>
+                    <label>LT</label>
+                </value>
+                <value>
+                    <fullName>LU</fullName>
+                    <default>false</default>
+                    <label>LU</label>
+                </value>
+                <value>
+                    <fullName>LV</fullName>
+                    <default>false</default>
+                    <label>LV</label>
+                </value>
+                <value>
+                    <fullName>MA</fullName>
+                    <default>false</default>
+                    <label>MA</label>
+                </value>
+                <value>
+                    <fullName>MX</fullName>
+                    <default>false</default>
+                    <label>MX</label>
+                </value>
+                <value>
+                    <fullName>MY</fullName>
+                    <default>false</default>
+                    <label>MY</label>
+                </value>
+                <value>
+                    <fullName>NG</fullName>
+                    <default>false</default>
+                    <label>NG</label>
+                </value>
+                <value>
+                    <fullName>NL</fullName>
+                    <default>false</default>
+                    <label>NL</label>
+                </value>
+                <value>
+                    <fullName>NO</fullName>
+                    <default>false</default>
+                    <label>NO</label>
+                </value>
+                <value>
+                    <fullName>NR</fullName>
+                    <default>false</default>
+                    <label>NR</label>
+                </value>
+                <value>
+                    <fullName>NZ</fullName>
+                    <default>false</default>
+                    <label>NZ</label>
+                </value>
+                <value>
+                    <fullName>PH</fullName>
+                    <default>false</default>
+                    <label>PH</label>
+                </value>
+                <value>
+                    <fullName>PK</fullName>
+                    <default>false</default>
+                    <label>PK</label>
+                </value>
+                <value>
+                    <fullName>PL</fullName>
+                    <default>false</default>
+                    <label>PL</label>
+                </value>
+                <value>
+                    <fullName>PT</fullName>
+                    <default>false</default>
+                    <label>PT</label>
+                </value>
+                <value>
+                    <fullName>RS</fullName>
+                    <default>false</default>
+                    <label>RS</label>
+                </value>
+                <value>
+                    <fullName>RU</fullName>
+                    <default>false</default>
+                    <label>RU</label>
+                </value>
+                <value>
+                    <fullName>SA</fullName>
+                    <default>false</default>
+                    <label>SA</label>
+                </value>
+                <value>
+                    <fullName>SE</fullName>
+                    <default>false</default>
+                    <label>SE</label>
+                </value>
+                <value>
+                    <fullName>SG</fullName>
+                    <default>false</default>
+                    <label>SG</label>
+                </value>
+                <value>
+                    <fullName>SK</fullName>
+                    <default>false</default>
+                    <label>SK</label>
+                </value>
+                <value>
+                    <fullName>TH</fullName>
+                    <default>false</default>
+                    <label>TH</label>
+                </value>
+                <value>
+                    <fullName>TK</fullName>
+                    <default>false</default>
+                    <label>TK</label>
+                </value>
+                <value>
+                    <fullName>TR</fullName>
+                    <default>false</default>
+                    <label>TR</label>
+                </value>
+                <value>
+                    <fullName>UK</fullName>
+                    <default>false</default>
+                    <label>UK</label>
+                </value>
+                <value>
+                    <fullName>US</fullName>
+                    <default>false</default>
+                    <label>US</label>
+                </value>
+                <value>
+                    <fullName>VN</fullName>
+                    <default>false</default>
+                    <label>VN</label>
+                </value>
+                <value>
+                    <fullName>ZA</fullName>
+                    <default>false</default>
+                    <label>ZA</label>
+                </value>
+                <value>
+                    <fullName>ZZ</fullName>
+                    <default>false</default>
+                    <label>ZZ</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>URL__c</fullName>
+        <externalId>false</externalId>
+        <label>URL</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <label>Site</label>
+    <nameField>
+        <label>Site Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Sites</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

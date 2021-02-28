@@ -1,0 +1,1741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Site</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sites</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Sites --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Online Revenue --></label>
+        <name>Online_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Sites --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Site Country --></label>
+        <name>Site_Country__c</name>
+        <picklistValues>
+            <masterLabel>Afghanistan </masterLabel>
+            <translation><!-- Afghanistan  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Albania </masterLabel>
+            <translation><!-- Albania  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Algeria </masterLabel>
+            <translation><!-- Algeria  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Andorra </masterLabel>
+            <translation><!-- Andorra  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Angola </masterLabel>
+            <translation><!-- Angola  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antigua and Barbuda </masterLabel>
+            <translation><!-- Antigua and Barbuda  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Argentina </masterLabel>
+            <translation><!-- Argentina  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Armenia </masterLabel>
+            <translation><!-- Armenia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia </masterLabel>
+            <translation><!-- Australia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Austria </masterLabel>
+            <translation><!-- Austria  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Azerbaijan </masterLabel>
+            <translation><!-- Azerbaijan  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bahamas </masterLabel>
+            <translation><!-- Bahamas  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bahrain </masterLabel>
+            <translation><!-- Bahrain  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bangladesh </masterLabel>
+            <translation><!-- Bangladesh  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barbados </masterLabel>
+            <translation><!-- Barbados  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belarus </masterLabel>
+            <translation><!-- Belarus  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belgium </masterLabel>
+            <translation><!-- Belgium  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belize </masterLabel>
+            <translation><!-- Belize  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benin </masterLabel>
+            <translation><!-- Benin  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bhutan </masterLabel>
+            <translation><!-- Bhutan  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bolivia </masterLabel>
+            <translation><!-- Bolivia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bosnia and Herzegovina </masterLabel>
+            <translation><!-- Bosnia and Herzegovina  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Botswana </masterLabel>
+            <translation><!-- Botswana  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brazil </masterLabel>
+            <translation><!-- Brazil  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brunei </masterLabel>
+            <translation><!-- Brunei  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulgaria </masterLabel>
+            <translation><!-- Bulgaria  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burkina Faso </masterLabel>
+            <translation><!-- Burkina Faso  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burma</masterLabel>
+            <translation><!-- Burma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burundi </masterLabel>
+            <translation><!-- Burundi  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cambodia </masterLabel>
+            <translation><!-- Cambodia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cameroon </masterLabel>
+            <translation><!-- Cameroon  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada </masterLabel>
+            <translation><!-- Canada  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cape Verde </masterLabel>
+            <translation><!-- Cape Verde  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central African Republic </masterLabel>
+            <translation><!-- Central African Republic  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chad </masterLabel>
+            <translation><!-- Chad  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chile </masterLabel>
+            <translation><!-- Chile  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>China </masterLabel>
+            <translation><!-- China  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colombia </masterLabel>
+            <translation><!-- Colombia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comoros </masterLabel>
+            <translation><!-- Comoros  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Congo, Democratic Republic of </masterLabel>
+            <translation><!-- Congo, Democratic Republic of  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Congo </masterLabel>
+            <translation><!-- Congo  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costa Rica </masterLabel>
+            <translation><!-- Costa Rica  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cote d&apos;Ivoire</masterLabel>
+            <translation><!-- Cote d&apos;Ivoire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Croatia </masterLabel>
+            <translation><!-- Croatia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cuba </masterLabel>
+            <translation><!-- Cuba  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cyprus </masterLabel>
+            <translation><!-- Cyprus  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Czech Republic </masterLabel>
+            <translation><!-- Czech Republic  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denmark </masterLabel>
+            <translation><!-- Denmark  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Djibouti </masterLabel>
+            <translation><!-- Djibouti  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dominican Republic </masterLabel>
+            <translation><!-- Dominican Republic  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dominica </masterLabel>
+            <translation><!-- Dominica  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Timor </masterLabel>
+            <translation><!-- East Timor  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecuador </masterLabel>
+            <translation><!-- Ecuador  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Egypt </masterLabel>
+            <translation><!-- Egypt  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>El Salvador </masterLabel>
+            <translation><!-- El Salvador  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equatorial Guinea </masterLabel>
+            <translation><!-- Equatorial Guinea  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eritrea </masterLabel>
+            <translation><!-- Eritrea  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estonia </masterLabel>
+            <translation><!-- Estonia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ethiopia </masterLabel>
+            <translation><!-- Ethiopia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fiji </masterLabel>
+            <translation><!-- Fiji  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finland </masterLabel>
+            <translation><!-- Finland  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>France </masterLabel>
+            <translation><!-- France  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gabon </masterLabel>
+            <translation><!-- Gabon  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gambia </masterLabel>
+            <translation><!-- Gambia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Georgia </masterLabel>
+            <translation><!-- Georgia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Germany </masterLabel>
+            <translation><!-- Germany  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ghana </masterLabel>
+            <translation><!-- Ghana  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greece </masterLabel>
+            <translation><!-- Greece  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grenada </masterLabel>
+            <translation><!-- Grenada  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guatemala </masterLabel>
+            <translation><!-- Guatemala  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guinea-Bissau </masterLabel>
+            <translation><!-- Guinea-Bissau  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guinea </masterLabel>
+            <translation><!-- Guinea  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guyana </masterLabel>
+            <translation><!-- Guyana  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Haiti </masterLabel>
+            <translation><!-- Haiti  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honduras </masterLabel>
+            <translation><!-- Honduras  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hungary </masterLabel>
+            <translation><!-- Hungary  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iceland </masterLabel>
+            <translation><!-- Iceland  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India </masterLabel>
+            <translation><!-- India  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indonesia </masterLabel>
+            <translation><!-- Indonesia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iran </masterLabel>
+            <translation><!-- Iran  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iraq </masterLabel>
+            <translation><!-- Iraq  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ireland </masterLabel>
+            <translation><!-- Ireland  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Israel </masterLabel>
+            <translation><!-- Israel  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italy </masterLabel>
+            <translation><!-- Italy  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jamaica </masterLabel>
+            <translation><!-- Jamaica  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japan </masterLabel>
+            <translation><!-- Japan  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jordan </masterLabel>
+            <translation><!-- Jordan  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kazakhstan </masterLabel>
+            <translation><!-- Kazakhstan  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kenya </masterLabel>
+            <translation><!-- Kenya  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kiribati </masterLabel>
+            <translation><!-- Kiribati  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korea, North </masterLabel>
+            <translation><!-- Korea, North  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korea, South </masterLabel>
+            <translation><!-- Korea, South  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kuwait </masterLabel>
+            <translation><!-- Kuwait  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kyrgyzstan </masterLabel>
+            <translation><!-- Kyrgyzstan  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laos </masterLabel>
+            <translation><!-- Laos  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latvia </masterLabel>
+            <translation><!-- Latvia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lebanon </masterLabel>
+            <translation><!-- Lebanon  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lesotho </masterLabel>
+            <translation><!-- Lesotho  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liberia </masterLabel>
+            <translation><!-- Liberia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Libya </masterLabel>
+            <translation><!-- Libya  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liechtenstein </masterLabel>
+            <translation><!-- Liechtenstein  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lithuania </masterLabel>
+            <translation><!-- Lithuania  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luxembourg </masterLabel>
+            <translation><!-- Luxembourg  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Macedonia </masterLabel>
+            <translation><!-- Macedonia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Madagascar </masterLabel>
+            <translation><!-- Madagascar  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malawi </masterLabel>
+            <translation><!-- Malawi  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malaysia </masterLabel>
+            <translation><!-- Malaysia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maldives </masterLabel>
+            <translation><!-- Maldives  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mali </masterLabel>
+            <translation><!-- Mali  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malta </masterLabel>
+            <translation><!-- Malta  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marshall Islands </masterLabel>
+            <translation><!-- Marshall Islands  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mauritania </masterLabel>
+            <translation><!-- Mauritania  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mauritius </masterLabel>
+            <translation><!-- Mauritius  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico </masterLabel>
+            <translation><!-- Mexico  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Micronesia </masterLabel>
+            <translation><!-- Micronesia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moldova </masterLabel>
+            <translation><!-- Moldova  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monaco </masterLabel>
+            <translation><!-- Monaco  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mongolia </masterLabel>
+            <translation><!-- Mongolia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montenegro </masterLabel>
+            <translation><!-- Montenegro  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Morocco </masterLabel>
+            <translation><!-- Morocco  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mozambique </masterLabel>
+            <translation><!-- Mozambique  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Namibia </masterLabel>
+            <translation><!-- Namibia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nauru </masterLabel>
+            <translation><!-- Nauru  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nepal </masterLabel>
+            <translation><!-- Nepal  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands </masterLabel>
+            <translation><!-- Netherlands  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Zealand </masterLabel>
+            <translation><!-- New Zealand  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nicaragua </masterLabel>
+            <translation><!-- Nicaragua  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nigeria </masterLabel>
+            <translation><!-- Nigeria  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niger </masterLabel>
+            <translation><!-- Niger  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norway </masterLabel>
+            <translation><!-- Norway  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oman </masterLabel>
+            <translation><!-- Oman  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pakistan </masterLabel>
+            <translation><!-- Pakistan  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Palau </masterLabel>
+            <translation><!-- Palau  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Panama </masterLabel>
+            <translation><!-- Panama  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Papua New Guinea </masterLabel>
+            <translation><!-- Papua New Guinea  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paraguay </masterLabel>
+            <translation><!-- Paraguay  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peru </masterLabel>
+            <translation><!-- Peru  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philippines </masterLabel>
+            <translation><!-- Philippines  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poland </masterLabel>
+            <translation><!-- Poland  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portugal </masterLabel>
+            <translation><!-- Portugal  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qatar </masterLabel>
+            <translation><!-- Qatar  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RR_Test</masterLabel>
+            <translation><!-- RR_Test --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Romania </masterLabel>
+            <translation><!-- Romania  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russian Federation </masterLabel>
+            <translation><!-- Russian Federation  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rwanda </masterLabel>
+            <translation><!-- Rwanda  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Kitts and Nevis </masterLabel>
+            <translation><!-- Saint Kitts and Nevis  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Lucia </masterLabel>
+            <translation><!-- Saint Lucia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Vincent and the Grenadines </masterLabel>
+            <translation><!-- Saint Vincent and the Grenadines  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Samoa </masterLabel>
+            <translation><!-- Samoa  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Marino </masterLabel>
+            <translation><!-- San Marino  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sao Tome and Principe </masterLabel>
+            <translation><!-- Sao Tome and Principe  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saudi Arabia </masterLabel>
+            <translation><!-- Saudi Arabia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senegal </masterLabel>
+            <translation><!-- Senegal  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serbia </masterLabel>
+            <translation><!-- Serbia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seychelles </masterLabel>
+            <translation><!-- Seychelles  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sierra Leone </masterLabel>
+            <translation><!-- Sierra Leone  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singapore </masterLabel>
+            <translation><!-- Singapore  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovakia </masterLabel>
+            <translation><!-- Slovakia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovenia </masterLabel>
+            <translation><!-- Slovenia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solomon Islands </masterLabel>
+            <translation><!-- Solomon Islands  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Somalia </masterLabel>
+            <translation><!-- Somalia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Africa </masterLabel>
+            <translation><!-- South Africa  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Sudan </masterLabel>
+            <translation><!-- South Sudan  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain </masterLabel>
+            <translation><!-- Spain  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sri Lanka </masterLabel>
+            <translation><!-- Sri Lanka  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sudan </masterLabel>
+            <translation><!-- Sudan  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suriname </masterLabel>
+            <translation><!-- Suriname  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swaziland </masterLabel>
+            <translation><!-- Swaziland  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweden </masterLabel>
+            <translation><!-- Sweden  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switzerland </masterLabel>
+            <translation><!-- Switzerland  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syria </masterLabel>
+            <translation><!-- Syria  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tajikistan </masterLabel>
+            <translation><!-- Tajikistan  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tanzania </masterLabel>
+            <translation><!-- Tanzania  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thailand </masterLabel>
+            <translation><!-- Thailand  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Togo </masterLabel>
+            <translation><!-- Togo  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tonga </masterLabel>
+            <translation><!-- Tonga  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trinidad and Tobago </masterLabel>
+            <translation><!-- Trinidad and Tobago  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tunisia </masterLabel>
+            <translation><!-- Tunisia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkey </masterLabel>
+            <translation><!-- Turkey  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkmenistan </masterLabel>
+            <translation><!-- Turkmenistan  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuvalu </masterLabel>
+            <translation><!-- Tuvalu  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uganda </masterLabel>
+            <translation><!-- Uganda  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ukraine </masterLabel>
+            <translation><!-- Ukraine  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Arab Emirates </masterLabel>
+            <translation><!-- United Arab Emirates  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Kingdom </masterLabel>
+            <translation><!-- United Kingdom  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United States </masterLabel>
+            <translation><!-- United States  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uruguay </masterLabel>
+            <translation><!-- Uruguay  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uzbekistan </masterLabel>
+            <translation><!-- Uzbekistan  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vanuatu </masterLabel>
+            <translation><!-- Vanuatu  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vatican City </masterLabel>
+            <translation><!-- Vatican City  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Venezuela </masterLabel>
+            <translation><!-- Venezuela  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vietnam </masterLabel>
+            <translation><!-- Vietnam  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yemen </masterLabel>
+            <translation><!-- Yemen  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zambia </masterLabel>
+            <translation><!-- Zambia  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zimbabwe</masterLabel>
+            <translation><!-- Zimbabwe --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Site Currency --></label>
+        <name>Site_Currency__c</name>
+        <picklistValues>
+            <masterLabel>AED</masterLabel>
+            <translation><!-- AED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AFN</masterLabel>
+            <translation><!-- AFN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALL</masterLabel>
+            <translation><!-- ALL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AMD</masterLabel>
+            <translation><!-- AMD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ANG</masterLabel>
+            <translation><!-- ANG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AOA</masterLabel>
+            <translation><!-- AOA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARS</masterLabel>
+            <translation><!-- ARS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUD</masterLabel>
+            <translation><!-- AUD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AWG</masterLabel>
+            <translation><!-- AWG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZN</masterLabel>
+            <translation><!-- AZN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BAM</masterLabel>
+            <translation><!-- BAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BBD</masterLabel>
+            <translation><!-- BBD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BDT</masterLabel>
+            <translation><!-- BDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BGN</masterLabel>
+            <translation><!-- BGN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BHD</masterLabel>
+            <translation><!-- BHD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIF</masterLabel>
+            <translation><!-- BIF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BMD</masterLabel>
+            <translation><!-- BMD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BND</masterLabel>
+            <translation><!-- BND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOB</masterLabel>
+            <translation><!-- BOB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BRL</masterLabel>
+            <translation><!-- BRL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BSD</masterLabel>
+            <translation><!-- BSD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BTN</masterLabel>
+            <translation><!-- BTN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BWP</masterLabel>
+            <translation><!-- BWP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BYR</masterLabel>
+            <translation><!-- BYR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BZD</masterLabel>
+            <translation><!-- BZD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD</masterLabel>
+            <translation><!-- CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CDF</masterLabel>
+            <translation><!-- CDF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHF</masterLabel>
+            <translation><!-- CHF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLP</masterLabel>
+            <translation><!-- CLP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CNY</masterLabel>
+            <translation><!-- CNY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COP</masterLabel>
+            <translation><!-- COP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRC</masterLabel>
+            <translation><!-- CRC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CUC</masterLabel>
+            <translation><!-- CUC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CUP</masterLabel>
+            <translation><!-- CUP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CVE</masterLabel>
+            <translation><!-- CVE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CZK</masterLabel>
+            <translation><!-- CZK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DJF</masterLabel>
+            <translation><!-- DJF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DKK</masterLabel>
+            <translation><!-- DKK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DOP</masterLabel>
+            <translation><!-- DOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DZD</masterLabel>
+            <translation><!-- DZD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EGP</masterLabel>
+            <translation><!-- EGP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ERN</masterLabel>
+            <translation><!-- ERN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ETB</masterLabel>
+            <translation><!-- ETB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EUR</masterLabel>
+            <translation><!-- EUR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FJD</masterLabel>
+            <translation><!-- FJD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FKP</masterLabel>
+            <translation><!-- FKP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GBP</masterLabel>
+            <translation><!-- GBP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GEL</masterLabel>
+            <translation><!-- GEL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GGP</masterLabel>
+            <translation><!-- GGP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GHS</masterLabel>
+            <translation><!-- GHS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GIP</masterLabel>
+            <translation><!-- GIP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GMD</masterLabel>
+            <translation><!-- GMD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GNF</masterLabel>
+            <translation><!-- GNF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GTQ</masterLabel>
+            <translation><!-- GTQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GYD</masterLabel>
+            <translation><!-- GYD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HKD</masterLabel>
+            <translation><!-- HKD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HNL</masterLabel>
+            <translation><!-- HNL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HRK</masterLabel>
+            <translation><!-- HRK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HTG</masterLabel>
+            <translation><!-- HTG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HUF</masterLabel>
+            <translation><!-- HUF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IDR</masterLabel>
+            <translation><!-- IDR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ILS</masterLabel>
+            <translation><!-- ILS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IMP</masterLabel>
+            <translation><!-- IMP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INR</masterLabel>
+            <translation><!-- INR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IQD</masterLabel>
+            <translation><!-- IQD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IRR</masterLabel>
+            <translation><!-- IRR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISK</masterLabel>
+            <translation><!-- ISK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JEP</masterLabel>
+            <translation><!-- JEP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JMD</masterLabel>
+            <translation><!-- JMD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JOD</masterLabel>
+            <translation><!-- JOD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JPY</masterLabel>
+            <translation><!-- JPY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KES</masterLabel>
+            <translation><!-- KES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KGS</masterLabel>
+            <translation><!-- KGS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KHR</masterLabel>
+            <translation><!-- KHR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KMF</masterLabel>
+            <translation><!-- KMF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KPW</masterLabel>
+            <translation><!-- KPW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KRW</masterLabel>
+            <translation><!-- KRW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KWD</masterLabel>
+            <translation><!-- KWD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KYD</masterLabel>
+            <translation><!-- KYD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KZT</masterLabel>
+            <translation><!-- KZT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAK</masterLabel>
+            <translation><!-- LAK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LBP</masterLabel>
+            <translation><!-- LBP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LKR</masterLabel>
+            <translation><!-- LKR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LRD</masterLabel>
+            <translation><!-- LRD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LSL</masterLabel>
+            <translation><!-- LSL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LYD</masterLabel>
+            <translation><!-- LYD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAD</masterLabel>
+            <translation><!-- MAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MDL</masterLabel>
+            <translation><!-- MDL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MGA</masterLabel>
+            <translation><!-- MGA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MKD</masterLabel>
+            <translation><!-- MKD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MMK</masterLabel>
+            <translation><!-- MMK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MNT</masterLabel>
+            <translation><!-- MNT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MOP</masterLabel>
+            <translation><!-- MOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MRO</masterLabel>
+            <translation><!-- MRO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MUR</masterLabel>
+            <translation><!-- MUR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MVR</masterLabel>
+            <translation><!-- MVR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MWK</masterLabel>
+            <translation><!-- MWK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MXN</masterLabel>
+            <translation><!-- MXN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MYR</masterLabel>
+            <translation><!-- MYR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MZN</masterLabel>
+            <translation><!-- MZN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NAD</masterLabel>
+            <translation><!-- NAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NGN</masterLabel>
+            <translation><!-- NGN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NIO</masterLabel>
+            <translation><!-- NIO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOK</masterLabel>
+            <translation><!-- NOK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NPR</masterLabel>
+            <translation><!-- NPR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZD</masterLabel>
+            <translation><!-- NZD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OMR</masterLabel>
+            <translation><!-- OMR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAB</masterLabel>
+            <translation><!-- PAB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PEN</masterLabel>
+            <translation><!-- PEN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PGK</masterLabel>
+            <translation><!-- PGK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PHP</masterLabel>
+            <translation><!-- PHP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PKR</masterLabel>
+            <translation><!-- PKR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PLN</masterLabel>
+            <translation><!-- PLN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PYG</masterLabel>
+            <translation><!-- PYG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QAR</masterLabel>
+            <translation><!-- QAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RON</masterLabel>
+            <translation><!-- RON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RR0</masterLabel>
+            <translation><!-- RR0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RSD</masterLabel>
+            <translation><!-- RSD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RUB</masterLabel>
+            <translation><!-- RUB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RWF</masterLabel>
+            <translation><!-- RWF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAR</masterLabel>
+            <translation><!-- SAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBD</masterLabel>
+            <translation><!-- SBD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCR</masterLabel>
+            <translation><!-- SCR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDG</masterLabel>
+            <translation><!-- SDG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEK</masterLabel>
+            <translation><!-- SEK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SGD</masterLabel>
+            <translation><!-- SGD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SHP</masterLabel>
+            <translation><!-- SHP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SLL</masterLabel>
+            <translation><!-- SLL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOS</masterLabel>
+            <translation><!-- SOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPL</masterLabel>
+            <translation><!-- SPL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SRD</masterLabel>
+            <translation><!-- SRD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STD</masterLabel>
+            <translation><!-- STD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SVC</masterLabel>
+            <translation><!-- SVC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SYP</masterLabel>
+            <translation><!-- SYP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SZL</masterLabel>
+            <translation><!-- SZL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>THB</masterLabel>
+            <translation><!-- THB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TJS</masterLabel>
+            <translation><!-- TJS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMT</masterLabel>
+            <translation><!-- TMT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TND</masterLabel>
+            <translation><!-- TND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TOP</masterLabel>
+            <translation><!-- TOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRY</masterLabel>
+            <translation><!-- TRY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TTD</masterLabel>
+            <translation><!-- TTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TVD</masterLabel>
+            <translation><!-- TVD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TWD</masterLabel>
+            <translation><!-- TWD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TZS</masterLabel>
+            <translation><!-- TZS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UAH</masterLabel>
+            <translation><!-- UAH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UGX</masterLabel>
+            <translation><!-- UGX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USD</masterLabel>
+            <translation><!-- USD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UYU</masterLabel>
+            <translation><!-- UYU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UZS</masterLabel>
+            <translation><!-- UZS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VEF</masterLabel>
+            <translation><!-- VEF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VND</masterLabel>
+            <translation><!-- VND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VUV</masterLabel>
+            <translation><!-- VUV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WST</masterLabel>
+            <translation><!-- WST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XAF</masterLabel>
+            <translation><!-- XAF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XCD</masterLabel>
+            <translation><!-- XCD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XDR</masterLabel>
+            <translation><!-- XDR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XOF</masterLabel>
+            <translation><!-- XOF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XPF</masterLabel>
+            <translation><!-- XPF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YER</masterLabel>
+            <translation><!-- YER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZAR</masterLabel>
+            <translation><!-- ZAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZMW</masterLabel>
+            <translation><!-- ZMW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZWD</masterLabel>
+            <translation><!-- ZWD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Site ID --></label>
+        <name>Site_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site Locale --></label>
+        <name>Site_Locale__c</name>
+        <picklistValues>
+            <masterLabel>AE</masterLabel>
+            <translation><!-- AE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AF</masterLabel>
+            <translation><!-- AF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AT</masterLabel>
+            <translation><!-- AT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AU</masterLabel>
+            <translation><!-- AU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BD</masterLabel>
+            <translation><!-- BD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BE</masterLabel>
+            <translation><!-- BE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BR</masterLabel>
+            <translation><!-- BR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation><!-- CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CH</masterLabel>
+            <translation><!-- CH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CI</masterLabel>
+            <translation><!-- CI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CL</masterLabel>
+            <translation><!-- CL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CN</masterLabel>
+            <translation><!-- CN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation><!-- CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CZ</masterLabel>
+            <translation><!-- CZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DA</masterLabel>
+            <translation><!-- DA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation><!-- DE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK</masterLabel>
+            <translation><!-- DK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EE</masterLabel>
+            <translation><!-- EE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EG</masterLabel>
+            <translation><!-- EG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EN</masterLabel>
+            <translation><!-- EN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ES</masterLabel>
+            <translation><!-- ES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EU</masterLabel>
+            <translation><!-- EU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FR</masterLabel>
+            <translation><!-- FR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GB</masterLabel>
+            <translation><!-- GB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GH</masterLabel>
+            <translation><!-- GH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GR</masterLabel>
+            <translation><!-- GR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HK</masterLabel>
+            <translation><!-- HK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation><!-- ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IE</masterLabel>
+            <translation><!-- IE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation><!-- IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation><!-- IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JP</masterLabel>
+            <translation><!-- JP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KE</masterLabel>
+            <translation><!-- KE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KR</masterLabel>
+            <translation><!-- KR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LT</masterLabel>
+            <translation><!-- LT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LU</masterLabel>
+            <translation><!-- LU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LV</masterLabel>
+            <translation><!-- LV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation><!-- MA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MX</masterLabel>
+            <translation><!-- MX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MY</masterLabel>
+            <translation><!-- MY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NG</masterLabel>
+            <translation><!-- NG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NL</masterLabel>
+            <translation><!-- NL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NR</masterLabel>
+            <translation><!-- NR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZ</masterLabel>
+            <translation><!-- NZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PH</masterLabel>
+            <translation><!-- PH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PK</masterLabel>
+            <translation><!-- PK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PL</masterLabel>
+            <translation><!-- PL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT</masterLabel>
+            <translation><!-- PT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RS</masterLabel>
+            <translation><!-- RS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RU</masterLabel>
+            <translation><!-- RU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA</masterLabel>
+            <translation><!-- SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE</masterLabel>
+            <translation><!-- SE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SG</masterLabel>
+            <translation><!-- SG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SK</masterLabel>
+            <translation><!-- SK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TH</masterLabel>
+            <translation><!-- TH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TK</masterLabel>
+            <translation><!-- TK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TR</masterLabel>
+            <translation><!-- TR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK</masterLabel>
+            <translation><!-- UK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US</masterLabel>
+            <translation><!-- US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VN</masterLabel>
+            <translation><!-- VN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZA</masterLabel>
+            <translation><!-- ZA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZZ</masterLabel>
+            <translation><!-- ZZ --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- URL --></label>
+        <name>URL__c</name>
+    </fields>
+    <layouts>
+        <layout>Site Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

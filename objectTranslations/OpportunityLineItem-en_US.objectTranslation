@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>List Price (standard)</value>
+        </caseValues>
+        <name>list_price_opportunitylineitem</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Contract Sales Price</value>
+        </caseValues>
+        <name>sales_price_opportunitylineitem</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Total Price (Hidden)</value>
+        </caseValues>
+        <name>total_price_opportunitylineitem</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Account Name - Product Name --></label>
+        <name>Account_Name_Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Booked eCPM --></label>
+        <name>Booked_eCPM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closed by AE --></label>
+        <name>Closed_by_AE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commission Notes --></label>
+        <name>Commission_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Type --></label>
+        <name>ContractType__c</name>
+        <picklistValues>
+            <masterLabel>Fixed Fee</masterLabel>
+            <translation><!-- Fixed Fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Time and Materials</masterLabel>
+            <translation><!-- Time and Materials --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Fair value in dollars allocated to specific product used for financial reporting. --></help>
+        <label><!-- Fair Value --></label>
+        <name>Contract_Sales_Price_Fair_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Type --></label>
+        <name>Contract_Type__c</name>
+        <picklistValues>
+            <masterLabel>Attributable</masterLabel>
+            <translation><!-- Attributable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation><!-- Fixed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed/Attributable</masterLabel>
+            <translation><!-- Fixed/Attributable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grid</masterLabel>
+            <translation><!-- Grid --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Default Resource Role --></label>
+        <name>Default_Resource_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delayed Release (FINANCE ONLY) --></label>
+        <name>Delayed_Release_FINANCE_ONLY__c</name>
+    </fields>
+    <fields>
+        <help><!-- Calculated discount % 1- (Contract Sales Price/ List Price) --></help>
+        <label><!-- Discount % --></label>
+        <name>Discount_Calculated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount % --></label>
+        <name>Discount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Discount in Dollars (Discount % * List Price) --></help>
+        <label><!-- Discount --></label>
+        <name>Discount_from_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Bill Rate --></label>
+        <name>Effective_Bill_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contract Sales Price * % Paid Out --></help>
+        <label><!-- Balance Paid --></label>
+        <name>FV_Impacted_Commission__c</name>
+    </fields>
+    <fields>
+        <help><!-- Finance field used to allocate value of products for reporting purposes. --></help>
+        <label><!-- Fair Value Allocation % --></label>
+        <name>Fair_Value_Allocation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Takes the Fair Value at the product level and distributes it by channel allocation for In-Store Revenue. --></help>
+        <label><!-- Fair Value In-store Prod Allocation --></label>
+        <name>Fair_Value_In_store_Prod_Allocation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Takes the Fair Value and distributes at the product level to the Mobile Channel --></help>
+        <label><!-- Fair Value Mobile Product Allocation --></label>
+        <name>Fair_Value_Mobile_Allocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fair Value Phone Product Allocation --></label>
+        <name>Fair_Value_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fair Value Web (Online) Prod Allocation --></label>
+        <name>Fair_Value_Web_Online_Allocation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Financial Operations must verify Opportunity is correct prior to Client Services creating a project from an opportunity. --></help>
+        <label><!-- Finance Check Complete --></label>
+        <name>Finance_Check_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold: Old Fair Value --></label>
+        <name>Finance_Fair_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of Hours for a services Engagement. This is not a calculated field, but used to capture hours for informational purposes. --></help>
+        <label><!-- Quantity --></label>
+        <name>Hours_Info_Only__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsCloned --></label>
+        <name>IsCloned__c</name>
+    </fields>
+    <fields>
+        <label><!-- List Price --></label>
+        <name>List_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- PSA Category --></label>
+        <name>Milestone_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Milestone --></label>
+        <name>Milestone__c</name>
+        <relationshipLabel><!-- Opportunity Product --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Miscellaneous Adjustment --></label>
+        <name>Miscellaneous_Adjustment__c</name>
+        <relationshipLabel><!-- Opportunity Product --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- If you modified the % Paid out, make sure to edit the next Deferral&apos;s release date --></help>
+        <label><!-- Next Deferral Release Date --></label>
+        <name>Next_Deferral_Release_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Region --></label>
+        <name>Opportunity_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Terms --></label>
+        <name>POC_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- PSA Project Type --></label>
+        <name>PSA_ProjectType__c</name>
+    </fields>
+    <fields>
+        <help><!-- Read-only Field that populated PSA Project Type for Milestone/Misc Adjustment Determination --></help>
+        <label><!-- PSA Project Type --></label>
+        <name>PSA_Project_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- % of commission that will be paid --></help>
+        <label><!-- % Paid Out --></label>
+        <name>Percentage_Paid_Out__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processed --></label>
+        <name>Processed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Category Text --></label>
+        <name>ProductCategoryText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Type Text --></label>
+        <name>ProductTypeText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resource Request --></label>
+        <name>Resource_Request__c</name>
+        <relationshipLabel><!-- Opportunity Product --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Retailer --></label>
+        <name>Retailer__c</name>
+        <picklistValues>
+            <masterLabel>1-800-Flowers</masterLabel>
+            <translation><!-- 1-800-Flowers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costco</masterLabel>
+            <translation><!-- Costco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Depot</masterLabel>
+            <translation><!-- Home Depot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kohls</masterLabel>
+            <translation><!-- Kohls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meijer</masterLabel>
+            <translation><!-- Meijer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RichRelevance</masterLabel>
+            <translation><!-- RichRelevance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sears</masterLabel>
+            <translation><!-- Sears --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Target</masterLabel>
+            <translation><!-- Target --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 2.0 Product Family --></label>
+        <name>X2_0_Product_Family2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Added To Project --></label>
+        <name>pse__Added_To_Project__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsServicesProductLine --></label>
+        <name>pse__IsServicesProductLine__c</name>
+    </fields>
+    <layouts>
+        <layout>Ads Opportunity Product Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Copy of SaaS Opportunity Product Layout - Super User</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Finance Fields --></label>
+            <section>Finance Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SaaS Opportunity Product Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Finance Fields --></label>
+            <section>Finance Fields</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Contract Type Needs to be filled out before going to 90% --></errorMessage>
+        <name>Contract_Type_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot enter a percentage higher than 100% --></errorMessage>
+        <name>Percentage_paid_out_higher_100</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- New_Site --></label>
+        <name>New_Site</name>
+    </webLinks>
+</CustomObjectTranslation>

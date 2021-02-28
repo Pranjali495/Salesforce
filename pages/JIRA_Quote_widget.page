@@ -1,0 +1,4 @@
+<apex:page standardController="Quote"> 
+<apex:iframe id="jiraWindow"
+src="https://jira.richrelevance.com/jira/plugins/servlet/customware/connector/issue/5/Quote/fetch.action?id={!Quote.Id}"></apex:iframe> 
+</apex:page>

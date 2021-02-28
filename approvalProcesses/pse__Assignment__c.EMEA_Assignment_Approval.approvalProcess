@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+        <field>pse__Resource__c</field>
+        <field>pse__Is_Billable__c</field>
+        <field>pse__Bill_Rate__c</field>
+        <field>pse__Start_Date__c</field>
+        <field>pse__End_Date__c</field>
+        <field>pse__Description__c</field>
+        <field>pse__Time_Credited__c</field>
+        <field>pse__Planned_Hours__c</field>
+        <field>pse__Scheduled_Hours__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <approvalActions>
+            <action>
+                <name>Update_Status_to_Scheduled</name>
+                <type>FieldUpdate</type>
+            </action>
+        </approvalActions>
+        <assignedApprover>
+            <approver>
+                <name>ssvedevi@richrelevance.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <label>Step 1</label>
+        <name>Step_1</name>
+    </approvalStep>
+    <emailTemplate>PSA_Email_Templates/PSA_Assignment_Approval_Process_Notification</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <formula>(
+pse__Project__r.pse__Region__r.Name =&quot;EMEA&quot; || pse__Project__r.pse__Region__r.Name =&quot;DACH&quot; || pse__Project__r.pse__Region__r.Name =&quot;FRABELUX&quot; ||
+pse__Project__r.pse__Region__r.Name =&quot;UK&quot; || pse__Project__r.pse__Region__r.Name =&quot;NORDICS&quot; 
+) 
+
+&amp;&amp;
+
+pse__Time_Credited__c = TRUE</formula>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Update_Status_to_Scheduled</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>EMEA Assignment Approval</label>
+    <processOrder>1</processOrder>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

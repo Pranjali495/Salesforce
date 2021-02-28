@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Assignment - Field</layout>
+        <sections>
+            <label><!-- Assignment Information --></label>
+            <section>Assignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Assignment Layout - Limited</layout>
+        <sections>
+            <label><!-- Assignment Attributes --></label>
+            <section>Assignment Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Assignment Information --></label>
+            <section>Assignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Developer Data --></label>
+            <section>Developer Data</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

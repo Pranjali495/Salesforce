@@ -1,0 +1,2505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloneAsChild</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloneAsChild</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloneAsChild</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloseCase</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloseCase</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloseCase</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MassClose</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MassClose</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MassClose</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewCase</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewCase</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewCase</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <businessProcesses>
+        <fullName>Standard Case</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Client owns fix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated - Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated - RichRelevance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feature Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jira Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jira in Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Not Responsive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On record with Client_AM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending - Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending - RichRelevance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spam%2FDuplicate%2FTest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting on Customer</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Existing_Case_2_0</fullName>
+        <fields>Issue__c</fields>
+        <label>Existing Case 2.0</label>
+    </compactLayouts>
+    <enableFeeds>true</enableFeeds>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Account_Manager__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.Owner.FirstName    &amp; &quot;  &quot; &amp;    Account.Owner.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Manager</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Account.Status__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AssetId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Billable_Hours__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Check this box if this support case should be billed to the client.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box if this support case should be billed to the client.</inlineHelpText>
+        <label>Billable Hours</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BusinessHoursId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Case_Reference__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;ref:_&quot; + LEFT( $Organization.Id, 4) &amp; &quot;0&quot; &amp; IF (MID ( $Organization.Id, 5, 1) &lt;&gt; &quot;0&quot;, RIGHT($Organization.Id, 11), IF (MID ( $Organization.Id, 6, 1) &lt;&gt; &quot;0&quot;, RIGHT($Organization.Id, 10), IF (MID ( $Organization.Id, 7, 1) &lt;&gt; &quot;0&quot;, RIGHT($Organization.Id, 9), IF (MID ( $Organization.Id, 8, 1) &lt;&gt; &quot;0&quot;, RIGHT($Organization.Id, 8), IF (MID ( $Organization.Id, 9, 1) &lt;&gt; &quot;0&quot;, RIGHT($Organization.Id, 7), IF (MID ( $Organization.Id, 10, 1) &lt;&gt; &quot;0&quot;, RIGHT($Organization.Id, 6), IF (MID ( $Organization.Id, 11, 1) &lt;&gt; &quot;0&quot;, RIGHT($Organization.Id, 5), IF (MID ( $Organization.Id, 12, 1) &lt;&gt; &quot;0&quot;, RIGHT($Organization.Id, 4), IF (MID ( $Organization.Id, 13, 1) &lt;&gt; &quot;0&quot;, RIGHT($Organization.Id, 3), IF (MID ( $Organization.Id, 14, 1) &lt;&gt; &quot;0&quot;, RIGHT($Organization.Id, 2), &quot;&quot;) ) ) ) ) ) ) ) ) ) &amp; &quot;._&quot; &amp; LEFT( Id, 4) &amp; &quot;0&quot; &amp; IF (MID ( Id, 5, 1) &lt;&gt; &quot;0&quot;, RIGHT(Id, 11), IF (MID ( Id, 6, 1) &lt;&gt; &quot;0&quot;, RIGHT(Id, 10), IF (MID ( Id, 7, 1) &lt;&gt; &quot;0&quot;, RIGHT(Id, 9), IF (MID ( Id, 8, 1) &lt;&gt; &quot;0&quot;, RIGHT(Id, 8), IF (MID ( Id, 9, 1) &lt;&gt; &quot;0&quot;, RIGHT(Id, 7), IF (MID ( Id, 10, 1) &lt;&gt; &quot;0&quot;, RIGHT(Id, 6), IF (MID ( Id, 11, 1) &lt;&gt; &quot;0&quot;, RIGHT(Id, 5), IF (MID ( Id, 12, 1) &lt;&gt; &quot;0&quot;, RIGHT(Id, 4), IF (MID ( Id, 13, 1) &lt;&gt; &quot;0&quot;, RIGHT(Id, 3), IF (MID ( Id, 14, 1) &lt;&gt; &quot;0&quot;, RIGHT(Id, 2) , &quot;&quot;) ) ) ) ) ) ) ) ) ) &amp; &quot;:ref&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Case Reference #</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case_Resolution_Estimate_from_Dev_Ops__c</fullName>
+        <description>This is to be used for Level 1 or Level 2 issues, and provides a date and time estimate by which Dev or Ops anticipates resolving the issue.  You can use this as an estimate for client communications.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is to be used for Level 1 or Level 2 issues, and provides a date and time estimate by which Dev or Ops anticipates resolving the issue.  You can use this as an estimate for client communications.</inlineHelpText>
+        <label>Case Resolution Estimate from Dev/Ops</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Client_Initially_Contacted_Time__c</fullName>
+        <externalId>false</externalId>
+        <formula>if (CreatedDate&lt;= Client_Initially_Contacted__c , (Client_Initially_Contacted__c  -  CreatedDate) * 24,null)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Client Initially Contacted Time</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Client_Initially_Contacted__c</fullName>
+        <description>This is the date that the client was initially contacted after the case was submitted.  This is not the auto response date.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is the date that the client was initially contacted after the case was submitted.  This is not the auto response date.</inlineHelpText>
+        <label>Client Initially Contacted</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ClosedDate</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Comments</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ContactEmail</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ContactFax</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ContactId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ContactMobile</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ContactPhone</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Contact_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Spam/Duplicate/Test</fullName>
+                    <default>false</default>
+                    <label>Spam/Duplicate/Test</label>
+                </value>
+                <value>
+                    <fullName>Alert</fullName>
+                    <default>false</default>
+                    <label>Alert</label>
+                </value>
+                <value>
+                    <fullName>Consult/Investigate</fullName>
+                    <default>true</default>
+                    <label>Consult/Investigate</label>
+                </value>
+                <value>
+                    <fullName>Issue</fullName>
+                    <default>false</default>
+                    <label>Issue</label>
+                </value>
+                <value>
+                    <fullName>Request</fullName>
+                    <default>false</default>
+                    <label>Request</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Daily_Standup__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Check this box if we should track on the Daily Stand-up</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box if we should track on the Daily Stand-up</inlineHelpText>
+        <label>Daily Standup</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Enter_comments_if_type_is_other__c</fullName>
+        <description>This is a free form field used on the case object to add comments if the case type is other</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter details on the case if it does not fit a standard definition and you have selected &quot;other&quot;.</inlineHelpText>
+        <label>Enter comments if type is other</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Hours_Since_Open__c</fullName>
+        <description>Determines the number of hours that have elapsed since the case was created</description>
+        <externalId>false</externalId>
+        <formula>(Now() -  CreatedDate) * 24</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hours Since Open</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hours_to_Resolve__c</fullName>
+        <description>Time from open to close of a case. or zero if still open</description>
+        <externalId>false</externalId>
+        <formula>IF( IsClosed  ,   (ClosedDate - CreatedDate )*24 , 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Time from open to close of a case. or zero if still open</inlineHelpText>
+        <label>Hours to Resolve</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IsClosedOnCreate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>IsEscalated</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Issue_Cause__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Why did we have to take care of this?</inlineHelpText>
+        <label>Issue Cause</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Applicable</fullName>
+                    <default>false</default>
+                    <label>Not Applicable</label>
+                </value>
+                <value>
+                    <fullName>Feed/Data</fullName>
+                    <default>false</default>
+                    <label>Feed/Data</label>
+                </value>
+                <value>
+                    <fullName>Instrumentation</fullName>
+                    <default>false</default>
+                    <label>Instrumentation</label>
+                </value>
+                <value>
+                    <fullName>Operational</fullName>
+                    <default>false</default>
+                    <label>Operational</label>
+                </value>
+                <value>
+                    <fullName>Product Maturity</fullName>
+                    <default>false</default>
+                    <label>Product Maturity</label>
+                </value>
+                <value>
+                    <fullName>rrBug/Regression/Code/ENG</fullName>
+                    <default>false</default>
+                    <label>rrBug/Regression/Code/ENG</label>
+                </value>
+                <value>
+                    <fullName>Operates as normal</fullName>
+                    <default>false</default>
+                    <label>Operates as normal</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Rules and Strategies</fullName>
+                    <default>false</default>
+                    <label>Rules and Strategies</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>8</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Issue_Description__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Describe why we had to take care of this.</inlineHelpText>
+        <label>Issue Description</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bug</fullName>
+                    <default>false</default>
+                    <label>Bug</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Did not do, Did not complete</fullName>
+                    <default>false</default>
+                    <label>Did not do, Did not complete</label>
+                </value>
+                <value>
+                    <fullName>Incorrect, unclear</fullName>
+                    <default>false</default>
+                    <label>Incorrect, unclear</label>
+                </value>
+                <value>
+                    <fullName>Not available</fullName>
+                    <default>false</default>
+                    <label>Not available</label>
+                </value>
+                <value>
+                    <fullName>Part of contract, agreement</fullName>
+                    <default>false</default>
+                    <label>Part of contract, agreement</label>
+                </value>
+                <value>
+                    <fullName>Workflow</fullName>
+                    <default>false</default>
+                    <label>Workflow</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>7</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Issue_Resolution__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What did we find out or do?</inlineHelpText>
+        <label>Issue Resolution</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Client to fix</fullName>
+                    <default>false</default>
+                    <label>Client to fix</label>
+                </value>
+                <value>
+                    <fullName>Could not reproduce</fullName>
+                    <default>false</default>
+                    <label>Could not reproduce</label>
+                </value>
+                <value>
+                    <fullName>Functioning as designed</fullName>
+                    <default>false</default>
+                    <label>Functioning as designed</label>
+                </value>
+                <value>
+                    <fullName>Issue identified</fullName>
+                    <default>false</default>
+                    <label>Issue identified</label>
+                </value>
+                <value>
+                    <fullName>Report Created</fullName>
+                    <default>false</default>
+                    <label>Report Created</label>
+                </value>
+                <value>
+                    <fullName>Request Completed</fullName>
+                    <default>false</default>
+                    <label>Request Completed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Issue__c</fullName>
+        <description>Recommendations are not showing &quot;REF&quot; before the ticket price, this is required for Trading Standards</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is used for reporting.  Enter a short description of the issue.</inlineHelpText>
+        <label>Issue</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>JIRA_Issue_Tyoe__c</fullName>
+        <description>This is required to create a JIRA ticket from Salesforce.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is required to create a JIRA ticket from Salesforce.</inlineHelpText>
+        <label>JIRA Issue Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bug</fullName>
+                    <default>true</default>
+                    <label>Bug</label>
+                </value>
+                <value>
+                    <fullName>MMF</fullName>
+                    <default>false</default>
+                    <label>MMF</label>
+                </value>
+                <value>
+                    <fullName>Technical Debt</fullName>
+                    <default>false</default>
+                    <label>Technical Debt</label>
+                </value>
+                <value>
+                    <fullName>Documentation</fullName>
+                    <default>false</default>
+                    <label>Documentation</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>JIRA_Priority__c</fullName>
+        <description>This is required when creating a JIRA ticket.  Defaults to Normal and can be changed.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is required when creating a JIRA ticket.  Defaults to Normal and can be changed.</inlineHelpText>
+        <label>JIRA Priority</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Normal</fullName>
+                    <default>false</default>
+                    <label>Normal</label>
+                </value>
+                <value>
+                    <fullName>Blocker</fullName>
+                    <default>false</default>
+                    <label>Blocker</label>
+                </value>
+                <value>
+                    <fullName>Critical</fullName>
+                    <default>false</default>
+                    <label>Critical</label>
+                </value>
+                <value>
+                    <fullName>Major</fullName>
+                    <default>false</default>
+                    <label>Major</label>
+                </value>
+                <value>
+                    <fullName>Minor</fullName>
+                    <default>true</default>
+                    <label>Minor</label>
+                </value>
+                <value>
+                    <fullName>Trivial</fullName>
+                    <default>false</default>
+                    <label>Trivial</label>
+                </value>
+                <value>
+                    <fullName>Rush</fullName>
+                    <default>false</default>
+                    <label>Rush</label>
+                </value>
+                <value>
+                    <fullName>Time Permitting</fullName>
+                    <default>false</default>
+                    <label>Time Permitting</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Jira__c</fullName>
+        <description>Jira</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Jira</inlineHelpText>
+        <label>Jira</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Language</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>MindTouch_Username__c</fullName>
+        <externalId>false</externalId>
+        <formula>Contact.Email</formula>
+        <label>MindTouch Username</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>No_of_Billable_Hours__c</fullName>
+        <description>this is the new NUMBER format for the new Salesforce - allows to SUM total versus the old TEXT field</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Use this Field with the NEW Salesforce.</inlineHelpText>
+        <label>No. of Billable Hours</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Origin</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ParentId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Plus_Platinum_Hours__c</fullName>
+        <description>Use this field to track the number of hours used for Plus and Platinum. Plus Equals eight hours per month. Platinum equal 16 hours per month. Hours spent  above the allotment are charged at the customers professional services rate.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the number of hours used in increments of 1/2 hour, for example:
+.50=30 minutes, if more than 30 minutes, round up to the next hour.  Hours over the monthly allotment are charged at the professional services hourly rate.</inlineHelpText>
+        <label>Plus/Platinum Hours</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Previous_CaseId__c</fullName>
+        <externalId>false</externalId>
+        <label>Previous CaseId</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Previous_Case_Number__c</fullName>
+        <description>The Previous Case # in the old Salesforce</description>
+        <externalId>false</externalId>
+        <label>Previous Case Number</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Priority</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Products__c</fullName>
+        <externalId>false</externalId>
+        <label>Products</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Spam/Duplicate/Test</fullName>
+                    <default>false</default>
+                    <label>Spam/Duplicate/Test</label>
+                </value>
+                <value>
+                    <fullName>Recommend</fullName>
+                    <default>true</default>
+                    <label>Recommend</label>
+                </value>
+                <value>
+                    <fullName>Advanced merchandising</fullName>
+                    <default>false</default>
+                    <label>Advanced merchandising</label>
+                </value>
+                <value>
+                    <fullName>Recommend - Email</fullName>
+                    <default>false</default>
+                    <label>Recommend - Email</label>
+                </value>
+                <value>
+                    <fullName>Recommend - BYOS/BYOA</fullName>
+                    <default>false</default>
+                    <label>Recommend - BYOS/BYOA</label>
+                </value>
+                <value>
+                    <fullName>Engage</fullName>
+                    <default>false</default>
+                    <label>Engage</label>
+                </value>
+                <value>
+                    <fullName>Engage - Email</fullName>
+                    <default>false</default>
+                    <label>Engage - Email</label>
+                </value>
+                <value>
+                    <fullName>Discover</fullName>
+                    <default>false</default>
+                    <label>Discover</label>
+                </value>
+                <value>
+                    <fullName>Type Ahead Search</fullName>
+                    <default>false</default>
+                    <label>Type Ahead Search</label>
+                </value>
+                <value>
+                    <fullName>Find</fullName>
+                    <default>false</default>
+                    <label>Find</label>
+                </value>
+                <value>
+                    <fullName>Build</fullName>
+                    <default>false</default>
+                    <label>Build</label>
+                </value>
+                <value>
+                    <fullName>Training(Litmos / RR university)</fullName>
+                    <default>false</default>
+                    <label>Training(Litmos / RR university)</label>
+                </value>
+                <value>
+                    <fullName>Legacy</fullName>
+                    <default>false</default>
+                    <label>Legacy</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Project__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Project</label>
+        <referenceTo>Project__c</referenceTo>
+        <relationshipLabel>Cases</relationshipLabel>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Rate_Card_Work__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box if the work completed is on the Rate Card.  If we are billing for the work, enter the No. of Billable Hours and check the Billable Hours box.</inlineHelpText>
+        <label>Rate Card Work</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Reason</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Requester__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Use this field to type the person&apos;s name manually.  For example, the Jira was open by an internal person, but the case is logged under the Account Name.  Not required.</inlineHelpText>
+        <label>Requester</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolution_SLA__c</fullName>
+        <externalId>false</externalId>
+        <formula>Resolution_Status_Image1__c + &quot; &quot;  +  Resolution_Status1__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Resolution SLA</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolution_Status1__c</fullName>
+        <description>Shows status against resolution time SLA</description>
+        <externalId>false</externalId>
+        <formula>IF(NOT(IsClosed) , 
+( IF(Hours_Since_Open__c &gt;= 96, &quot;Red&quot;, 
+IF(Hours_Since_Open__c &gt;= 72, &quot;Yellow&quot;, &quot;Green&quot;) ) ), 
+IF(((ClosedDate - CreatedDate) * 24) &gt;= 96, &quot;Red [closed]&quot;, 
+IF(((ClosedDate - CreatedDate) * 24) &gt;= 72, &quot;Yellow [closed]&quot;, &quot;Green [closed]&quot;) ) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>https://confluence.richrelevance.com/confluence/display/RM/Case+Alerts</inlineHelpText>
+        <label>Resolution Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolution_Status_Image1__c</fullName>
+        <description>Shows status against resolution time SLA as image</description>
+        <externalId>false</externalId>
+        <formula>CASE(  Resolution_Status1__c  , 
+&quot;Green&quot;, IMAGE(&quot;https://c.na5.content.force.com/servlet/servlet.ImageServer?id=01570000001ecCM&amp;oid=00D700000009H7i&quot;, &quot;Green&quot;), 
+&quot;Yellow&quot;, IMAGE(&quot;https://c.na5.content.force.com/servlet/servlet.ImageServer?id=01570000001ecCW&amp;oid=00D700000009H7i&quot;, &quot;Yellow&quot;), 
+&quot;Green [closed]&quot;, IMAGE(&quot;https://c.na5.content.force.com/servlet/servlet.ImageServer?id=01570000001ecCM&amp;oid=00D700000009H7i&quot;, &quot;Green&quot;), 
+&quot;Yellow [closed]&quot;, IMAGE(&quot;https://c.na5.content.force.com/servlet/servlet.ImageServer?id=01570000001ecCW&amp;oid=00D700000009H7i&quot;, &quot;Yellow&quot;), 
+IMAGE(&quot;https://c.na5.content.force.com/servlet/servlet.ImageServer?id=01570000001ecCR&amp;oid=00D700000009H7i&quot;, &quot;Red&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Resolution Status Image</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolution__c</fullName>
+        <description>This field is used for reporting.  Enter how the issued was resolved.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is used for reporting.  Enter how the issued was resolved.</inlineHelpText>
+        <label>Resolution</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolved_by__c</fullName>
+        <description>This fields tracks which group ultimately solved the issue.  Multi-select is allowed.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Resolution will default to Customer Support.  If we completed 75% of the work on the ticket, assign to us.  If multiple groups were required to resolve the issue include all groups.  Select CSE or OPS if they did all or the majority of the work.</inlineHelpText>
+        <label>Resolved by</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Client</fullName>
+                    <default>false</default>
+                    <label>Client</label>
+                </value>
+                <value>
+                    <fullName>Partner/Third Party Vender</fullName>
+                    <default>false</default>
+                    <label>Partner/Third Party Vender</label>
+                </value>
+                <value>
+                    <fullName>rrENGSUP</fullName>
+                    <default>false</default>
+                    <label>rrENGSUP</label>
+                </value>
+                <value>
+                    <fullName>rrOPS</fullName>
+                    <default>false</default>
+                    <label>rrOPS</label>
+                </value>
+                <value>
+                    <fullName>rrSquad</fullName>
+                    <default>false</default>
+                    <label>rrSquad</label>
+                </value>
+                <value>
+                    <fullName>rrLift</fullName>
+                    <default>false</default>
+                    <label>rrLift</label>
+                </value>
+                <value>
+                    <fullName>rrClientHealth</fullName>
+                    <default>false</default>
+                    <label>rrClientHealth</label>
+                </value>
+                <value>
+                    <fullName>rrClientSuccess – Resilience</fullName>
+                    <default>true</default>
+                    <label>rrClientSuccess – Resilience</label>
+                </value>
+                <value>
+                    <fullName>Not Applicable</fullName>
+                    <default>false</default>
+                    <label>Not Applicable</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Response_SLA__c</fullName>
+        <externalId>false</externalId>
+        <formula>Response_Status_Image1__c  + &quot; &quot; +  Response_Status1__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Response SLA</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Response_Status1__c</fullName>
+        <description>Shows status against response time SLA</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( Status , &quot;New&quot;), 
+( IF(Hours_Since_Open__c  &gt;= 20, &quot;Red&quot;, 
+    IF(Hours_Since_Open__c  &gt;= 14, &quot;Yellow&quot;, &quot;Green&quot;) ) ), 
+ IF(((CreatedDate -  Client_Initially_Contacted__c) * 24) &gt;= 20, &quot;Red [responded]&quot;, 
+    IF(((CreatedDate -  Client_Initially_Contacted__c) * 24) &gt;= 14, &quot;Yellow [responded]&quot;,
+    IF(  ISBLANK(Client_Initially_Contacted__c) , &quot;no response&quot;, &quot;Green [responded]&quot;) ) ) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Response Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Response_Status_Image1__c</fullName>
+        <description>Shows status against response time SLA as image</description>
+        <externalId>false</externalId>
+        <formula>CASE( Response_Status1__c , 
+&quot;Green&quot;, IMAGE(&quot;https://c.na5.content.force.com/servlet/servlet.ImageServer?id=01570000001ecCM&amp;oid=00D700000009H7i&quot;, &quot;Green&quot;), 
+&quot;Yellow&quot;, IMAGE(&quot;https://c.na5.content.force.com/servlet/servlet.ImageServer?id=01570000001ecCW&amp;oid=00D700000009H7i&quot;, &quot;Yellow&quot;),
+&quot;Green [responded]&quot;, IMAGE(&quot;https://c.na5.content.force.com/servlet/servlet.ImageServer?id=01570000001ecCM&amp;oid=00D700000009H7i&quot;, &quot;Green&quot;), 
+&quot;Yellow [responded]&quot;, IMAGE(&quot;https://c.na5.content.force.com/servlet/servlet.ImageServer?id=01570000001ecCW&amp;oid=00D700000009H7i&quot;, &quot;Yellow&quot;),
+IMAGE(&quot;https://c.na5.content.force.com/servlet/servlet.ImageServer?id=01570000001ecCR&amp;oid=00D700000009H7i&quot;, &quot;Red&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>https://confluence.richrelevance.com/confluence/display/RM/Case+Alerts</inlineHelpText>
+        <label>Response Status Image</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Root_Cause_Actions__c</fullName>
+        <description>This field is used for our Root Cause Analysis reports</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is used for our Root Cause Analysis reports.  State the current Actions in play to find the root cause.</inlineHelpText>
+        <label>Root Cause Actions</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Region__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.Sales_Region__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Sales Region</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sev_1_2_Duration__c</fullName>
+        <description>use this field to enter the number of hours a sev 1 or 2 was open</description>
+        <externalId>false</externalId>
+        <inlineHelpText>use this field to enter the number of hours a sev 1 or 2 was open</inlineHelpText>
+        <label>Sev 1/2 Duration</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sev_1_2_Remediation__c</fullName>
+        <description>Enter the number of hours the client was impacted before service was remediated with a work around or temp fix.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the number of hours the client was impacted before service was remediated with a work around or temp fix.</inlineHelpText>
+        <label>Sev 1/2 Remediation</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Solution__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Solution</label>
+        <referenceTo>Solution</referenceTo>
+        <relationshipLabel>Cases(Solutions)</relationshipLabel>
+        <relationshipName>Cases1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SourceId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Subject</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedCompany</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedEmail</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedName</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedPhone</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Support_Level__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Account.Support_Package__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Support Level</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Support_Region__c</fullName>
+        <externalId>false</externalId>
+        <formula>text(Account.Support_Region__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Support Region</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Hours_on_Case__c</fullName>
+        <description>Rounded to 30 minute increments (.5) for all time spent to resolve a case, including reading, responding, documenting the issue and includes time of all {rr} resources involved in the case.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Rounded to 30 minute increments (.5) for all time spent to resolve a case, including reading, responding, documenting the issue and includes time of all {rr} resources involved in the case.</inlineHelpText>
+        <label>Hours on Case</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Who_caused_the_issue__c</fullName>
+        <externalId>false</externalId>
+        <label>Who caused the issue?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Spam/Duplicate/Test</fullName>
+                    <default>false</default>
+                    <label>Spam/Duplicate/Test</label>
+                </value>
+                <value>
+                    <fullName>Client</fullName>
+                    <default>true</default>
+                    <label>Client</label>
+                </value>
+                <value>
+                    <fullName>Partner or 3rd Party</fullName>
+                    <default>false</default>
+                    <label>Partner or 3rd Party</label>
+                </value>
+                <value>
+                    <fullName>Client Service / RR</fullName>
+                    <default>false</default>
+                    <label>Client Service / RR</label>
+                </value>
+                <value>
+                    <fullName>ENG Bug</fullName>
+                    <default>false</default>
+                    <label>ENG Bug</label>
+                </value>
+                <value>
+                    <fullName>Ops</fullName>
+                    <default>false</default>
+                    <label>Ops</label>
+                </value>
+                <value>
+                    <fullName>N/A (admin/alert)</fullName>
+                    <default>false</default>
+                    <label>N/A (admin/alert)</label>
+                </value>
+                <value>
+                    <fullName>Support</fullName>
+                    <default>false</default>
+                    <label>Support</label>
+                </value>
+                <value>
+                    <fullName>Operates as Expected</fullName>
+                    <default>false</default>
+                    <label>Operates as Expected</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>of_Billable_Hours__c</fullName>
+        <description>OLD_Enter the number of billable hours spent on this case.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>OLD_changed this field for the new Salesforce. Enter the number of billable hours spent on this case.</inlineHelpText>
+        <label># of Billable Hours</label>
+        <length>17</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>round_robin__c</fullName>
+        <externalId>false</externalId>
+        <formula>mod(VALUE(CaseNumber),2)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>round robin</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>true</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Existing_Case</fullName>
+        <active>true</active>
+        <businessProcess>Standard Case</businessProcess>
+        <description>Use to view or edit cases and only run through assignment rules on demand</description>
+        <label>Existing Case</label>
+        <picklistValues>
+            <picklist>Contact_Reason__c</picklist>
+            <values>
+                <fullName>Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consult%2FInvestigate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spam%2FDuplicate%2FTest</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Issue_Cause__c</picklist>
+            <values>
+                <fullName>Feed%2FData</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instrumentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operates as normal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operational</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Maturity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rules and Strategies</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>rrBug%2FRegression%2FCode%2FENG</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Issue_Description__c</picklist>
+            <values>
+                <fullName>Bug</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Did not do%2C Did not complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incorrect%2C unclear</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not available</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Part of contract%2C agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workflow</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Issue_Resolution__c</picklist>
+            <values>
+                <fullName>Client to fix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Could not reproduce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Functioning as designed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Issue identified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report Created</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Request Completed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>JIRA_Issue_Tyoe__c</picklist>
+            <values>
+                <fullName>Bug</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Documentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MMF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Debt</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>JIRA_Priority__c</picklist>
+            <values>
+                <fullName>Blocker</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Critical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Major</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Minor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Rush</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Time Permitting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trivial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Auto%3A Support Email Alias</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto%3A Web UI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Hotline</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Verbal %2F IM</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>Sev 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sev 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sev 3</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Sev 4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Products__c</picklist>
+            <values>
+                <fullName>Advanced merchandising</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Build</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Discover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engage - Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Find</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legacy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recommend</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recommend - BYOS%2FBYOA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recommend - Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spam%2FDuplicate%2FTest</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training%28Litmos %2F RR university%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Type Ahead Search</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Display Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>How to%3F%2FWhat is%3F</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jira</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prod Performance%2FSite Analytics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rec%2FAd Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Request</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Resolved_by__c</picklist>
+            <values>
+                <fullName>Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner%2FThird Party Vender</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>rrClientHealth</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>rrClientSuccess %E2%80%93 Resilience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>rrENGSUP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>rrLift</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>rrOPS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>rrSquad</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Account Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Display %2F%C2%A0Integration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Feed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Latency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MVT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Performance %2F Analytics %23%27s</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing %2F Product%C2%A0Availability</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reporting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rules</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Segments</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spam%2FDuplicate%2FTest</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strategies</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Who_caused_the_issue__c</picklist>
+            <values>
+                <fullName>Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Client Service %2F RR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ENG Bug</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N%2FA %28admin%2Falert%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operates as Expected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ops</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner or 3rd Party</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spam%2FDuplicate%2FTest</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Support</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>New_Case</fullName>
+        <active>true</active>
+        <businessProcess>Standard Case</businessProcess>
+        <description>Use to create a new case to run through assignment rules</description>
+        <label>New Case</label>
+        <picklistValues>
+            <picklist>Contact_Reason__c</picklist>
+            <values>
+                <fullName>Alert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consult%2FInvestigate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spam%2FDuplicate%2FTest</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Issue_Cause__c</picklist>
+            <values>
+                <fullName>Feed%2FData</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instrumentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operates as normal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operational</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Maturity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>rrBug%2FRegression%2FCode%2FENG</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Issue_Description__c</picklist>
+            <values>
+                <fullName>Bug</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Did not do%2C Did not complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incorrect%2C unclear</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not available</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Part of contract%2C agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workflow</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Issue_Resolution__c</picklist>
+            <values>
+                <fullName>Client to fix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Could not reproduce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Functioning as designed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Issue identified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report Created</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Request Completed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>JIRA_Issue_Tyoe__c</picklist>
+            <values>
+                <fullName>Bug</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Documentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MMF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Debt</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>JIRA_Priority__c</picklist>
+            <values>
+                <fullName>Blocker</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Critical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Major</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Minor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Rush</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Time Permitting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trivial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Auto%3A Support Email Alias</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto%3A Web UI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Hotline</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Verbal %2F IM</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>Sev 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sev 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sev 3</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Sev 4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Products__c</picklist>
+            <values>
+                <fullName>Advanced merchandising</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Build</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Discover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engage - Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Find</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legacy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recommend</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recommend - BYOS%2FBYOA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recommend - Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spam%2FDuplicate%2FTest</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training%28Litmos %2F RR university%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Type Ahead Search</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Display Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>How to%3F%2FWhat is%3F</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jira</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prod Performance%2FSite Analytics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rec%2FAd Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Request</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Resolved_by__c</picklist>
+            <values>
+                <fullName>Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner%2FThird Party Vender</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>rrENGSUP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>rrOPS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>rrSquad</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Account Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Display %2F%C2%A0Integration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Feed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Latency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MVT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Performance %2F Analytics %23%27s</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing %2F Product%C2%A0Availability</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reporting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rules</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Segments</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spam%2FDuplicate%2FTest</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strategies</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Who_caused_the_issue__c</picklist>
+            <values>
+                <fullName>Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Client Service %2F RR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ENG Bug</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N%2FA %28admin%2Falert%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spam%2FDuplicate%2FTest</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.CREATED_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.PRIORITY</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.CASE_NUMBER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.SUBJECT</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.STATUS</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.CASE_NUMBER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.SUBJECT</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.STATUS</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.CASE_NUMBER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.CREATED_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Jira__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Issue__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Resolution__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>JIRA_Priority__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OWNER_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.SUBJECT</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWriteTransfer</sharingModel>
+    <validationRules>
+        <fullName>If_Case_Type_is_Other</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISBLANK(Enter_comments_if_type_is_other__c),
+ISPICKVAL(Type,&quot;Other&quot;))</errorConditionFormula>
+        <errorMessage>Please add comments if Case Type is &quot;Other&quot;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Contacted_for_Open_Cases</fullName>
+        <active>true</active>
+        <description>Require a Contacted date to move into the Open Status</description>
+        <errorConditionFormula>ISPICKVAL( Status , &quot;Open&quot;)  &amp;&amp;   ISNULL(Client_Initially_Contacted__c)</errorConditionFormula>
+        <errorMessage>You cannot move a case into an Open status before contacting the client. Please update the Client Initially Contacted field.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Severity</fullName>
+        <active>false</active>
+        <description>Severity must be Populated</description>
+        <errorConditionFormula>OR( NOT(ISPICKVAL( Priority , &quot;Sev 1&quot;)),  NOT(ISPICKVAL(Priority , &quot;Sev 2&quot;)),  NOT(ISPICKVAL(Priority , &quot;Sev 3&quot;)),  NOT(ISPICKVAL(Priority , &quot;Sev 4&quot;)))</errorConditionFormula>
+        <errorDisplayField>Priority</errorDisplayField>
+        <errorMessage>Severity must be filled out</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Associate_to_JIRA</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Associate to JIRA</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://jira.richrelevance.com/jira/plugins/servlet/customware/connector/issue/5/Case/associate.action?id={!Case.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Create_JIRA_Ticket</fullName>
+        <availability>online</availability>
+        <description>Creates Ticket in JIRA from Case object in Saleforce.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Create/Update JIRA Issue</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://jira.richrelevance.com/jira/plugins/servlet/create-issue?crmtoken=HHSuOweDFxkV&amp;id={!Case.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Link_to_Existing_JIRA_Ticket</fullName>
+        <availability>online</availability>
+        <description>Links case to an existing JIRA ticket.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Link to Existing JIRA Issue</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://jira.richrelevance.com/jira/plugins/servlet/link-issue?crmtoken=HHSuOweDFxkV&amp;id={!Case.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Mass_Edit</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Mass Edit</masterLabel>
+        <openType>sidebar</openType>
+        <page>MassEditCase</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>Mass_Update</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Mass Update</masterLabel>
+        <openType>sidebar</openType>
+        <page>MassUpdateCase</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>status</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>status</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>{!Case.Status}</url>
+    </webLinks>
+</CustomObject>

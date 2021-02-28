@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPageWebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <availability>online</availability>
+    <description>Links to My Accounts on the My Accounts Tab.</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>My Accounts</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>https://richrel.my.salesforce.com/001?fcf=00BF0000007I1P3</url>
+</CustomPageWebLink>

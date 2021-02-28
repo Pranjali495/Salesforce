@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Timecard Header Layout - Limited</layout>
+        <sections>
+            <label><!-- Audit Details --></label>
+            <section>Audit Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Estimated Totals (may not be accurate in multi-currency orgs) --></label>
+            <section>Estimated Totals (may not be accurate in multi-currency orgs)</section>
+        </sections>
+        <sections>
+            <label><!-- Hours and Notes --></label>
+            <section>Hours and Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Location and Travel --></label>
+            <section>Location and Travel</section>
+        </sections>
+        <sections>
+            <label><!-- Region/Practice/Group Overrides --></label>
+            <section>Region/Practice/Group Overrides</section>
+        </sections>
+        <sections>
+            <label><!-- Timecard Attributes --></label>
+            <section>Timecard Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Timecard Status --></label>
+            <section>Timecard Status</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

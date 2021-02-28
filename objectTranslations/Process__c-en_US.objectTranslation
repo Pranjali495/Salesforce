@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Process</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Processes</value>
+    </caseValues>
+    <fields>
+        <label><!-- Alternate Flows --></label>
+        <name>Alternate_Flows__c</name>
+    </fields>
+    <fields>
+        <help><!-- List any generally known assumptions about this experience. --></help>
+        <label><!-- Assumptions --></label>
+        <name>Assumptions__c</name>
+    </fields>
+    <fields>
+        <help><!-- Provide the basic sequence or flow of events for the experience. --></help>
+        <label><!-- Basic Flow of Events --></label>
+        <name>Basic_Flow_of_Events__c</name>
+    </fields>
+    <fields>
+        <help><!-- Provide a brief description of the experience. --></help>
+        <label><!-- Brief Description --></label>
+        <name>Brief_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Metric Current Value --></label>
+        <name>Business_Metric_Current_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Metric Delta --></label>
+        <name>Business_Metric_Delta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Metric Target Value --></label>
+        <name>Business_Metric_Target_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Metric --></label>
+        <name>Business_Metric__c</name>
+    </fields>
+    <fields>
+        <help><!-- The value we are delivering to the business.  ex. Some kind of efficiency or effectiveness improves y or eliminates x. --></help>
+        <label><!-- Business Value --></label>
+        <name>Business_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Constituent Metric Current Value --></label>
+        <name>Constituent_Metric_Current_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Constituent Metric Delta --></label>
+        <name>Constituent_Metric_Delta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Constituent Metric Target Value --></label>
+        <name>Constituent_Metric_Target_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Constituent Metric --></label>
+        <name>Constituent_Metric__c</name>
+    </fields>
+    <fields>
+        <help><!-- The value we are delivering to the student or prospective student.  ex. Student gets x. --></help>
+        <label><!-- Constituent Value --></label>
+        <name>Constituent_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Key role is able to track said constituent and has tool to act when desired behaviors d, e &amp; f does not occur. --></help>
+        <label><!-- Key Business Changes --></label>
+        <name>Key_Business_Changes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Student given X earlier in the process, and consistently due to tracking a, b, c. --></help>
+        <label><!-- Key Constituent Changes --></label>
+        <name>Key_Constituent_Changes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate any key performance indicators or metrics this process is a part of including how the metric is measured. --></help>
+        <label><!-- Key Performance Indicators --></label>
+        <name>Key_Performance_Indicators__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ordinal --></label>
+        <name>Ordinal__c</name>
+    </fields>
+    <fields>
+        <help><!-- List any postconditions that must be met as a result of this experience. --></help>
+        <label><!-- Postconditions --></label>
+        <name>Postconditions__c</name>
+    </fields>
+    <fields>
+        <help><!-- List any preconditions that must be met prior to this experience. --></help>
+        <label><!-- Preconditions --></label>
+        <name>Preconditions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Domain Object --></label>
+        <name>Primary_Domain_Object__c</name>
+        <relationshipLabel><!-- Processes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Primary Object --></label>
+        <name>Primary_Object__c</name>
+        <picklistValues>
+            <masterLabel>Agreement</masterLabel>
+            <translation><!-- Agreement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assignment</masterLabel>
+            <translation><!-- Assignment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing Event</masterLabel>
+            <translation><!-- Billing Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing Event Batch</masterLabel>
+            <translation><!-- Billing Event Batch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing Event Item</masterLabel>
+            <translation><!-- Billing Event Item --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Budget</masterLabel>
+            <translation><!-- Budget --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expense</masterLabel>
+            <translation><!-- Expense --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expense Report</masterLabel>
+            <translation><!-- Expense Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expense Type / Limit / Rate</masterLabel>
+            <translation><!-- Expense Type / Limit / Rate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milestone</masterLabel>
+            <translation><!-- Milestone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miscellaneous Adjustment</masterLabel>
+            <translation><!-- Miscellaneous Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunity</masterLabel>
+            <translation><!-- Opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project</masterLabel>
+            <translation><!-- Project --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Template</masterLabel>
+            <translation><!-- Project Template --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rate Card</masterLabel>
+            <translation><!-- Rate Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resource</masterLabel>
+            <translation><!-- Resource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resource Request</masterLabel>
+            <translation><!-- Resource Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resource Skill Request</masterLabel>
+            <translation><!-- Resource Skill Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skill / Certification</masterLabel>
+            <translation><!-- Skill / Certification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Timecard</masterLabel>
+            <translation><!-- Timecard --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Process --></label>
+        <name>Process__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Processes --></label>
+        <name>Related_Processes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Requirements --></label>
+        <name>Special_Requirements__c</name>
+    </fields>
+    <layouts>
+        <layout>Process Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

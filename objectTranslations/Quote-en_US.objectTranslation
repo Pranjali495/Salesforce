@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Opportunity Product History</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Opportunity Product History</value>
+    </caseValues>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Primary</value>
+        </caseValues>
+        <name>quote_issyncing</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Advanced Merchandise --></label>
+        <name>Advanced_Merchandise__c</name>
+    </fields>
+    <fields>
+        <label><!-- Advanced Merchandising Subscription Fee --></label>
+        <name>Advanced_Merchandising_Subscription_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- BYOS Fixed Monthly Subscription Fee --></label>
+        <name>BYOS_Subscription_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- BYOS --></label>
+        <name>BYOS__c</name>
+    </fields>
+    <fields>
+        <label><!-- BYO-API Fixed Monthly Subscription Fee --></label>
+        <name>BYO_API_Subscription_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- BYO-API --></label>
+        <name>BYO_API__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bill To Email --></label>
+        <name>Bill_To_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Build Implementation Fee --></label>
+        <name>Build_Implementation_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Build Sites --></label>
+        <name>Build_Sites__c</name>
+    </fields>
+    <fields>
+        <label><!-- Build Fixed Monthly Subscription Fee --></label>
+        <name>Build_Subscription_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Build --></label>
+        <name>Build__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount % --></label>
+        <name>Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discover Implementation Fee --></label>
+        <name>Discover_Implementation_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discover Sites --></label>
+        <name>Discover_Sites__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discover Fixed Monthly Subscription Fee --></label>
+        <name>Discover_Subscription_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discover --></label>
+        <name>Discover__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email for Billing --></label>
+        <name>Email_for_Billing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engage Implementation Fee --></label>
+        <name>Engage_Implementation_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engage Sites --></label>
+        <name>Engage_Sites__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engage Fixed Monthly Subscription Fee --></label>
+        <name>Engage_Subscription_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engage --></label>
+        <name>Engage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Term --></label>
+        <name>Initial_Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level 1 Standard Support --></label>
+        <name>Level_1_Standard_Support__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level 2 Plus Monthly Support Fee --></label>
+        <name>Level_2_Plus_Support_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level 2 Plus Support --></label>
+        <name>Level_2_Plus_Support__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level 3 Platinum Monthly Support Fee --></label>
+        <name>Level_3_Platinum_Support_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level 3 Platinum Support --></label>
+        <name>Level_3_Platinum_Support__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opp Name --></label>
+        <name>Opp_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organization Name --></label>
+        <name>Organization_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recommend Implementation Fee --></label>
+        <name>Recommend_Implementation_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recommend Sites --></label>
+        <name>Recommend_Sites__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recommend Fixed Monthly Subscription Fee --></label>
+        <name>Recommend_Subscription_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recommend --></label>
+        <name>Recommend__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Term --></label>
+        <name>Renewal_Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Name --></label>
+        <name>RichRelevance_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Order --></label>
+        <name>Sales_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Cumulative Discount --></label>
+        <name>Show_Cumulative_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Cumulative List Price --></label>
+        <name>Show_Cumulative_List_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Cumulative Sales Price --></label>
+        <name>Show_Cumulative_Sales_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Discount(%) --></label>
+        <name>Show_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Quantity --></label>
+        <name>Show_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show List Price --></label>
+        <name>Show_List_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Sales Price --></label>
+        <name>Show_Sales_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Special Terms --></label>
+        <name>Show_Special_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Conditions --></label>
+        <name>Special_Conditions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total List Price --></label>
+        <name>Total_List_Price__c</name>
+    </fields>
+    <layouts>
+        <layout>Quote Layout</layout>
+        <sections>
+            <label><!-- Build --></label>
+            <section>Build</section>
+        </sections>
+        <sections>
+            <label><!-- Discover --></label>
+            <section>Discover</section>
+        </sections>
+        <sections>
+            <label><!-- Engage --></label>
+            <section>Engage</section>
+        </sections>
+        <sections>
+            <label><!-- JIRA Issues --></label>
+            <section>JIRA Issues</section>
+        </sections>
+        <sections>
+            <label><!-- Quote PDF Details --></label>
+            <section>Quote PDF Details</section>
+        </sections>
+        <sections>
+            <label><!-- Recommend --></label>
+            <section>Recommend</section>
+        </sections>
+        <sections>
+            <label><!-- Support Packages --></label>
+            <section>Support Packages</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Associate_to_JIRA --></label>
+        <name>Associate_to_JIRA</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_JIRA_Issue --></label>
+        <name>Create_JIRA_Issue</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_to_Echosign --></label>
+        <name>Send_to_Echosign</name>
+    </webLinks>
+</CustomObjectTranslation>

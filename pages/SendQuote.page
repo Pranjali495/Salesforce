@@ -1,0 +1,76 @@
+<apex:page showHeader="false" standardController="Opportunity" extensions="SendQuoteExtension">
+    <style type="text/css">
+        div#container {
+            padding: 10px 5px;
+        }
+        div#header {
+            background-color: #E5C130;
+            padding: 10px;
+            color: #fff;
+            font-size: 14px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+        }
+    </style>
+    <div id="container">
+        <div id="header">Send Quote</div>
+        <apex:form >    
+            <apex:pageMessages />
+            <apex:pageBlock >
+                <apex:pageblockButtons location="bottom">
+                    <apex:commandButton value="Send" action="{!send}" onclick="return isValid()" />
+                    <input type="button" class="btn" value="Close" onclick="self.close()"/>
+                </apex:pageblockButtons>
+                <apex:pageBlockSection columns="1">
+                    <apex:pageblockSectionItem >
+                        <apex:outputLabel value="To"/>
+                        <apex:inputField value="{!PrimaryQuote.ContactId}" id="toAddr"/>
+                    </apex:pageblockSectionItem>
+                    <apex:pageblockSectionItem >
+                        <apex:outputLabel value="CC" />
+                        <apex:inputField value="{!TempQuote.ContactId}"/>
+                    </apex:pageblockSectionItem>
+                    <apex:pageblockSectionItem >
+                        <apex:outputLabel value="CC" />
+                        <apex:outputPanel >
+                            <apex:inputTextarea value="{!Email.CCAddr}" style="width: 400px" id="ccAddr"/><br/>
+                            <span>Separate multiple addresses with , or ;</span>
+                        </apex:outputPanel>
+                    </apex:pageblockSectionItem>                    
+                    <apex:pageblockSectionItem >
+                        <apex:outputLabel value="Subject"/>
+                        <apex:inputText value="{!Email.Subject}" style="width:400px" id="subjectCnt"/>
+                    </apex:pageblockSectionItem>
+                    <apex:pageblockSectionItem >
+                        <apex:outputLabel value="Body"/>
+                        <apex:inputTextarea value="{!Email.Body}" style="width:400px;height:120px;" id="bodyCnt"/>
+                    </apex:pageblockSectionItem>
+                    
+                    <apex:pageblockSectionItem >
+                        <apex:outputLabel value="Attachment"/>
+                        <apex:outputLink value="{!$Page.QuoteDocument}?id={!PrimaryQuote.Id}">{!PrimaryQuote.Name}.pdf</apex:outputLink>
+                    </apex:pageblockSectionItem>
+                </apex:pageBlockSection>
+            </apex:pageBlock>
+        </apex:form>
+    </div>
+    <script type="text/javascript" src="{!URLFOR($Resource.QuoteLib, 'QuoteLib/js/jquery-2.1.4.min.js')}" />
+    <script type="text/javascript">
+        function isValid() {            
+            var toVal = $('input[id$="toAddr"').val();
+            var subjectVal = $('input[id$="subjectCnt"').val();
+            var bodyVal = $('textarea[id$="bodyCnt"').val();
+            if(toVal == null || toVal == '') {
+                alert('You must specify a contact to receive.');
+                return false;
+            }
+            if(subjectVal == null || subjectVal == '' || bodyVal == null || bodyVal == '') {
+                return confirm('Subject or body is empty. Are you sure you want to proceed?');
+            }
+            return true;            
+        }
+        if({!success}) {
+            window.setTimeout('top.close(); window.opener.location.href="/{!Opportunity.Id}"', 3000);
+        }
+    </script>  
+</apex:page>

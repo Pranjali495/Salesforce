@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Requirement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Requirements</value>
+    </caseValues>
+    <fields>
+        <label><!-- Appirio Dev Hours --></label>
+        <name>AppirioDevHours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Applies to Domain Object --></label>
+        <name>Applies_to_Domain_Object__c</name>
+        <relationshipLabel><!-- Requirements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Applies to Process --></label>
+        <name>Applies_to_Process__c</name>
+        <relationshipLabel><!-- Requirements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Applies to Use Case --></label>
+        <name>Applies_to_Use_Case__c</name>
+        <relationshipLabel><!-- Special Requirements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Proposed Approach --></label>
+        <name>Approach__c</name>
+    </fields>
+    <fields>
+        <label><!-- CMC Task --></label>
+        <name>CMC_Task__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coverage Status --></label>
+        <name>Coverage_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Functional area for project work. --></help>
+        <label><!-- Functional Area --></label>
+        <name>Functional_Area__c</name>
+        <picklistValues>
+            <masterLabel>Business Process</masterLabel>
+            <translation><!-- Business Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Configuration</masterLabel>
+            <translation><!-- Configuration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customization</masterLabel>
+            <translation><!-- Customization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Migration/Import</masterLabel>
+            <translation><!-- Data Migration/Import --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integration</masterLabel>
+            <translation><!-- Integration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out-of-Box</masterLabel>
+            <translation><!-- Out-of-Box --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Level --></label>
+        <name>Level__c</name>
+        <picklistValues>
+            <masterLabel>Feature</masterLabel>
+            <translation><!-- Feature --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global</masterLabel>
+            <translation><!-- Global --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Object</masterLabel>
+            <translation><!-- Object --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Process</masterLabel>
+            <translation><!-- Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Use Case</masterLabel>
+            <translation><!-- Use Case --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Off Shore Hours --></label>
+        <name>OffShoreHours__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a reference to the item and / or individual from which / whom this requirement originated --></help>
+        <label><!-- Origin --></label>
+        <name>Origin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original SOW --></label>
+        <name>Original_SOW__c</name>
+        <picklistValues>
+            <masterLabel>CO 3</masterLabel>
+            <translation><!-- CO 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Order</masterLabel>
+            <translation><!-- Change Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Order 2</masterLabel>
+            <translation><!-- Change Order 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final</masterLabel>
+            <translation><!-- Final --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Original SOW</masterLabel>
+            <translation><!-- Original SOW --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- PR-able --></label>
+        <name>PR_able__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Requirement --></label>
+        <name>Parent_Requirement__c</name>
+        <relationshipLabel><!-- Sub Requirements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Phase --></label>
+        <name>Phase__c</name>
+        <picklistValues>
+            <masterLabel>Future Phase</masterLabel>
+            <translation><!-- Future Phase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phase 1</masterLabel>
+            <translation><!-- Phase 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phase 2</masterLabel>
+            <translation><!-- Phase 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phase 3</masterLabel>
+            <translation><!-- Phase 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phase 4</masterLabel>
+            <translation><!-- Phase 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phase 5</masterLabel>
+            <translation><!-- Phase 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SoW / CO</masterLabel>
+            <translation><!-- SoW / CO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>Priority__c</name>
+        <picklistValues>
+            <masterLabel>1a. Must have for UAT on 6/14</masterLabel>
+            <translation><!-- 1a. Must have for UAT on 6/14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1b. Must Have for 6/24- Advanced Go-Live</masterLabel>
+            <translation><!-- 1b. Must Have for 6/24- Advanced Go-Live --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2. Must have for full Go-Live including Project Accounting</masterLabel>
+            <translation><!-- 2. Must have for full Go-Live including Project Accounting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3. Nice to have for 6/24 Go-Live</masterLabel>
+            <translation><!-- 3. Nice to have for 6/24 Go-Live --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4. Nice to have for final Go-Live</masterLabel>
+            <translation><!-- 4. Nice to have for final Go-Live --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Process Name --></label>
+        <name>Process_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process --></label>
+        <name>Process__c</name>
+        <relationshipLabel><!-- Requirements (Process) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Project --></label>
+        <name>Project__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PSE Implementation</masterLabel>
+            <translation><!-- PSE Implementation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rank --></label>
+        <name>Rank__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Review_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved by Executives</masterLabel>
+            <translation><!-- Approved by Executives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate</masterLabel>
+            <translation><!-- Duplicate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>For Future Consideration</masterLabel>
+            <translation><!-- For Future Consideration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Analysis</masterLabel>
+            <translation><!-- In Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Implementation</masterLabel>
+            <translation><!-- In Implementation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Reviewed</masterLabel>
+            <translation><!-- Not Reviewed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Note</masterLabel>
+            <translation><!-- Note --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out-of-the-box Functionality</masterLabel>
+            <translation><!-- Out-of-the-box Functionality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending CO</masterLabel>
+            <translation><!-- Pending CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Feature Request</masterLabel>
+            <translation><!-- Pending Feature Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending New Product Release</masterLabel>
+            <translation><!-- Pending New Product Release --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready to Test</masterLabel>
+            <translation><!-- Ready to Test --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reviewed</masterLabel>
+            <translation><!-- Reviewed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reviewed by Project Lead</masterLabel>
+            <translation><!-- Reviewed by Project Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reviewed by Team Lead</masterLabel>
+            <translation><!-- Reviewed by Team Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under Scope Review</masterLabel>
+            <translation><!-- Under Scope Review --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Size --></label>
+        <name>Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Case Count --></label>
+        <name>Test_Case_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Use Case Name --></label>
+        <name>Use_Case_Name__c</name>
+    </fields>
+    <layouts>
+        <layout>Requirement Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- Information2 --></label>
+            <section>Information2</section>
+        </sections>
+        <sections>
+            <label><!-- Relationships --></label>
+            <section>Relationships</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Title and Description --></label>
+            <section>Title and Description</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

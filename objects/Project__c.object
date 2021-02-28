@@ -1,0 +1,1500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Client Services would like to leverage usage of this object for purposes of tracking deployments, etc.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>ACV_Amount__c</fullName>
+        <description>related to the site/product</description>
+        <externalId>false</externalId>
+        <label>Project Level ACV</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipName>Projects</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Actual_Hours_Billed__c</fullName>
+        <description>Used by Liquid Planner integration to bring over billed hours.</description>
+        <externalId>false</externalId>
+        <label>Actual Hours Billed</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Actual_Hours__c</fullName>
+        <externalId>false</externalId>
+        <label>Actual Hours</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billed_Hours__c</fullName>
+        <description>for Finance to track how many hours are allocated in the contract</description>
+        <externalId>false</externalId>
+        <label>Billable Hours Per Contract</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>for Finance to determine if even if more hours are allocated if they can bill for more</description>
+        <externalId>false</externalId>
+        <label>Billing Completed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Billing_Rate_Calc__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Estimated_Hours__c&gt;0, Services_Amount__c / Estimated_Hours__c,null)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Billing Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Billing_Rate__c</fullName>
+        <description>Estimated rate of $/hr for Finance</description>
+        <externalId>false</externalId>
+        <label>Billing Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Billing_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Billing Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Non-billable</fullName>
+                    <default>false</default>
+                    <label>Non-billable</label>
+                </value>
+                <value>
+                    <fullName>Time &amp; Material</fullName>
+                    <default>false</default>
+                    <label>Time &amp; Material</label>
+                </value>
+                <value>
+                    <fullName>Fixed Fee</fullName>
+                    <default>false</default>
+                    <label>Fixed Fee</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CSE__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Client Solutions Engineer</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Projects1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(  Health__c , &quot;Green&quot;,
+IMAGE(&quot;/img/samples/color_green.gif&quot;, &quot;green&quot;, 15, 15), 
+IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;yellow&quot;, 15, 15))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Commercial_Terms__c</fullName>
+        <externalId>false</externalId>
+        <label>Commercial Terms</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Completion_Date__c</fullName>
+        <description>Former completion date field</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When product is a license, represents handover from CS to Support.
+When product is services, completion date of the service.</inlineHelpText>
+        <label>Completion Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Days_Live_to_Site__c</fullName>
+        <externalId>false</externalId>
+        <formula>LTS__c  - Opportunity__r.Agreement_Start_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days Live to Site</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Duration_Close_to_LTS__c</fullName>
+        <externalId>false</externalId>
+        <formula>LTS__c -  Opportunity__r.CloseDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Duration Close to LTS</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Duration_Start_to_LTS__c</fullName>
+        <externalId>false</externalId>
+        <formula>LTS__c -  Start_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Duration Start to LTS</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Duration_between_Effective_and_Start_Dat__c</fullName>
+        <externalId>false</externalId>
+        <formula>Start_Date__c-Opportunity__r.CloseDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Duration between Effective &amp; Start Date</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Duration_between_Start_and_ELTS__c</fullName>
+        <externalId>false</externalId>
+        <formula>Expected_Completion_Date__c -  Start_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Duration between Start and ELTS</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ELTS__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(not( ISBLANK( LTS__c )),0, Expected_Completion_Date__c - Opportunity__r.CloseDate)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Duration between Effective &amp; ELTS</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Elapsed_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( TODAY() &gt;=Completion_Date__c,  Completion_Date__c  - Start_Date__c ,
+IF (TODAY() &gt;= Start_Date__c,  TODAY() - Start_Date__c, null))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Elapsed Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Estimated_Hours__c</fullName>
+        <externalId>false</externalId>
+        <label>Estimated Hours</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Excellence_Resource__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Individual from the Excellence Team who will support this project.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Individual from the Excellence Team who will support this project.</inlineHelpText>
+        <label>Excellence Resource</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Projects2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Expected_Completion_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Expected Live-to-Site Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Hand_off_to_Support_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Hand off to Support Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Health__c</fullName>
+        <externalId>false</externalId>
+        <label>Project Health</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Green</fullName>
+                    <color>#78C953</color>
+                    <default>false</default>
+                    <label>Green</label>
+                </value>
+                <value>
+                    <fullName>Yellow</fullName>
+                    <color>#FFFF66</color>
+                    <default>false</default>
+                    <label>Yellow</label>
+                </value>
+                <value>
+                    <fullName>Red</fullName>
+                    <color>#FF0000</color>
+                    <default>false</default>
+                    <label>Red</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Hurdles_to_Duration__c</fullName>
+        <externalId>false</externalId>
+        <label>Hurdles to Duration</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Intacct_Billed__c</fullName>
+        <description>Pulled from Intacct by Project ID</description>
+        <externalId>false</externalId>
+        <label>Intacct Billed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Intacct_Customer_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.Intacct_Customer_ID__c</formula>
+        <label>Intacct Customer ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LTS__c</fullName>
+        <externalId>false</externalId>
+        <label>Live-to-Site Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Liquid_Planner_ID_2__c</fullName>
+        <description>Liquid Planner ID used for testing integration</description>
+        <externalId>false</externalId>
+        <label>Liquid Planner ID</label>
+        <length>225</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Liquid_Planner_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Liquid Planner ID (OLD)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Listen_Mode_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Listen Mode Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Old_Project_Id__c</fullName>
+        <description>UE SF Project Id</description>
+        <externalId>false</externalId>
+        <label>Old Project Id</label>
+        <length>9</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipName>Projects</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PM__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Old Project Manager</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Projects</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Partner_Resources__c</fullName>
+        <description>Captures the names of partners working a project</description>
+        <externalId>false</externalId>
+        <label>Partner Resources</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Planned_LOE__c</fullName>
+        <externalId>false</externalId>
+        <label>Planned LOE</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Preconditions__c</fullName>
+        <externalId>false</externalId>
+        <label>Preconditions</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Previous_ProjectId__c</fullName>
+        <externalId>false</externalId>
+        <label>Previous ProjectId</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Lookup__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>True lookup of Product</description>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipName>Projects</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Product_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product__c</fullName>
+        <description>Old static list for Product</description>
+        <externalId>false</externalId>
+        <label>Old Product</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>License: RichConnect+Email</fullName>
+                    <default>false</default>
+                    <label>License: RichConnect+Email</label>
+                </value>
+                <value>
+                    <fullName>License: RichContent+Onsite</fullName>
+                    <default>false</default>
+                    <label>License: RichContent+Onsite</label>
+                </value>
+                <value>
+                    <fullName>License: RichPromo+Email</fullName>
+                    <default>false</default>
+                    <label>License: RichPromo+Email</label>
+                </value>
+                <value>
+                    <fullName>License: RichPromo+Mobile</fullName>
+                    <default>false</default>
+                    <label>License: RichPromo+Mobile</label>
+                </value>
+                <value>
+                    <fullName>License: RichPromo+Onsite</fullName>
+                    <default>false</default>
+                    <label>License: RichPromo+Onsite</label>
+                </value>
+                <value>
+                    <fullName>License: RichRecs+Anywhere</fullName>
+                    <default>false</default>
+                    <label>License: RichRecs+Anywhere</label>
+                </value>
+                <value>
+                    <fullName>License: RichRecs+Email</fullName>
+                    <default>false</default>
+                    <label>License: RichRecs+Email</label>
+                </value>
+                <value>
+                    <fullName>License: RichRecs+ICS</fullName>
+                    <default>false</default>
+                    <label>License: RichRecs+ICS</label>
+                </value>
+                <value>
+                    <fullName>License: RichRecs+Mobile</fullName>
+                    <default>false</default>
+                    <label>License: RichRecs+Mobile</label>
+                </value>
+                <value>
+                    <fullName>License: RichRecs+MyRecs</fullName>
+                    <default>false</default>
+                    <label>License: RichRecs+MyRecs</label>
+                </value>
+                <value>
+                    <fullName>License: RichRecs+Onsite</fullName>
+                    <default>false</default>
+                    <label>License: RichRecs+Onsite</label>
+                </value>
+                <value>
+                    <fullName>License: RichRecs+Personalized Sort</fullName>
+                    <default>false</default>
+                    <label>License: RichRecs+Personalized Sort</label>
+                </value>
+                <value>
+                    <fullName>RichAds + Direct</fullName>
+                    <default>false</default>
+                    <label>RichAds + Direct</label>
+                </value>
+                <value>
+                    <fullName>RichAds + Full Service</fullName>
+                    <default>false</default>
+                    <label>RichAds + Full Service</label>
+                </value>
+                <value>
+                    <fullName>RichAds + Trafficker</fullName>
+                    <default>false</default>
+                    <label>RichAds + Trafficker</label>
+                </value>
+                <value>
+                    <fullName>RichRecs + Offsite Ads</fullName>
+                    <default>false</default>
+                    <label>RichRecs + Offsite Ads</label>
+                </value>
+                <value>
+                    <fullName>Services: CE - A/B Testing</fullName>
+                    <default>false</default>
+                    <label>Services: CE - A/B Testing</label>
+                </value>
+                <value>
+                    <fullName>Services: CE - Strategic Roadmap Service</fullName>
+                    <default>false</default>
+                    <label>Services: CE - Strategic Roadmap Service</label>
+                </value>
+                <value>
+                    <fullName>Services: CE - Data Consulting</fullName>
+                    <default>false</default>
+                    <label>Services: CE - Data Consulting</label>
+                </value>
+                <value>
+                    <fullName>Services: CE - Hill Climbing Service</fullName>
+                    <default>false</default>
+                    <label>Services: CE - Hill Climbing Service</label>
+                </value>
+                <value>
+                    <fullName>Services: CE - Retainer</fullName>
+                    <default>false</default>
+                    <label>Services: CE - Retainer</label>
+                </value>
+                <value>
+                    <fullName>Services: CE - Pre-Implementation Strategy</fullName>
+                    <default>false</default>
+                    <label>Services: CE - Pre-Implementation Strategy</label>
+                </value>
+                <value>
+                    <fullName>Services: CE - Pre-Sales Discovery</fullName>
+                    <default>false</default>
+                    <label>Services: CE - Pre-Sales Discovery</label>
+                </value>
+                <value>
+                    <fullName>Services: CE - UX Consulting</fullName>
+                    <default>false</default>
+                    <label>Services: CE - UX Consulting</label>
+                </value>
+                <value>
+                    <fullName>ClickSee</fullName>
+                    <default>false</default>
+                    <label>ClickSee</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Project_Activities__c</fullName>
+        <externalId>false</externalId>
+        <label>Project Activities</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Project_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Project Description</label>
+        <length>1000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Project_Hold_Justification__c</fullName>
+        <description>If project is on hold, Client Services should provide a detailed explanation/justification for the hold (including the date the project was put on hold).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If project is on hold, Client Services should provide a detailed explanation/justification for the hold (including the date the project was put on hold).</inlineHelpText>
+        <label>Project Hold Justification</label>
+        <length>10000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Project_ID__c</fullName>
+        <displayFormat>P-{000000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Project ID</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Project_Manager__c</fullName>
+        <externalId>false</externalId>
+        <label>Project Owner</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Aswan Morgan</fullName>
+                    <default>false</default>
+                    <label>Aswan Morgan</label>
+                </value>
+                <value>
+                    <fullName>Babak Vahidi</fullName>
+                    <default>false</default>
+                    <label>Babak Vahidi</label>
+                </value>
+                <value>
+                    <fullName>Chase Westlye</fullName>
+                    <default>false</default>
+                    <label>Chase Westlye</label>
+                </value>
+                <value>
+                    <fullName>Dan Begley-Groth</fullName>
+                    <default>false</default>
+                    <label>Dan Begley-Groth</label>
+                </value>
+                <value>
+                    <fullName>Daniel Ngwerume</fullName>
+                    <default>false</default>
+                    <label>Daniel Ngwerume</label>
+                </value>
+                <value>
+                    <fullName>David Lewis</fullName>
+                    <default>false</default>
+                    <label>David Lewis</label>
+                </value>
+                <value>
+                    <fullName>Emily Desaire</fullName>
+                    <default>false</default>
+                    <label>Emily Desaire</label>
+                </value>
+                <value>
+                    <fullName>Emma Hands</fullName>
+                    <default>false</default>
+                    <label>Emma Hands</label>
+                </value>
+                <value>
+                    <fullName>Fredrik Stålhammar</fullName>
+                    <default>false</default>
+                    <label>Fredrik Stålhammar</label>
+                </value>
+                <value>
+                    <fullName>Gefei Zhang</fullName>
+                    <default>false</default>
+                    <label>Gefei Zhang</label>
+                </value>
+                <value>
+                    <fullName>James Summers</fullName>
+                    <default>false</default>
+                    <label>James Summers</label>
+                </value>
+                <value>
+                    <fullName>Jane Axelsson</fullName>
+                    <default>false</default>
+                    <label>Jane Axelsson</label>
+                </value>
+                <value>
+                    <fullName>Jose Vargas Casadiego</fullName>
+                    <default>false</default>
+                    <label>Jose Vargas Casadiego</label>
+                </value>
+                <value>
+                    <fullName>Josh Olayos</fullName>
+                    <default>false</default>
+                    <label>Josh Olayos</label>
+                </value>
+                <value>
+                    <fullName>Laura Wishingrad</fullName>
+                    <default>false</default>
+                    <label>Laura Wishingrad</label>
+                </value>
+                <value>
+                    <fullName>Leah Keeler</fullName>
+                    <default>false</default>
+                    <label>Leah Keeler</label>
+                </value>
+                <value>
+                    <fullName>Liat Zarfati</fullName>
+                    <default>false</default>
+                    <label>Liat Zarfati</label>
+                </value>
+                <value>
+                    <fullName>Lindsay Entsminger</fullName>
+                    <default>false</default>
+                    <label>Lindsay Entsminger</label>
+                </value>
+                <value>
+                    <fullName>Masumi Wada</fullName>
+                    <default>false</default>
+                    <label>Masumi Wada</label>
+                </value>
+                <value>
+                    <fullName>Matthew Alexander</fullName>
+                    <default>false</default>
+                    <label>Matthew Alexander</label>
+                </value>
+                <value>
+                    <fullName>Michael Bolton</fullName>
+                    <default>false</default>
+                    <label>Michael Bolton</label>
+                </value>
+                <value>
+                    <fullName>Nicholas El-Khoury</fullName>
+                    <default>false</default>
+                    <label>Nicholas El-Khoury</label>
+                </value>
+                <value>
+                    <fullName>Nidhi Shah</fullName>
+                    <default>false</default>
+                    <label>Nidhi Shah</label>
+                </value>
+                <value>
+                    <fullName>Nikhil Ratan</fullName>
+                    <default>false</default>
+                    <label>Nikhil Ratan</label>
+                </value>
+                <value>
+                    <fullName>Nikhil Verma</fullName>
+                    <default>false</default>
+                    <label>Nikhil Verma</label>
+                </value>
+                <value>
+                    <fullName>Ohad Sternberg</fullName>
+                    <default>false</default>
+                    <label>Ohad Sternberg</label>
+                </value>
+                <value>
+                    <fullName>Pascal Davis</fullName>
+                    <default>false</default>
+                    <label>Pascal Davis</label>
+                </value>
+                <value>
+                    <fullName>Russell Huerta</fullName>
+                    <default>false</default>
+                    <label>Russell Huerta</label>
+                </value>
+                <value>
+                    <fullName>Sarah Chandler</fullName>
+                    <default>false</default>
+                    <label>Sarah Chandler</label>
+                </value>
+                <value>
+                    <fullName>Sara Svedevi</fullName>
+                    <default>false</default>
+                    <label>Sara Svedevi</label>
+                </value>
+                <value>
+                    <fullName>Sean Colquhoun</fullName>
+                    <default>false</default>
+                    <label>Sean Colquhoun</label>
+                </value>
+                <value>
+                    <fullName>Simon Mak</fullName>
+                    <default>false</default>
+                    <label>Simon Mak</label>
+                </value>
+                <value>
+                    <fullName>Tenzin Gelek</fullName>
+                    <default>false</default>
+                    <label>Tenzin Gelek</label>
+                </value>
+                <value>
+                    <fullName>Tiago Turra</fullName>
+                    <default>false</default>
+                    <label>Tiago Turra</label>
+                </value>
+                <value>
+                    <fullName>Tina Nielsen</fullName>
+                    <default>false</default>
+                    <label>Tina Nielsen</label>
+                </value>
+                <value>
+                    <fullName>Vinay Vijayakumar</fullName>
+                    <default>false</default>
+                    <label>Vinay Vijayakumar</label>
+                </value>
+                <value>
+                    <fullName>Willow Curry</fullName>
+                    <default>false</default>
+                    <label>Willow Curry</label>
+                </value>
+                <value>
+                    <fullName>Yves Lebreton</fullName>
+                    <default>false</default>
+                    <label>Yves Lebreton</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Project_Migrated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Project Migrated to new PSA FinancialForce.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Project Migrated to new PSA FinancialForce.</inlineHelpText>
+        <label>Project Migrated</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Project_Status2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( TODAY() &gt;=   Completion_Date__c ,&quot;Completed&quot;,IF( TODAY() &gt;=  LTS__c , &quot;Live&quot;,
+ IF(TODAY() &gt;= Start_Date__c, &quot;Active&quot;,  &quot;Not Started&quot;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Project Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Project_on_Hold__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Client services will select this field if the project has been put on hold.  Doing so will exclude this project from the weekly Project Summary Report.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Client services will select this field if the project has been put on hold.  Doing so will exclude this project from the weekly Project Summary Report.</inlineHelpText>
+        <label>Project on Hold</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Reason_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Reason Code</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1 - Client Not engaged</fullName>
+                    <default>false</default>
+                    <label>1 - Client Not engaged</label>
+                </value>
+                <value>
+                    <fullName>2 - Commited Phased Roll-Out</fullName>
+                    <default>false</default>
+                    <label>2 - Commited Phased Roll-Out</label>
+                </value>
+                <value>
+                    <fullName>3 - Product Issue</fullName>
+                    <default>false</default>
+                    <label>3 - Product Issue</label>
+                </value>
+                <value>
+                    <fullName>4 - Redesign/replatforming</fullName>
+                    <default>false</default>
+                    <label>4 - Redesign/replatforming</label>
+                </value>
+                <value>
+                    <fullName>5 - In progress</fullName>
+                    <default>false</default>
+                    <label>5 - In progress</label>
+                </value>
+                <value>
+                    <fullName>9 - Activation</fullName>
+                    <default>false</default>
+                    <label>9 - Activation</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SOW_Effective_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>SOW Effective Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Services_Amount__c</fullName>
+        <description>services/integration cost associated with product</description>
+        <externalId>false</externalId>
+        <label>Services Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Services_Discount__c</fullName>
+        <description>Negative amount representing discount</description>
+        <externalId>false</externalId>
+        <label>Services Discount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Site__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Site</label>
+        <referenceTo>Site__c</referenceTo>
+        <relationshipName>Projects</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Technical_Lead__c</fullName>
+        <externalId>false</externalId>
+        <label>Technical Lead</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Albert Mallol</fullName>
+                    <default>false</default>
+                    <label>Albert Mallol</label>
+                </value>
+                <value>
+                    <fullName>Amanda Kiner</fullName>
+                    <default>false</default>
+                    <label>Amanda Kiner</label>
+                </value>
+                <value>
+                    <fullName>Daniele Bernardi</fullName>
+                    <default>false</default>
+                    <label>Daniele Bernardi</label>
+                </value>
+                <value>
+                    <fullName>David Hu</fullName>
+                    <default>false</default>
+                    <label>David Hu</label>
+                </value>
+                <value>
+                    <fullName>David Lewis</fullName>
+                    <default>false</default>
+                    <label>David Lewis</label>
+                </value>
+                <value>
+                    <fullName>Jacob Coble</fullName>
+                    <default>false</default>
+                    <label>Jacob Coble</label>
+                </value>
+                <value>
+                    <fullName>Jane Axelsson</fullName>
+                    <default>false</default>
+                    <label>Jane Axelsson</label>
+                </value>
+                <value>
+                    <fullName>Jose Vargas Casadiego</fullName>
+                    <default>false</default>
+                    <label>Jose Vargas Casadiego</label>
+                </value>
+                <value>
+                    <fullName>Lindsay Entsminger</fullName>
+                    <default>false</default>
+                    <label>Lindsay Entsminger</label>
+                </value>
+                <value>
+                    <fullName>Mark Barnett</fullName>
+                    <default>false</default>
+                    <label>Mark Barnett</label>
+                </value>
+                <value>
+                    <fullName>Matthew Alexander</fullName>
+                    <default>false</default>
+                    <label>Matthew Alexander</label>
+                </value>
+                <value>
+                    <fullName>Nidhi Shah</fullName>
+                    <default>false</default>
+                    <label>Nidhi Shah</label>
+                </value>
+                <value>
+                    <fullName>Nikhil Verma</fullName>
+                    <default>false</default>
+                    <label>Nikhil Verma</label>
+                </value>
+                <value>
+                    <fullName>Sarah Chandler</fullName>
+                    <default>false</default>
+                    <label>Sarah Chandler</label>
+                </value>
+                <value>
+                    <fullName>Sara Svedevi</fullName>
+                    <default>false</default>
+                    <label>Sara Svedevi</label>
+                </value>
+                <value>
+                    <fullName>Sean Colquhoun</fullName>
+                    <default>false</default>
+                    <label>Sean Colquhoun</label>
+                </value>
+                <value>
+                    <fullName>Simon Mak</fullName>
+                    <default>false</default>
+                    <label>Simon Mak</label>
+                </value>
+                <value>
+                    <fullName>Thomas Culetto</fullName>
+                    <default>false</default>
+                    <label>Thomas Culetto</label>
+                </value>
+                <value>
+                    <fullName>Tiago Turra</fullName>
+                    <default>false</default>
+                    <label>Tiago Turra</label>
+                </value>
+                <value>
+                    <fullName>Tina Nielsen</fullName>
+                    <default>false</default>
+                    <label>Tina Nielsen</label>
+                </value>
+                <value>
+                    <fullName>Vinay Vijayakumar</fullName>
+                    <default>false</default>
+                    <label>Vinay Vijayakumar</label>
+                </value>
+                <value>
+                    <fullName>Willow Curry</fullName>
+                    <default>false</default>
+                    <label>Willow Curry</label>
+                </value>
+                <value>
+                    <fullName>Yves Lebreton</fullName>
+                    <default>false</default>
+                    <label>Yves Lebreton</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Total_Amount__c</fullName>
+        <externalId>false</externalId>
+        <formula>ACV_Amount__c + Services_Amount__c +  Services_Discount__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Deployment/Implementation</fullName>
+                    <default>false</default>
+                    <label>Deployment/Implementation</label>
+                </value>
+                <value>
+                    <fullName>Re-design/Re-Platform</fullName>
+                    <default>false</default>
+                    <label>Re-design/Re-Platform</label>
+                </value>
+                <value>
+                    <fullName>Optimization</fullName>
+                    <default>false</default>
+                    <label>Optimization</label>
+                </value>
+                <value>
+                    <fullName>A/B Test</fullName>
+                    <default>false</default>
+                    <label>A/B Test</label>
+                </value>
+                <value>
+                    <fullName>Custom Development</fullName>
+                    <default>false</default>
+                    <label>Custom Development</label>
+                </value>
+                <value>
+                    <fullName>Deployment-Decommitted</fullName>
+                    <default>false</default>
+                    <label>Deployment-Decommitted</label>
+                </value>
+                <value>
+                    <fullName>Client Excellence</fullName>
+                    <default>false</default>
+                    <label>Client Excellence</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Post Live Review</fullName>
+                    <default>false</default>
+                    <label>Post Live Review</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Project (Old)</label>
+    <nameField>
+        <label>Project Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Projects (Old)</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Liquid_Planer_length_format</fullName>
+        <active>true</active>
+        <description>LP ID should capture numeric 8-character numeric values (0-9)
+Additional IDs to be added after adding &quot;, &quot;.</description>
+        <errorConditionFormula>NOT( 
+OR (
+ISBLANK(Liquid_Planner_ID_2__c ) , 
+REGEX( Liquid_Planner_ID_2__c , &quot;[0-9]{7}&quot;),
+REGEX( Liquid_Planner_ID_2__c , &quot;[0-9]{8}&quot;), 
+REGEX( Liquid_Planner_ID_2__c , &quot;[0-9]{8},[ ][0-9]{8}&quot;), 
+REGEX( Liquid_Planner_ID_2__c , &quot;[0-9]{8},[ ][0-9]{8},[ ][0-9]{8}&quot;), 
+REGEX( Liquid_Planner_ID_2__c , &quot;[0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8}&quot;), 
+REGEX( Liquid_Planner_ID_2__c , &quot;[0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8}&quot;), 
+REGEX( Liquid_Planner_ID_2__c , &quot;[0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8}&quot;), 
+REGEX( Liquid_Planner_ID_2__c , &quot;[0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8}&quot;), 
+REGEX( Liquid_Planner_ID_2__c , &quot;[0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8}&quot;), 
+REGEX( Liquid_Planner_ID_2__c , &quot;[0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8}&quot;), 
+REGEX( Liquid_Planner_ID_2__c , &quot;[0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8},[ ][0-9]{8}&quot;) 
+) 
+)</errorConditionFormula>
+        <errorDisplayField>Liquid_Planner_ID_2__c</errorDisplayField>
+        <errorMessage>Enter only 8-digit numeric values (0-9) 
+For addtl. IDs, enter 8-digit numeric values separated by a comma and a space 
+i.e. &quot;12345678, 0987654321&quot;</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Sync_to_Intacct</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Sync to Intacct</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://www.metricmill.com/intacct/richrel/create_project_prod.php?projectid={!Project__c.Id}</url>
+    </webLinks>
+</CustomObject>

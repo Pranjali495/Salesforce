@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+        <field>new_ACV_Amount__c</field>
+        <field>Services_and_Integration_Total__c</field>
+        <field>Amount</field>
+        <field>CloseDate</field>
+        <field>StageName</field>
+        <field>Total_Addressable_Revenue__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <type>userHierarchyField</type>
+            </approver>
+        </assignedApprover>
+        <description>Initial submission of the opportunity for approval sent to user defined in Manager field of submitter&apos;s user record.</description>
+        <entryCriteria>
+            <formula>NOT(ISBLANK( $User.ManagerId ))</formula>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Approval Step 1</label>
+        <name>Approval_Step_1</name>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>sjarugula@richrelevance.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>2nd step of the opportunity approval process sent to user defined in Second Level Approver field of submitter&apos;s user record.</description>
+        <label>Approval Step 2</label>
+        <name>Approval_Step_2</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>zkoekemoer@richrelevance.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>3rd step of the opportunity approval process sent to Global Approver</description>
+        <label>Approval Step 3</label>
+        <name>Approval_Step_3</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <description>This creates an approval process that will allow quote documents to be sent to customers once the opportunity record has been approved. (65% and above)</description>
+    <emailTemplate>Email_Alert_Templates/Opportunity_Approval_Submit_Approval</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <booleanFilter>1 AND 2 AND (3 OR 4) AND (5 OR 6)</booleanFilter>
+        <criteriaItems>
+            <field>Opportunity.Amount</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Total_Addressable_Revenue__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>&quot;USD 2,000,000&quot;</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Approval_Status__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Approval_Status__c</field>
+            <operation>equals</operation>
+            <value>Rejected,Recalled</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>65% - Resol. of Concerns,75% - Verbal Agreement,90% - Legal Review,95% - Awaiting Signature,97% - Contract Signed/Dependencies,100% - Signed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>(75%) – Debooking,(100%) – Debooking</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Opportunity_Approval_Alert</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>Opportunity_Approved</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Opportunity_Rejected</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Opportunity_Rejection_Alert</name>
+            <type>Alert</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Approval_Status_Pending_Approval</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>Oppty Approval Process more 65</label>
+    <nextAutomatedApprover>
+        <useApproverFieldOfRecordOwner>false</useApproverFieldOfRecordOwner>
+        <userHierarchyField>Manager</userHierarchyField>
+    </nextAutomatedApprover>
+    <processOrder>1</processOrder>
+    <recallActions>
+        <action>
+            <name>Opportunity_Recalled</name>
+            <type>FieldUpdate</type>
+        </action>
+    </recallActions>
+    <recordEditability>AdminOrCurrentApprover</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

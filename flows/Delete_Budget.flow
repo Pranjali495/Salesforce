@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <interviewLabel>Delete Budget {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Delete Budget</label>
+    <processType>AutoLaunchedFlow</processType>
+    <recordDeletes>
+        <name>Delete_Budget</name>
+        <label>Delete Budget</label>
+        <locationX>298</locationX>
+        <locationY>195</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>BudgetId</elementReference>
+            </value>
+        </filters>
+        <object>pse__Budget__c</object>
+    </recordDeletes>
+    <startElementReference>Delete_Budget</startElementReference>
+    <status>Active</status>
+    <variables>
+        <name>BudgetId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

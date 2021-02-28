@@ -1,0 +1,173 @@
+<apex:page showHeader="false" controller="ProductLookupController" title="Product Lookup" tabStyle="Product2" docType="html-5.0">
+    <style type="text/css">
+        div#container {
+            margin: 10px;
+        }
+        table#prodList {
+            border-top: 1px solid #e0e3e5;
+            border-left: 1px solid #e0e3e5;
+        }
+        table#prodList thead th {
+            background-color: #f2f3f3;
+            border-right: 1px solid #e0e3e5;
+            border-bottom: 1px solid #e0e3e5;
+        }
+        table#prodList tbody td {
+            border-right: 1px solid #e0e3e5;
+            border-bottom: 1px solid #e0e3e5;
+        }
+        table#prodList tbody tr:not(.selected):hover {
+            background-color: #E3F3FF;
+        }
+        table#prodList tr.selected {
+            background-color: #B0E1FA;
+        }
+    </style>
+    <apex:sectionHeader title="Product Look Up" subtitle="Add products to Opportunity" />
+    <apex:form >
+        <div id="container">
+            <apex:pageBlock title="Find Products">
+                <table cellpadding="5" cellspacing="0">
+                    <tr>
+                        <th>Product Type</th>
+                        <th>Product Category</th>
+                        <th>Keyword</th>
+                        <th></th>
+                    </tr>
+                    <tr>        
+                        <td>
+                            <apex:selectList value="{!SelectedCategory}" size="1" multiselect="false">
+                                <apex:selectOptions value="{!ProductCategoryOptions}" />
+                            </apex:selectList>
+                        </td>                
+                        <td>
+                            <apex:selectList value="{!SelectedSubCategory}" size="1" multiselect="false">
+                                <apex:selectOptions value="{!ProductSubCategoryOptions}" />
+                            </apex:selectList>
+                        </td>
+                        <td><apex:inputText value="{!Keyword}" html-placeholder="Search..." /></td>
+                        <td><apex:commandButton value="Search" /></td>
+                    </tr>
+                </table>
+            </apex:pageBlock>
+            <apex:pageBlock title="Search Result">
+                <apex:pageBlockButtons location="top">
+                    <input type="button" class="btn" value="Select and Close" id="selectBtn" />
+                    <input type="button" class="btn" value="Add and Continue Selecting" id="addBtn" />
+                    <input type="button" class="btn" value="Close" id="cancelBtn" />
+                </apex:pageBlockButtons>
+                <table id="prodList" width="100%" cellpadding="4" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th><input type="checkbox" id="selectAll" /></th>
+                            <th>Product Type</th>
+                            <th>Product Category</th>
+                            <th>Product Name</th>
+                            <th>Product Code</th>
+                        </tr>            
+                    </thead>
+                    <tbody>
+                        <apex:repeat value="{!PricebookEntries}" var="entry">
+                            <tr>
+                                <td>
+                                    <input type="checkbox" class="single-checkbox" />
+                                    <span style="display: none" class="pricebookEntry-hidden">{!entry.Id}</span>
+                                </td>
+                                <td>{!entry.Product2.Family}</td>
+                                <td>{!entry.Product2.Product_Sub_Category__c}</td>
+                                <td>{!entry.Product2.Name}</td>
+                                <td>{!entry.Product2.ProductCode}</td>
+                            </tr>
+                        </apex:repeat>
+                    </tbody>
+                </table>
+            </apex:pageBlock>
+        </div>
+    </apex:form>
+        
+
+    <script type="text/javascript" src="{!URLFOR($Resource.QuoteLib, 'QuoteLib/js/jquery-2.1.4.min.js')}"></script>
+    <script type="text/javascript">
+        (function($) {
+            function removeSelectedProducts() {
+                var openerDoc = self.opener.document;
+                var pricebookEntryDiv = $(openerDoc.getElementById('pricebookEntryDiv'));
+                var selectedPricebookEntryArray = new Array();
+                pricebookEntryDiv.find('span.entryid-hidden').each(function(index) {
+                    selectedPricebookEntryArray.push($(this).text());
+                });
+
+                var selectedPricebookEntryIds = selectedPricebookEntryArray.join(';');
+                $('#prodList tbody tr').each(function(index) {
+                    var pricebookEntryId = $(this).find('.pricebookEntry-hidden').text();
+                    if(selectedPricebookEntryIds.indexOf(pricebookEntryId) != -1) {
+                        $(this).remove();
+                    }                        
+                });
+            }
+
+            function addProducts() {
+                var selectedIds = new Array();
+                $('.single-checkbox:checked').each(function() {
+                    selectedIds.push($(this).next().text());
+                });
+
+                if(selectedIds.length > 0) {
+                    var addedPricebookEntryIds = top.opener.document.getElementById('addedPricebookEntryIds');
+                    if(addedPricebookEntryIds) {
+                        addedPricebookEntryIds.innerHTML = selectedIds.join(';');             
+                    }
+                    var addProductsBtn = top.opener.document.getElementById('addProductsBtn');
+                    if(addProductsBtn) {
+                        addProductsBtn.click();
+                    }
+                }  
+            }
+            $(function() {
+                removeSelectedProducts();                
+
+                $('#prodList tbody').on('click', '.single-checkbox', function() {
+                    if(this.checked) {
+                        $(this).closest('tr').addClass('selected');                        
+                    }
+                    else {
+                        $(this).closest('tr').removeClass('selected');
+                    }                 
+                    var unchecked = $('.single-checkbox:not(:checked)').length;
+                    if(unchecked == 0) {
+                        $('#selectAll').prop('checked', true);
+                    }       
+                    else {
+                        $('#selectAll').prop('checked', false);
+                    }
+                });
+
+                $('#selectAll').on('click', function() {
+                    if(this.checked) {
+                        $('.single-checkbox').prop('checked', true);
+                        $('#prodList tbody tr').addClass('selected');
+
+                    }
+                    else {
+                        $('.single-checkbox').prop('checked', false);
+                        $('#prodList tbody tr').removeClass('selected');
+                    }
+                });
+
+                $('#selectBtn').on('click', function() {
+                    addProducts();                      
+                    top.close();                
+                });
+
+                $('#addBtn').on('click', function() {
+                    addProducts();
+                    $('.single-checkbox:checked').closest('tr').remove();
+                });                
+
+                $('#cancelBtn').on('click', function() {
+                    top.close();
+                });
+            })
+        })(jQuery)
+    </script>
+</apex:page>

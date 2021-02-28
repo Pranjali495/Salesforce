@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Severity</value>
+        </caseValues>
+        <name>priority_case</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Account Manager --></label>
+        <name>Account_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Status --></label>
+        <name>Account_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box if this support case should be billed to the client. --></help>
+        <label><!-- Billable Hours --></label>
+        <name>Billable_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Reference # --></label>
+        <name>Case_Reference__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is to be used for Level 1 or Level 2 issues, and provides a date and time estimate by which Dev or Ops anticipates resolving the issue.  You can use this as an estimate for client communications. --></help>
+        <label><!-- Case Resolution Estimate from Dev/Ops --></label>
+        <name>Case_Resolution_Estimate_from_Dev_Ops__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Initially Contacted Time --></label>
+        <name>Client_Initially_Contacted_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the date that the client was initially contacted after the case was submitted.  This is not the auto response date. --></help>
+        <label><!-- Client Initially Contacted --></label>
+        <name>Client_Initially_Contacted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Reason --></label>
+        <name>Contact_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Alert</masterLabel>
+            <translation><!-- Alert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consult/Investigate</masterLabel>
+            <translation><!-- Consult/Investigate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Issue</masterLabel>
+            <translation><!-- Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request</masterLabel>
+            <translation><!-- Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spam/Duplicate/Test</masterLabel>
+            <translation><!-- Spam/Duplicate/Test --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Check this box if we should track on the Daily Stand-up --></help>
+        <label><!-- Daily Standup --></label>
+        <name>Daily_Standup__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please enter details on the case if it does not fit a standard definition and you have selected &quot;other&quot;. --></help>
+        <label><!-- Enter comments if type is other --></label>
+        <name>Enter_comments_if_type_is_other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hours Since Open --></label>
+        <name>Hours_Since_Open__c</name>
+    </fields>
+    <fields>
+        <help><!-- Time from open to close of a case. or zero if still open --></help>
+        <label><!-- Hours to Resolve --></label>
+        <name>Hours_to_Resolve__c</name>
+    </fields>
+    <fields>
+        <help><!-- Why did we have to take care of this? --></help>
+        <label><!-- Issue Cause --></label>
+        <name>Issue_Cause__c</name>
+        <picklistValues>
+            <masterLabel>Feed/Data</masterLabel>
+            <translation><!-- Feed/Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instrumentation</masterLabel>
+            <translation><!-- Instrumentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operates as normal</masterLabel>
+            <translation><!-- Operates as normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operational</masterLabel>
+            <translation><!-- Operational --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Maturity</masterLabel>
+            <translation><!-- Product Maturity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rules and Strategies</masterLabel>
+            <translation><!-- Rules and Strategies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>rrBug/Regression/Code/ENG</masterLabel>
+            <translation><!-- rrBug/Regression/Code/ENG --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Describe why we had to take care of this. --></help>
+        <label><!-- Issue Description --></label>
+        <name>Issue_Description__c</name>
+        <picklistValues>
+            <masterLabel>Bug</masterLabel>
+            <translation><!-- Bug --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Did not do, Did not complete</masterLabel>
+            <translation><!-- Did not do, Did not complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect, unclear</masterLabel>
+            <translation><!-- Incorrect, unclear --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not available</masterLabel>
+            <translation><!-- Not available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part of contract, agreement</masterLabel>
+            <translation><!-- Part of contract, agreement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workflow</masterLabel>
+            <translation><!-- Workflow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- What did we find out or do? --></help>
+        <label><!-- Issue Resolution --></label>
+        <name>Issue_Resolution__c</name>
+        <picklistValues>
+            <masterLabel>Client to fix</masterLabel>
+            <translation><!-- Client to fix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Could not reproduce</masterLabel>
+            <translation><!-- Could not reproduce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Functioning as designed</masterLabel>
+            <translation><!-- Functioning as designed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Issue identified</masterLabel>
+            <translation><!-- Issue identified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Report Created</masterLabel>
+            <translation><!-- Report Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request Completed</masterLabel>
+            <translation><!-- Request Completed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This field is used for reporting.  Enter a short description of the issue. --></help>
+        <label><!-- Issue --></label>
+        <name>Issue__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is required to create a JIRA ticket from Salesforce. --></help>
+        <label><!-- JIRA Issue Type --></label>
+        <name>JIRA_Issue_Tyoe__c</name>
+        <picklistValues>
+            <masterLabel>Bug</masterLabel>
+            <translation><!-- Bug --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Documentation</masterLabel>
+            <translation><!-- Documentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MMF</masterLabel>
+            <translation><!-- MMF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Debt</masterLabel>
+            <translation><!-- Technical Debt --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This is required when creating a JIRA ticket.  Defaults to Normal and can be changed. --></help>
+        <label><!-- JIRA Priority --></label>
+        <name>JIRA_Priority__c</name>
+        <picklistValues>
+            <masterLabel>Blocker</masterLabel>
+            <translation><!-- Blocker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Critical</masterLabel>
+            <translation><!-- Critical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Major</masterLabel>
+            <translation><!-- Major --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minor</masterLabel>
+            <translation><!-- Minor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Normal</masterLabel>
+            <translation><!-- Normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rush</masterLabel>
+            <translation><!-- Rush --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Time Permitting</masterLabel>
+            <translation><!-- Time Permitting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trivial</masterLabel>
+            <translation><!-- Trivial --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Jira --></help>
+        <label><!-- Jira --></label>
+        <name>Jira__c</name>
+    </fields>
+    <fields>
+        <label><!-- MindTouch Username --></label>
+        <name>MindTouch_Username__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use this Field with the NEW Salesforce. --></help>
+        <label><!-- No. of Billable Hours --></label>
+        <name>No_of_Billable_Hours__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the number of hours used in increments of 1/2 hour, for example:
+.50=30 minutes, if more than 30 minutes, round up to the next hour.  Hours over the monthly allotment are charged at the professional services hourly rate. --></help>
+        <label><!-- Plus/Platinum Hours --></label>
+        <name>Plus_Platinum_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous CaseId --></label>
+        <name>Previous_CaseId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Case Number --></label>
+        <name>Previous_Case_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Products --></label>
+        <name>Products__c</name>
+        <picklistValues>
+            <masterLabel>Advanced merchandising</masterLabel>
+            <translation><!-- Advanced merchandising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Build</masterLabel>
+            <translation><!-- Build --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discover</masterLabel>
+            <translation><!-- Discover --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engage</masterLabel>
+            <translation><!-- Engage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engage - Email</masterLabel>
+            <translation><!-- Engage - Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Find</masterLabel>
+            <translation><!-- Find --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legacy</masterLabel>
+            <translation><!-- Legacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recommend</masterLabel>
+            <translation><!-- Recommend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recommend - BYOS/BYOA</masterLabel>
+            <translation><!-- Recommend - BYOS/BYOA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recommend - Email</masterLabel>
+            <translation><!-- Recommend - Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spam/Duplicate/Test</masterLabel>
+            <translation><!-- Spam/Duplicate/Test --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training(Litmos / RR university)</masterLabel>
+            <translation><!-- Training(Litmos / RR university) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Type Ahead Search</masterLabel>
+            <translation><!-- Type Ahead Search --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Project --></label>
+        <name>Project__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Check this box if the work completed is on the Rate Card.  If we are billing for the work, enter the No. of Billable Hours and check the Billable Hours box. --></help>
+        <label><!-- Rate Card Work --></label>
+        <name>Rate_Card_Work__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use this field to type the person&apos;s name manually.  For example, the Jira was open by an internal person, but the case is logged under the Account Name.  Not required. --></help>
+        <label><!-- Requester --></label>
+        <name>Requester__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolution SLA --></label>
+        <name>Resolution_SLA__c</name>
+    </fields>
+    <fields>
+        <help><!-- https://confluence.richrelevance.com/confluence/display/RM/Case+Alerts --></help>
+        <label><!-- Resolution Status --></label>
+        <name>Resolution_Status1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolution Status Image --></label>
+        <name>Resolution_Status_Image1__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used for reporting.  Enter how the issued was resolved. --></help>
+        <label><!-- Resolution --></label>
+        <name>Resolution__c</name>
+    </fields>
+    <fields>
+        <help><!-- Resolution will default to Customer Support.  If we completed 75% of the work on the ticket, assign to us.  If multiple groups were required to resolve the issue include all groups.  Select CSE or OPS if they did all or the majority of the work. --></help>
+        <label><!-- Resolved by --></label>
+        <name>Resolved_by__c</name>
+        <picklistValues>
+            <masterLabel>Client</masterLabel>
+            <translation><!-- Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner/Third Party Vender</masterLabel>
+            <translation><!-- Partner/Third Party Vender --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>rrClientHealth</masterLabel>
+            <translation><!-- rrClientHealth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>rrClientSuccess – Resilience</masterLabel>
+            <translation><!-- rrClientSuccess – Resilience --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>rrENGSUP</masterLabel>
+            <translation><!-- rrENGSUP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>rrLift</masterLabel>
+            <translation><!-- rrLift --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>rrOPS</masterLabel>
+            <translation><!-- rrOPS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>rrSquad</masterLabel>
+            <translation><!-- rrSquad --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Response SLA --></label>
+        <name>Response_SLA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Status --></label>
+        <name>Response_Status1__c</name>
+    </fields>
+    <fields>
+        <help><!-- https://confluence.richrelevance.com/confluence/display/RM/Case+Alerts --></help>
+        <label><!-- Response Status Image --></label>
+        <name>Response_Status_Image1__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used for our Root Cause Analysis reports.  State the current Actions in play to find the root cause. --></help>
+        <label><!-- Root Cause Actions --></label>
+        <name>Root_Cause_Actions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Region --></label>
+        <name>Sales_Region__c</name>
+    </fields>
+    <fields>
+        <help><!-- use this field to enter the number of hours a sev 1 or 2 was open --></help>
+        <label><!-- Sev 1/2 Duration --></label>
+        <name>Sev_1_2_Duration__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the number of hours the client was impacted before service was remediated with a work around or temp fix. --></help>
+        <label><!-- Sev 1/2 Remediation --></label>
+        <name>Sev_1_2_Remediation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solution --></label>
+        <name>Solution__c</name>
+        <relationshipLabel><!-- Cases(Solutions) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Support Level --></label>
+        <name>Support_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Support Region --></label>
+        <name>Support_Region__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rounded to 30 minute increments (.5) for all time spent to resolve a case, including reading, responding, documenting the issue and includes time of all {rr} resources involved in the case. --></help>
+        <label><!-- Hours on Case --></label>
+        <name>Total_Hours_on_Case__c</name>
+    </fields>
+    <fields>
+        <label><!-- Who caused the issue? --></label>
+        <name>Who_caused_the_issue__c</name>
+        <picklistValues>
+            <masterLabel>Client</masterLabel>
+            <translation><!-- Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Service / RR</masterLabel>
+            <translation><!-- Client Service / RR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENG Bug</masterLabel>
+            <translation><!-- ENG Bug --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A (admin/alert)</masterLabel>
+            <translation><!-- N/A (admin/alert) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operates as Expected</masterLabel>
+            <translation><!-- Operates as Expected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ops</masterLabel>
+            <translation><!-- Ops --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner or 3rd Party</masterLabel>
+            <translation><!-- Partner or 3rd Party --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spam/Duplicate/Test</masterLabel>
+            <translation><!-- Spam/Duplicate/Test --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support</masterLabel>
+            <translation><!-- Support --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- OLD_changed this field for the new Salesforce. Enter the number of billable hours spent on this case. --></help>
+        <label><!-- # of Billable Hours --></label>
+        <name>of_Billable_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- round robin --></label>
+        <name>round_robin__c</name>
+    </fields>
+    <layouts>
+        <layout>Case Layout</layout>
+        <sections>
+            <label><!-- Billable Hours --></label>
+            <section>Billable Hours</section>
+        </sections>
+        <sections>
+            <label><!-- Documentation --></label>
+            <section>Documentation</section>
+        </sections>
+        <sections>
+            <label><!-- Resolved By --></label>
+            <section>Resolved By</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Status --></label>
+            <section>SLA Status</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Close Case Layout</layout>
+        <layoutType>CaseClose</layoutType>
+        <sections>
+            <label><!-- Case Closure and Billing Detail --></label>
+            <section>Case Closure and Billing Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Post Analysis --></label>
+            <section>Post Analysis</section>
+        </sections>
+        <sections>
+            <label><!-- SLA --></label>
+            <section>SLA</section>
+        </sections>
+        <sections>
+            <label><!-- Severity 1 and 2 Information --></label>
+            <section>Severity 1 and 2 Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Existing Case</layout>
+        <sections>
+            <label><!-- Documentation --></label>
+            <section>Documentation</section>
+        </sections>
+        <sections>
+            <label><!-- Pre Analysis and SLA --></label>
+            <section>Pre Analysis and SLA</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>New Case</layout>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Child Case --></label>
+        <name>Child_Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Event --></label>
+        <name>Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>Log_a_Call</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewChildCase --></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Task --></label>
+        <name>Task</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Use to view or edit cases and only run through assignment rules on demand --></description>
+        <label><!-- Existing Case --></label>
+        <name>Existing_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use to create a new case to run through assignment rules --></description>
+        <label><!-- New Case --></label>
+        <name>New_Case</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please add comments if Case Type is &quot;Other&quot; --></errorMessage>
+        <name>If_Case_Type_is_Other</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot move a case into an Open status before contacting the client. Please update the Client Initially Contacted field. --></errorMessage>
+        <name>Require_Contacted_for_Open_Cases</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Severity must be filled out --></errorMessage>
+        <name>Severity</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Associate_to_JIRA --></label>
+        <name>Associate_to_JIRA</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_JIRA_Ticket --></label>
+        <name>Create_JIRA_Ticket</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Link_to_Existing_JIRA_Ticket --></label>
+        <name>Link_to_Existing_JIRA_Ticket</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Edit --></label>
+        <name>Mass_Edit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Update --></label>
+        <name>Mass_Update</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Tasks_Cases --></label>
+        <name>activities__Create_Tasks_Cases</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Download_Attachments --></label>
+        <name>attachmentzip__Download_Attachments</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- status --></label>
+        <name>status</name>
+    </webLinks>
+    <workflowTasks>
+        <description><!-- Inactive Rules.  Possible Delete.  Used to log a &quot;History&quot; of alerts sent via a workflow rule --></description>
+        <name>Email_alert_sent</name>
+        <subject><!-- Email alert sent --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

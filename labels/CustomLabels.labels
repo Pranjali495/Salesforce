@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>QuoteCity</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>City used in quote PDF document.</shortDescription>
+        <value>San Francisco</value>
+    </labels>
+    <labels>
+        <fullName>QuoteCountry</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Country value used in quote PDF document.</shortDescription>
+        <value>United States</value>
+    </labels>
+    <labels>
+        <fullName>QuoteState</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>State used in quote PDF document.</shortDescription>
+        <value>CA</value>
+    </labels>
+    <labels>
+        <fullName>QuoteStreet</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Street address used in quote PDF document.</shortDescription>
+        <value>633 Folsom Street</value>
+    </labels>
+    <labels>
+        <fullName>QuoteZipCode</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Zip Code used in quote PDF document.</shortDescription>
+        <value>94107</value>
+    </labels>
+</CustomLabels>

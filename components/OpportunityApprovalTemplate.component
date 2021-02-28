@@ -1,0 +1,63 @@
+<apex:component controller="OpportunityApprovalTemplateController" access="global" selfClosing="true" layout="none">
+    <apex:attribute name="relatedToId" assignTo="{!TargetObjectId}" type="String" description="the record of opportunity" />
+    <style type="text/css">
+        table#lineItems {
+            border-collapse:collapse;
+        }
+    </style>
+    <p>{!WorkItem.CreatedBy.Name} has submitted an opportunity to {!WorkItem.Actor.Name} for approval.</p><br />
+
+    <div>Opportunity: {!wrapper.Opportunity.Name}</div>
+    <div>{!BaseUrl}/{!wrapper.Opportunity.Id}</div>
+    <div>Account: {!wrapper.Opportunity.Account.Name}</div><br />
+
+    <div>Total Addressable Revenue: {!wrapper.CompoundTotalRevenue}</div>
+    <div>Amount: {!wrapper.CompoundAmount}</div>
+    <div>ACV: {!wrapper.CompoundACVAmount}</div>
+    <div># of Site: {!wrapper.Opportunity.NumberOfSites__c}</div>
+    <div>Close Date:&nbsp;<apex:outputField value="{!wrapper.Opportunity.CloseDate}" /></div><br />
+
+    <div>Discount %:&nbsp;<apex:outputField value="{!wrapper.Opportunity.Discount__c}" /></div>
+    <div>Service and Integration Total: {!wrapper.CompoundSITotal}</div><br />
+    
+    <div>Total License List Price: {!wrapper.CompoundTotalListPrice}</div>
+    <div>Total License Contract Sales Price: {!wrapper.CompoundTotalSalesPrice}</div>
+    <div>Total Discount on Licenses:&nbsp;<apex:outputField value="{!wrapper.Opportunity.Total_Discount_on_Licenses__c}" /></div>
+    <div>Total Services List Price: {!wrapper.CompoundTotalServiceListPrice}</div>
+    <div>Total Services Contract Sales Price: {!wrapper.CompoundTotalServiceSalesPrice}</div>
+    <div>Total Discount on Services:&nbsp;<apex:outputField value="{!wrapper.Opportunity.Total_Discount_on_Services__c}" /></div>
+
+    <p style="color: #4285F4;"><b>Product Details:</b></p>
+
+    <table id="lineItems" cellpadding="5" cellspacing="0" border="1" width="100%">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Special Terms</th>
+                <th>List Price</th>
+                <th>Discount %</th>
+                <th>Sales Price</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <apex:repeat value="{!wrapper.OpportunityProducts}" var="item">
+                <tr>
+                    <td>{!item.LineItem.PricebookEntry.Product2.Name}</td>
+                    <td>{!item.LineItem.POC_Terms__c}&nbsp;</td>
+                    <td style="text-align: right">{!item.CompoundListPrice}</td>
+                    <td style="text-align: right">
+                        <apex:outputField value="{!item.LineItem.Discount__c}" />
+                    </td>
+                    <td style="text-align: right">{!item.CompoundUnitPrice}</td>
+                </tr>
+            </apex:repeat>
+        </tbody>
+    </table>
+    <br /><br />
+
+    <p>To approve or reject this item, click this link {!BaseUrl}/p/process/ProcessInstanceWorkitemWizardStageManager?id={!WorkItem.Id} or reply to this email with one of these words in the first line of the email message: APPROVE, APPROVED, YES, REJECT, REJECTED, NO</p>
+
+    <p>If replying via email, you can also add comments on the second line. Comments will be stored with the approval request in Salesforce CRM. </p><br />
+
+    <p>Thank you.</p>
+</apex:component>

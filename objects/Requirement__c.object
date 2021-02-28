@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Requirement tracked by the Requirements Tracker application.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>AppirioDevHours__c</fullName>
+        <description>Number of Development and analysis hours needed by Appirio</description>
+        <externalId>false</externalId>
+        <label>Appirio Dev Hours</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Applies_to_Domain_Object__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Applies to Domain Object</label>
+        <referenceTo>Domain_Object__c</referenceTo>
+        <relationshipLabel>Requirements</relationshipLabel>
+        <relationshipName>Requirements</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Applies_to_Process__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Applies to Process</label>
+        <referenceTo>Process__c</referenceTo>
+        <relationshipLabel>Requirements</relationshipLabel>
+        <relationshipName>Requirements_Supporting_Process</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Applies_to_Use_Case__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Applies to Use Case</label>
+        <referenceTo>Use_Case__c</referenceTo>
+        <relationshipLabel>Special Requirements</relationshipLabel>
+        <relationshipName>Special_Requirements</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Approach__c</fullName>
+        <externalId>false</externalId>
+        <label>Proposed Approach</label>
+        <length>2000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CMC_Task__c</fullName>
+        <externalId>false</externalId>
+        <label>CMC Task</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Coverage_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (  Test_Case_Count__c  &gt; 0, &quot;Covered&quot;, &quot;Not Covered&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Coverage Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32000</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Functional_Area__c</fullName>
+        <description>Functional area for project work.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Functional area for project work.</inlineHelpText>
+        <label>Functional Area</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Configuration</fullName>
+                    <default>false</default>
+                    <label>Configuration</label>
+                </value>
+                <value>
+                    <fullName>Customization</fullName>
+                    <default>false</default>
+                    <label>Customization</label>
+                </value>
+                <value>
+                    <fullName>Data Migration/Import</fullName>
+                    <default>false</default>
+                    <label>Data Migration/Import</label>
+                </value>
+                <value>
+                    <fullName>Integration</fullName>
+                    <default>false</default>
+                    <label>Integration</label>
+                </value>
+                <value>
+                    <fullName>Out-of-Box</fullName>
+                    <default>false</default>
+                    <label>Out-of-Box</label>
+                </value>
+                <value>
+                    <fullName>Business Process</fullName>
+                    <default>false</default>
+                    <label>Business Process</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Level__c</fullName>
+        <externalId>false</externalId>
+        <label>Level</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Global</fullName>
+                    <default>false</default>
+                    <label>Global</label>
+                </value>
+                <value>
+                    <fullName>Feature</fullName>
+                    <default>false</default>
+                    <label>Feature</label>
+                </value>
+                <value>
+                    <fullName>Process</fullName>
+                    <default>false</default>
+                    <label>Process</label>
+                </value>
+                <value>
+                    <fullName>Object</fullName>
+                    <default>false</default>
+                    <label>Object</label>
+                </value>
+                <value>
+                    <fullName>Use Case</fullName>
+                    <default>false</default>
+                    <label>Use Case</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OffShoreHours__c</fullName>
+        <description>Number of Hours required to develop- Off-Shore</description>
+        <externalId>false</externalId>
+        <label>Off Shore Hours</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Origin__c</fullName>
+        <description>Reference to the item and / or individual from which / whom this requirement originated</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter a reference to the item and / or individual from which / whom this requirement originated</inlineHelpText>
+        <label>Origin</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Original_SOW__c</fullName>
+        <description>Was this requirement part of the original SOW or added as part of the Change Order?</description>
+        <externalId>false</externalId>
+        <label>Original SOW</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Original SOW</fullName>
+                    <default>false</default>
+                    <label>Original SOW</label>
+                </value>
+                <value>
+                    <fullName>Change Order</fullName>
+                    <default>false</default>
+                    <label>Change Order</label>
+                </value>
+                <value>
+                    <fullName>Change Order 2</fullName>
+                    <default>false</default>
+                    <label>Change Order 2</label>
+                </value>
+                <value>
+                    <fullName>CO 3</fullName>
+                    <default>false</default>
+                    <label>CO 3</label>
+                </value>
+                <value>
+                    <fullName>Final</fullName>
+                    <default>true</default>
+                    <label>Final</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PR_able__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>PR-able</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Parent_Requirement__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Parent Requirement</label>
+        <referenceTo>Requirement__c</referenceTo>
+        <relationshipLabel>Sub Requirements</relationshipLabel>
+        <relationshipName>Sub_Requirements</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Phase__c</fullName>
+        <externalId>false</externalId>
+        <label>Phase</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Phase 1</fullName>
+                    <default>false</default>
+                    <label>Phase 1</label>
+                </value>
+                <value>
+                    <fullName>SoW / CO</fullName>
+                    <default>false</default>
+                    <label>SoW / CO</label>
+                </value>
+                <value>
+                    <fullName>Future Phase</fullName>
+                    <default>false</default>
+                    <label>Future Phase</label>
+                </value>
+                <value>
+                    <fullName>Phase 2</fullName>
+                    <default>false</default>
+                    <label>Phase 2</label>
+                </value>
+                <value>
+                    <fullName>Phase 3</fullName>
+                    <default>true</default>
+                    <label>Phase 3</label>
+                </value>
+                <value>
+                    <fullName>Phase 4</fullName>
+                    <default>false</default>
+                    <label>Phase 4</label>
+                </value>
+                <value>
+                    <fullName>Phase 5</fullName>
+                    <default>false</default>
+                    <label>Phase 5</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Priority__c</fullName>
+        <externalId>false</externalId>
+        <label>Priority</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1a. Must have for UAT on 6/14</fullName>
+                    <default>false</default>
+                    <label>1a. Must have for UAT on 6/14</label>
+                </value>
+                <value>
+                    <fullName>1b. Must Have for 6/24- Advanced Go-Live</fullName>
+                    <default>false</default>
+                    <label>1b. Must Have for 6/24- Advanced Go-Live</label>
+                </value>
+                <value>
+                    <fullName>2. Must have for full Go-Live including Project Accounting</fullName>
+                    <default>false</default>
+                    <label>2. Must have for full Go-Live including Project Accounting</label>
+                </value>
+                <value>
+                    <fullName>3. Nice to have for 6/24 Go-Live</fullName>
+                    <default>false</default>
+                    <label>3. Nice to have for 6/24 Go-Live</label>
+                </value>
+                <value>
+                    <fullName>4. Nice to have for final Go-Live</fullName>
+                    <default>false</default>
+                    <label>4. Nice to have for final Go-Live</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Process_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Applies_to_Process__r.Process__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Process Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Process__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Process</label>
+        <referenceTo>Process__c</referenceTo>
+        <relationshipName>Requirements</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Project__c</fullName>
+        <externalId>false</externalId>
+        <label>Project</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>PSE Implementation</fullName>
+                    <default>true</default>
+                    <label>PSE Implementation</label>
+                </value>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>B</fullName>
+                    <default>false</default>
+                    <label>B</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+                <value>
+                    <fullName>D</fullName>
+                    <default>false</default>
+                    <label>D</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Rank__c</fullName>
+        <externalId>false</externalId>
+        <label>Rank</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Review_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Under Scope Review</fullName>
+                    <color>#CC33CC</color>
+                    <default>false</default>
+                    <label>Under Scope Review</label>
+                </value>
+                <value>
+                    <fullName>In Analysis</fullName>
+                    <color>#FF0000</color>
+                    <default>false</default>
+                    <label>In Analysis</label>
+                </value>
+                <value>
+                    <fullName>In Implementation</fullName>
+                    <color>#F3D904</color>
+                    <default>false</default>
+                    <label>In Implementation</label>
+                </value>
+                <value>
+                    <fullName>Ready to Test</fullName>
+                    <color>#8F6429</color>
+                    <default>false</default>
+                    <label>Ready to Test</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <color>#33CC00</color>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Out-of-the-box Functionality</fullName>
+                    <color>#78C953</color>
+                    <default>false</default>
+                    <label>Out-of-the-box Functionality</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <color>#BBBBBB</color>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>Duplicate</fullName>
+                    <color>#BBBBBB</color>
+                    <default>false</default>
+                    <label>Duplicate</label>
+                </value>
+                <value>
+                    <fullName>Pending CO</fullName>
+                    <color>#FF6600</color>
+                    <default>false</default>
+                    <label>Pending CO</label>
+                </value>
+                <value>
+                    <fullName>Pending Feature Request</fullName>
+                    <color>#FF99FF</color>
+                    <default>false</default>
+                    <label>Pending Feature Request</label>
+                </value>
+                <value>
+                    <fullName>Pending New Product Release</fullName>
+                    <color>#CC66CC</color>
+                    <default>false</default>
+                    <label>Pending New Product Release</label>
+                </value>
+                <value>
+                    <fullName>For Future Consideration</fullName>
+                    <color>#F96FB7</color>
+                    <default>false</default>
+                    <label>For Future Consideration</label>
+                </value>
+                <value>
+                    <fullName>Note</fullName>
+                    <color>#999999</color>
+                    <default>false</default>
+                    <label>Note</label>
+                </value>
+                <value>
+                    <fullName>Not Reviewed</fullName>
+                    <default>true</default>
+                    <label>Not Reviewed</label>
+                </value>
+                <value>
+                    <fullName>Reviewed</fullName>
+                    <default>false</default>
+                    <label>Reviewed</label>
+                </value>
+                <value>
+                    <fullName>Reviewed by Team Lead</fullName>
+                    <default>false</default>
+                    <label>Reviewed by Team Lead</label>
+                </value>
+                <value>
+                    <fullName>Reviewed by Project Lead</fullName>
+                    <default>false</default>
+                    <label>Reviewed by Project Lead</label>
+                </value>
+                <value>
+                    <fullName>Approved by Executives</fullName>
+                    <default>false</default>
+                    <label>Approved by Executives</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Size__c</fullName>
+        <externalId>false</externalId>
+        <label>Size</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Test_Case_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Test Case Count</label>
+        <summaryForeignKey>Test_Cases__c.Requirements__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Title__c</fullName>
+        <externalId>false</externalId>
+        <label>Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Use_Case_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Applies_to_Use_Case__r.Use_Case__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Use Case Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Requirement</label>
+    <nameField>
+        <displayFormat>RQ-{0000}</displayFormat>
+        <label>Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Requirements</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Phase__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Title__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Priority__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Review_Status__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Phase__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Title__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Review_Status__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>Phase__c</searchFilterFields>
+        <searchFilterFields>Title__c</searchFilterFields>
+        <searchFilterFields>Priority__c</searchFilterFields>
+        <searchFilterFields>Review_Status__c</searchFilterFields>
+        <searchResultsAdditionalFields>Title__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Review_Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Origin__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Priority__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Approach__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Brand__c</fullName>
+        <externalId>false</externalId>
+        <label>Brand</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CAS_Call_Recordings__c</fullName>
+        <description>Links to recordings for connect and sell calls</description>
+        <externalId>false</externalId>
+        <label>CAS Call Recordings</label>
+        <required>false</required>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Completion_Date__c</fullName>
+        <description>SAM Integration Best Action Completion Date</description>
+        <externalId>false</externalId>
+        <label>Completion Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Data_Request_Details__c</fullName>
+        <description>Provide SPECIFIC details of this request, including overarching category for your brand.</description>
+        <externalId>false</externalId>
+        <label>Data Request Details</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Data_Request__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Please be specific with this request.  We need to know exactly what you&apos;re looking for.  MUST align with a category, not just a specific brand.</description>
+        <externalId>false</externalId>
+        <label>Data Request</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Duration_in_Hours__c</fullName>
+        <description>Used by SEs to record time (in Hours) spent on an activity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Used by SEs to record time (in Hours) spent on an activity.</inlineHelpText>
+        <label>Duration (in Hours)</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>External_or_Internal__c</fullName>
+        <description>Used by Solution Engineers to track if time is spent externally (client facing) or internally.  Defaults to External.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Used by Solution Engineers to track if time is spent externally (client facing) or internally.  Defaults to External.</inlineHelpText>
+        <label>External or Internal (SEs)</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>External</fullName>
+                    <default>true</default>
+                    <label>External</label>
+                </value>
+                <value>
+                    <fullName>Internal</fullName>
+                    <default>false</default>
+                    <label>Internal</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Follow_Up_From_Meeting__c</fullName>
+        <externalId>false</externalId>
+        <label>Follow Up From Meeting</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Home_Depot__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Home Depot</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Kohl_s__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Kohl&apos;s</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Meeting_Date_Time__c</fullName>
+        <defaultValue>$System.OriginDateTime</defaultValue>
+        <externalId>false</externalId>
+        <label>Meeting Date &amp; Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Meeting_Presentation__c</fullName>
+        <externalId>false</externalId>
+        <label>Meeting Presentation</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Meijer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Meijer</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Mock_Up_Details__c</fullName>
+        <externalId>false</externalId>
+        <label>Mock-Up Details</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Mock_Up_Requested__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Standard mocks for meeting, this does not include larger strategic presentation for vertical</description>
+        <externalId>false</externalId>
+        <label>Mock-Ups ONLY</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Mock_up_Due_Date__c</fullName>
+        <description>Mock-up Due Date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Mock-up Due Date</inlineHelpText>
+        <label>Mock-up Due Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Previous_ActivityId__c</fullName>
+        <externalId>false</externalId>
+        <label>Previous ActivityId</label>
+        <length>20</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QuoteDocumentID__c</fullName>
+        <externalId>false</externalId>
+        <label>Quote Document ID</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QuoteDocument__c</fullName>
+        <description>Quote document that was sent from opportunity.</description>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&apos;/servlet/servlet.FileDownload?file=&apos; &amp; QuoteDocumentID__c, QuoteName__c)</formula>
+        <inlineHelpText>Quote document that was sent from opportunity.</inlineHelpText>
+        <label>Quote Document</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QuoteName__c</fullName>
+        <externalId>false</externalId>
+        <label>Quote Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RFI_Details__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please be as explicit as possible with what you would like us to provide.</inlineHelpText>
+        <label>RFI Details</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RFI_Due_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>RFI Due Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Referred_by__c</fullName>
+        <externalId>false</externalId>
+        <label>Referred by</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Retailer_Referral__c</fullName>
+        <externalId>false</externalId>
+        <label>Retailer Referral</label>
+        <required>false</required>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sears</fullName>
+                    <default>false</default>
+                    <label>Sears</label>
+                </value>
+                <value>
+                    <fullName>Target</fullName>
+                    <default>false</default>
+                    <label>Target</label>
+                </value>
+                <value>
+                    <fullName>The Home Depot</fullName>
+                    <default>false</default>
+                    <label>The Home Depot</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SE_Activity_Type__c</fullName>
+        <description>Used by SE&apos;s only to select the Activity Type they are logging hours against.  Not shown for other roles.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Used by Solution Engineers only to select the Activity Type they are logging hours against.  Not shown for other roles.  This field is required for SEs only.</inlineHelpText>
+        <label>SE Activity Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>General Internal preparation</fullName>
+                    <default>false</default>
+                    <label>General Internal preparation</label>
+                </value>
+                <value>
+                    <fullName>Discovery</fullName>
+                    <default>false</default>
+                    <label>Discovery</label>
+                </value>
+                <value>
+                    <fullName>Customer Presentation</fullName>
+                    <default>false</default>
+                    <label>Customer Presentation</label>
+                </value>
+                <value>
+                    <fullName>Technical Follow Up</fullName>
+                    <default>false</default>
+                    <label>Technical Follow Up</label>
+                </value>
+                <value>
+                    <fullName>Solution Draft</fullName>
+                    <default>false</default>
+                    <label>Solution Draft</label>
+                </value>
+                <value>
+                    <fullName>RFP / RFI</fullName>
+                    <default>false</default>
+                    <label>RFP / RFI</label>
+                </value>
+                <value>
+                    <fullName>Mockup / Business Proposal</fullName>
+                    <default>false</default>
+                    <label>Mockup / Business Proposal</label>
+                </value>
+                <value>
+                    <fullName>Feed</fullName>
+                    <default>false</default>
+                    <label>Feed</label>
+                </value>
+                <value>
+                    <fullName>Integration</fullName>
+                    <default>false</default>
+                    <label>Integration</label>
+                </value>
+                <value>
+                    <fullName>Channel Partner</fullName>
+                    <default>false</default>
+                    <label>Channel Partner</label>
+                </value>
+                <value>
+                    <fullName>SOW</fullName>
+                    <default>false</default>
+                    <label>SOW</label>
+                </value>
+                <value>
+                    <fullName>Handoff</fullName>
+                    <default>false</default>
+                    <label>Handoff</label>
+                </value>
+                <value>
+                    <fullName>Travel</fullName>
+                    <default>false</default>
+                    <label>Travel</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sears__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Sears</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Strategic_Presentation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Strategic Presentation</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Target__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Target</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Task_Assignment__c</fullName>
+        <externalId>false</externalId>
+        <label>Task Assignment</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Meeting - Nothing Need From AdOps</fullName>
+                    <default>false</default>
+                    <label>Meeting - Nothing Need From AdOps</label>
+                </value>
+                <value>
+                    <fullName>Data Request</fullName>
+                    <default>false</default>
+                    <label>Data Request</label>
+                </value>
+                <value>
+                    <fullName>RFI Request</fullName>
+                    <default>false</default>
+                    <label>RFI Request</label>
+                </value>
+                <value>
+                    <fullName>Mock-Up Request</fullName>
+                    <default>false</default>
+                    <label>Mock-Up Request</label>
+                </value>
+                <value>
+                    <fullName>Strategic Presentation Request</fullName>
+                    <default>false</default>
+                    <label>Strategic Presentation Request</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Walmart__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Walmart</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>rr_Network__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>{rr} Network</label>
+        <type>Checkbox</type>
+    </fields>
+    <searchLayouts>
+        <searchResultsAdditionalFields>TASK.SUBJECT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHO_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHAT_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.DUE_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

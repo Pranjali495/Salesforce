@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Issue</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Issues</value>
+    </caseValues>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>Assigned_To__c</name>
+        <relationshipLabel><!-- Issues --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Date the issue was set to status=closed. --></help>
+        <label><!-- Closed Date --></label>
+        <name>Closed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closed in Build --></label>
+        <name>Closed_in_Build__c</name>
+        <picklistValues>
+            <masterLabel>1.0</masterLabel>
+            <translation><!-- 1.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.0</masterLabel>
+            <translation><!-- 2.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.0</masterLabel>
+            <translation><!-- 3.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.0</masterLabel>
+            <translation><!-- 4.0 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer Success Manager --></label>
+        <name>Customer_Success_Manager__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter enough detailed information necessary to recreate the problem --></help>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Detected By --></label>
+        <name>Detected_By__c</name>
+        <relationshipLabel><!-- Issues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Detected Date --></label>
+        <name>Detected_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Detected in Build --></label>
+        <name>Detected_in_Build__c</name>
+        <picklistValues>
+            <masterLabel>Concur CRP Config</masterLabel>
+            <translation><!-- Concur CRP Config --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phase 1 Production</masterLabel>
+            <translation><!-- Phase 1 Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFA Sandbox Post-Refresh</masterLabel>
+            <translation><!-- SFA Sandbox Post-Refresh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFA Sandbox Pre-Nov Deployment</masterLabel>
+            <translation><!-- SFA Sandbox Pre-Nov Deployment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Detected in Milestone --></label>
+        <name>Detected_in_Milestone__c</name>
+        <relationshipLabel><!-- Issues Detected or Raised --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fixed in Milestone --></label>
+        <name>Fixed_in_Milestone__c</name>
+        <relationshipLabel><!-- Issues Fixed --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Issue Type --></label>
+        <name>Issue_Type__c</name>
+        <picklistValues>
+            <masterLabel>Defect</masterLabel>
+            <translation><!-- Defect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enhancement Request</masterLabel>
+            <translation><!-- Enhancement Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Issue</masterLabel>
+            <translation><!-- Project Issue --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Immediate</masterLabel>
+            <translation><!-- Immediate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Process --></label>
+        <name>Process__c</name>
+        <relationshipLabel><!-- Issues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Project --></label>
+        <name>Project_Object__c</name>
+        <relationshipLabel><!-- Issues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Project --></label>
+        <name>Project__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Concur PSA Implementation</masterLabel>
+            <translation><!-- Concur PSA Implementation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Requirement --></label>
+        <name>Requirement__c</name>
+        <relationshipLabel><!-- Issues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Analysis / Resolution Note --></label>
+        <name>Resolution_Note__c</name>
+    </fields>
+    <fields>
+        <label><!-- Root Cause --></label>
+        <name>Root_Cause__c</name>
+        <picklistValues>
+            <masterLabel>Business Process Gap / Error</masterLabel>
+            <translation><!-- Business Process Gap / Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Configuration Error</masterLabel>
+            <translation><!-- Configuration Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Error</masterLabel>
+            <translation><!-- Data Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design Fault</masterLabel>
+            <translation><!-- Design Fault --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implementation Error</masterLabel>
+            <translation><!-- Implementation Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requirements Error / Misunderstanding</masterLabel>
+            <translation><!-- Requirements Error / Misunderstanding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testing Error</masterLabel>
+            <translation><!-- Testing Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Severity --></label>
+        <name>Severity__c</name>
+        <picklistValues>
+            <masterLabel>1 - Showstopper</masterLabel>
+            <translation><!-- 1 - Showstopper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - High</masterLabel>
+            <translation><!-- 2 - High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Medium</masterLabel>
+            <translation><!-- 3 - Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Cosmetic/Usability</masterLabel>
+            <translation><!-- 4 - Cosmetic/Usability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Enhancement</masterLabel>
+            <translation><!-- 5 - Enhancement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GAP</masterLabel>
+            <translation><!-- GAP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>As Designed</masterLabel>
+            <translation><!-- As Designed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assigned</masterLabel>
+            <translation><!-- Assigned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate</masterLabel>
+            <translation><!-- Duplicate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation><!-- Fixed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reopen</masterLabel>
+            <translation><!-- Reopen --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status is Open --></label>
+        <name>Status_is_Open__c</name>
+    </fields>
+    <fields>
+        <help><!-- Short description of the issue. --></help>
+        <label><!-- Summary --></label>
+        <name>Summary__c</name>
+    </fields>
+    <fields>
+        <help><!-- The test case associated to this issue. --></help>
+        <label><!-- Test Case --></label>
+        <name>Test_Case__c</name>
+        <relationshipLabel><!-- Issues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Version --></label>
+        <name>Version__c</name>
+    </fields>
+    <layouts>
+        <layout>Issue Layout</layout>
+        <sections>
+            <label><!-- Analysis &amp; Resolution --></label>
+            <section>Analysis &amp; Resolution</section>
+        </sections>
+        <sections>
+            <label><!-- Assignment &amp; Estimation --></label>
+            <section>Assignment &amp; Estimation</section>
+        </sections>
+        <sections>
+            <label><!-- Closure --></label>
+            <section>Closure</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Detection &amp; Classification --></label>
+            <section>Detection &amp; Classification</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- Relationships --></label>
+            <section>Relationships</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Cannot set Issue to &quot;Fixed&quot; without providing Resolution Note --></errorMessage>
+        <name>Cannot_fix_without_resolution_note</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A &quot;New&quot; issue cannot have an assignee.  Set it to &quot;Assigned&quot; instead. --></errorMessage>
+        <name>New_issue_cant_have_assignee</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This Issue must be assigned to someone. --></errorMessage>
+        <name>Require_Assign_To</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,3336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Total Company Annual Revenue</value>
+        </caseValues>
+        <name>annual_revenue_account</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Account Type</value>
+        </caseValues>
+        <name>type_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Corporate Website</value>
+        </caseValues>
+        <name>website_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Account ACV --></label>
+        <name>ACV_Amount2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ACV Cohort --></label>
+        <name>ACV_Cohort__c</name>
+    </fields>
+    <fields>
+        <help><!-- Designates the recommended action to take on the account.  Tied to the Reviewer field as the reviewer has recommended this action. --></help>
+        <label><!-- Account Clean-up: Action Recommended --></label>
+        <name>Account_Clean_up_Action_Recommended__c</name>
+        <picklistValues>
+            <masterLabel>Delete</masterLabel>
+            <translation><!-- Delete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keep</masterLabel>
+            <translation><!-- Keep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keep - Ads</masterLabel>
+            <translation><!-- Keep - Ads --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keep - Transfer</masterLabel>
+            <translation><!-- Keep - Transfer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merge</masterLabel>
+            <translation><!-- Merge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remove</masterLabel>
+            <translation><!-- Remove --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Review</masterLabel>
+            <translation><!-- Review --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used to add notes related to the Status of the account, and highlight any action plans to change or maintain account status. --></help>
+        <label><!-- Health of the Business --></label>
+        <name>Account_Health__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Owner Role --></label>
+        <name>Account_Owner_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Sales Region --></label>
+        <name>Account_Region__c</name>
+        <picklistValues>
+            <masterLabel>APAC</masterLabel>
+            <translation><!-- APAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Americas</masterLabel>
+            <translation><!-- Americas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA</masterLabel>
+            <translation><!-- EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEMEA</masterLabel>
+            <translation><!-- SEMEA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Customer - Existing Customer
+Prospect - Future Prospect
+Target - Actively Pursuing
+Terminated Customer - Former Customer
+Lost Opportunity - No Longer Pursued
+Out of Business - No Longer in Business
+Disqualified - No Longer Qualified --></help>
+        <label><!-- Account Relationship --></label>
+        <name>Account_Relationship__c</name>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation><!-- Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disqualified</masterLabel>
+            <translation><!-- Disqualified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost Opportunity</masterLabel>
+            <translation><!-- Lost Opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out of Business</masterLabel>
+            <translation><!-- Out of Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation><!-- Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect</masterLabel>
+            <translation><!-- Prospect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Target</masterLabel>
+            <translation><!-- Target --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terminated Customer</masterLabel>
+            <translation><!-- Terminated Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Top X Target</masterLabel>
+            <translation><!-- Top X Target --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This id is used for mass imports only. Allowing us to avoid duplicate unique IDs. --></help>
+        <label><!-- Account Import ID --></label>
+        <name>Acount_Import_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agency --></label>
+        <name>Agency__c</name>
+        <picklistValues>
+            <masterLabel>360i</masterLabel>
+            <translation><!-- 360i --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3Atlanta</masterLabel>
+            <translation><!-- 3Atlanta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4D</masterLabel>
+            <translation><!-- 4D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AB InBev</masterLabel>
+            <translation><!-- AB InBev --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AKQA</masterLabel>
+            <translation><!-- AKQA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARC Worldwide Chicago</masterLabel>
+            <translation><!-- ARC Worldwide Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AT&amp;T</masterLabel>
+            <translation><!-- AT&amp;T --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Absolute Media</masterLabel>
+            <translation><!-- Absolute Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Acosta - CT</masterLabel>
+            <translation><!-- Acosta - CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AppNexus</masterLabel>
+            <translation><!-- AppNexus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Avenue A Razorfish</masterLabel>
+            <translation><!-- Avenue A Razorfish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BVK Chicago</masterLabel>
+            <translation><!-- BVK Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BVK Milwaukee</masterLabel>
+            <translation><!-- BVK Milwaukee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bailey Lauerman Nebraska</masterLabel>
+            <translation><!-- Bailey Lauerman Nebraska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bard Advertising Minneapolis</masterLabel>
+            <translation><!-- Bard Advertising Minneapolis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barkley</masterLabel>
+            <translation><!-- Barkley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Berstein Rein</masterLabel>
+            <translation><!-- Berstein Rein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Chip</masterLabel>
+            <translation><!-- Blue Chip --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bolin</masterLabel>
+            <translation><!-- Bolin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brothers &amp; Co. Tulsa</masterLabel>
+            <translation><!-- Brothers &amp; Co. Tulsa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brunner Pittsburgh</masterLabel>
+            <translation><!-- Brunner Pittsburgh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Butler, Shine Stern +</masterLabel>
+            <translation><!-- Butler, Shine Stern + --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COTY Prestiege</masterLabel>
+            <translation><!-- COTY Prestiege --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campbell Ewald</masterLabel>
+            <translation><!-- Campbell Ewald --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carat</masterLabel>
+            <translation><!-- Carat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carat – LA</masterLabel>
+            <translation><!-- Carat – LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carat – SF</masterLabel>
+            <translation><!-- Carat – SF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carmichael Lynch</masterLabel>
+            <translation><!-- Carmichael Lynch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Catapult Marketing Nashville</masterLabel>
+            <translation><!-- Catapult Marketing Nashville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Centro</masterLabel>
+            <translation><!-- Centro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ClickHere</masterLabel>
+            <translation><!-- ClickHere --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client-direct</masterLabel>
+            <translation><!-- Client-direct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collaborative Marketing Group</masterLabel>
+            <translation><!-- Collaborative Marketing Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colle McVoy</masterLabel>
+            <translation><!-- Colle McVoy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compass Point</masterLabel>
+            <translation><!-- Compass Point --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cramer-Krasselt Chicago</masterLabel>
+            <translation><!-- Cramer-Krasselt Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cramer-Krasselt Milwaukee</masterLabel>
+            <translation><!-- Cramer-Krasselt Milwaukee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crispin, Porter + Bogusky - Boulder</masterLabel>
+            <translation><!-- Crispin, Porter + Bogusky - Boulder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Critical Mass</masterLabel>
+            <translation><!-- Critical Mass --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DGWB</masterLabel>
+            <translation><!-- DGWB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DGWB Advertising</masterLabel>
+            <translation><!-- DGWB Advertising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DGWB Advertising_sc</masterLabel>
+            <translation><!-- DGWB Advertising_sc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dailey</masterLabel>
+            <translation><!-- Dailey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dentsu</masterLabel>
+            <translation><!-- Dentsu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deutsch</masterLabel>
+            <translation><!-- Deutsch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digitas</masterLabel>
+            <translation><!-- Digitas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digitas Chicago</masterLabel>
+            <translation><!-- Digitas Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doner</masterLabel>
+            <translation><!-- Doner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft FCB</masterLabel>
+            <translation><!-- Draft FCB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft FCB Chicago</masterLabel>
+            <translation><!-- Draft FCB Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Empower Media Marketing</masterLabel>
+            <translation><!-- Empower Media Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy BBDO Chicago</masterLabel>
+            <translation><!-- Energy BBDO Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enlighten Media</masterLabel>
+            <translation><!-- Enlighten Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Essence – SF</masterLabel>
+            <translation><!-- Essence – SF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Euro RSCG Chicago</masterLabel>
+            <translation><!-- Euro RSCG Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Explore Denver</masterLabel>
+            <translation><!-- Explore Denver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FKM Houston</masterLabel>
+            <translation><!-- FKM Houston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FRWD Co.</masterLabel>
+            <translation><!-- FRWD Co. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FUOR Digital Chicago</masterLabel>
+            <translation><!-- FUOR Digital Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Firehouse Agency</masterLabel>
+            <translation><!-- Firehouse Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fraser</masterLabel>
+            <translation><!-- Fraser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fuor Digital</masterLabel>
+            <translation><!-- Fuor Digital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G2 Chicago</masterLabel>
+            <translation><!-- G2 Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GSD&amp;M - Austin</masterLabel>
+            <translation><!-- GSD&amp;M - Austin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GSD&amp;M - Chicago</masterLabel>
+            <translation><!-- GSD&amp;M - Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GSD&amp;M Idea City Houston</masterLabel>
+            <translation><!-- GSD&amp;M Idea City Houston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Godfry Q &amp; Partners</masterLabel>
+            <translation><!-- Godfry Q &amp; Partners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Haworth Media</masterLabel>
+            <translation><!-- Haworth Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hoffman York Chicago</masterLabel>
+            <translation><!-- Hoffman York Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hoffman York Milwaukee</masterLabel>
+            <translation><!-- Hoffman York Milwaukee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Horizon</masterLabel>
+            <translation><!-- Horizon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID Media</masterLabel>
+            <translation><!-- ID Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ignited</masterLabel>
+            <translation><!-- Ignited --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initiative</masterLabel>
+            <translation><!-- Initiative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initiative Chicago</masterLabel>
+            <translation><!-- Initiative Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Innocean Worldwide</masterLabel>
+            <translation><!-- Innocean Worldwide --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integer Group Chicago</masterLabel>
+            <translation><!-- Integer Group Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integer Group Dallas</masterLabel>
+            <translation><!-- Integer Group Dallas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integrated Marketing Services</masterLabel>
+            <translation><!-- Integrated Marketing Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JRS Advertising Dallas</masterLabel>
+            <translation><!-- JRS Advertising Dallas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JWT Action Chicago</masterLabel>
+            <translation><!-- JWT Action Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JWT Action Minneapolis</masterLabel>
+            <translation><!-- JWT Action Minneapolis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jacob&apos;s Marketing</masterLabel>
+            <translation><!-- Jacob&apos;s Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jacobson Rost</masterLabel>
+            <translation><!-- Jacobson Rost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KSL Media</masterLabel>
+            <translation><!-- KSL Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KSL Media NY</masterLabel>
+            <translation><!-- KSL Media NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KSM Chicago</masterLabel>
+            <translation><!-- KSM Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KineticFin</masterLabel>
+            <translation><!-- KineticFin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kirshenbaum, Bond</masterLabel>
+            <translation><!-- Kirshenbaum, Bond --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kraft One</masterLabel>
+            <translation><!-- Kraft One --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LBVD Birmingham</masterLabel>
+            <translation><!-- LBVD Birmingham --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lambesis</masterLabel>
+            <translation><!-- Lambesis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Levelwing</masterLabel>
+            <translation><!-- Levelwing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luckie Birmingham</masterLabel>
+            <translation><!-- Luckie Birmingham --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M/C/C Dallas</masterLabel>
+            <translation><!-- M/C/C Dallas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MARC USA Pittsburgh</masterLabel>
+            <translation><!-- MARC USA Pittsburgh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEA</masterLabel>
+            <translation><!-- MEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEC</masterLabel>
+            <translation><!-- MEC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MPG Media Contacts Chicago</masterLabel>
+            <translation><!-- MPG Media Contacts Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Drive Chicago</masterLabel>
+            <translation><!-- Marketing Drive Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Support Chicago</masterLabel>
+            <translation><!-- Marketing Support Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mars Advertising Chicago</masterLabel>
+            <translation><!-- Mars Advertising Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mars Advertising Minneapolis</masterLabel>
+            <translation><!-- Mars Advertising Minneapolis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Martin Williams</masterLabel>
+            <translation><!-- Martin Williams --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matchpoint Marketing Minneapolis</masterLabel>
+            <translation><!-- Matchpoint Marketing Minneapolis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maxus</masterLabel>
+            <translation><!-- Maxus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>McGarry Bowen</masterLabel>
+            <translation><!-- McGarry Bowen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>McGarryBowen</masterLabel>
+            <translation><!-- McGarryBowen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media Storm</masterLabel>
+            <translation><!-- Media Storm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MediaCom</masterLabel>
+            <translation><!-- MediaCom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MediaContacts</masterLabel>
+            <translation><!-- MediaContacts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MediaEdge</masterLabel>
+            <translation><!-- MediaEdge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MediaVest</masterLabel>
+            <translation><!-- MediaVest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mindshare</masterLabel>
+            <translation><!-- Mindshare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mindshare Chicago</masterLabel>
+            <translation><!-- Mindshare Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moxie</masterLabel>
+            <translation><!-- Moxie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moxie – LA</masterLabel>
+            <translation><!-- Moxie – LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New &amp; Improved</masterLabel>
+            <translation><!-- New &amp; Improved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Agency on record</masterLabel>
+            <translation><!-- No Agency on record --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nsight Direct</masterLabel>
+            <translation><!-- Nsight Direct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OMD</masterLabel>
+            <translation><!-- OMD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OMD – LA</masterLabel>
+            <translation><!-- OMD – LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ogilvy</masterLabel>
+            <translation><!-- Ogilvy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ogilvy Action Chicago</masterLabel>
+            <translation><!-- Ogilvy Action Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Olson Minneapolis</masterLabel>
+            <translation><!-- Olson Minneapolis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ootem</masterLabel>
+            <translation><!-- Ootem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optimedia NY</masterLabel>
+            <translation><!-- Optimedia NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optimedia – LA</masterLabel>
+            <translation><!-- Optimedia – LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optimedia – SF</masterLabel>
+            <translation><!-- Optimedia – SF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Organic Detroit</masterLabel>
+            <translation><!-- Organic Detroit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Palisades</masterLabel>
+            <translation><!-- Palisades --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Periscope</masterLabel>
+            <translation><!-- Periscope --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PhD</masterLabel>
+            <translation><!-- PhD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phelps</masterLabel>
+            <translation><!-- Phelps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prometheus</masterLabel>
+            <translation><!-- Prometheus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RED</masterLabel>
+            <translation><!-- RED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RGA</masterLabel>
+            <translation><!-- RGA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMD Columbus</masterLabel>
+            <translation><!-- RMD Columbus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RPA</masterLabel>
+            <translation><!-- RPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RPM Connect</masterLabel>
+            <translation><!-- RPM Connect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RR</masterLabel>
+            <translation><!-- RR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Radarworks</masterLabel>
+            <translation><!-- Radarworks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Razorfish (San Francisco)</masterLabel>
+            <translation><!-- Razorfish (San Francisco) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Razorfish Chicago</masterLabel>
+            <translation><!-- Razorfish Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red Bricks Media, Inc.</masterLabel>
+            <translation><!-- Red Bricks Media, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Riley Hayes</masterLabel>
+            <translation><!-- Riley Hayes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rosetta NJ</masterLabel>
+            <translation><!-- Rosetta NJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ruder Finn</masterLabel>
+            <translation><!-- Ruder Finn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ryan Partnership CT</masterLabel>
+            <translation><!-- Ryan Partnership CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ryan Partnership Chicago</masterLabel>
+            <translation><!-- Ryan Partnership Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saatchi</masterLabel>
+            <translation><!-- Saatchi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saatchi X Chicago</masterLabel>
+            <translation><!-- Saatchi X Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Siltanen</masterLabel>
+            <translation><!-- Siltanen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Space 150</masterLabel>
+            <translation><!-- Space 150 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spark</masterLabel>
+            <translation><!-- Spark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spark Communications</masterLabel>
+            <translation><!-- Spark Communications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Starcom</masterLabel>
+            <translation><!-- Starcom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Starcom Chicago</masterLabel>
+            <translation><!-- Starcom Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Starcom Detroit</masterLabel>
+            <translation><!-- Starcom Detroit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Starcom LA</masterLabel>
+            <translation><!-- Starcom LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Team Detroit</masterLabel>
+            <translation><!-- Team Detroit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Team Mazda</masterLabel>
+            <translation><!-- Team Mazda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TeamOne</masterLabel>
+            <translation><!-- TeamOne --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tracy Locke Dallas</masterLabel>
+            <translation><!-- Tracy Locke Dallas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UMI</masterLabel>
+            <translation><!-- UMI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Intl</masterLabel>
+            <translation><!-- US Intl --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underscore</masterLabel>
+            <translation><!-- Underscore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Universal McCann</masterLabel>
+            <translation><!-- Universal McCann --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Universal McCann Detroit</masterLabel>
+            <translation><!-- Universal McCann Detroit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upshot Chicago</masterLabel>
+            <translation><!-- Upshot Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wieden + Kennedy</masterLabel>
+            <translation><!-- Wieden + Kennedy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wyse Advertising</masterLabel>
+            <translation><!-- Wyse Advertising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zenith NY</masterLabel>
+            <translation><!-- Zenith NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zig Marketing Cleveland</masterLabel>
+            <translation><!-- Zig Marketing Cleveland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zimmerman</masterLabel>
+            <translation><!-- Zimmerman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>draftFCB</masterLabel>
+            <translation><!-- draftFCB --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- B2B 300 --></label>
+        <name>B2B_300__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closed Won New --></label>
+        <name>Closed_Won_New__c</name>
+    </fields>
+    <fields>
+        <label><!-- Content Management System --></label>
+        <name>Content_Management_System_del__c</name>
+        <picklistValues>
+            <masterLabel>Adobe</masterLabel>
+            <translation><!-- Adobe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agility</masterLabel>
+            <translation><!-- Agility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Autonomy (Hewlett-Packard)</masterLabel>
+            <translation><!-- Autonomy (Hewlett-Packard) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Axial Partners</masterLabel>
+            <translation><!-- Axial Partners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GSI Commerce (eBay)</masterLabel>
+            <translation><!-- GSI Commerce (eBay) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IBM</masterLabel>
+            <translation><!-- IBM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle</masterLabel>
+            <translation><!-- Oracle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sitecore</masterLabel>
+            <translation><!-- Sitecore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Team Site (HP)</masterLabel>
+            <translation><!-- Team Site (HP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webcollage</masterLabel>
+            <translation><!-- Webcollage --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Start date of the initial SaaS contract. --></help>
+        <label><!-- Contract Effective Date --></label>
+        <name>Contract_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contract renewal date --></help>
+        <label><!-- Contract Renewal Date --></label>
+        <name>Contract_Renewal_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Sales Price Open Opptys --></label>
+        <name>Contract_Sales_Price_Open_Opptys__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Type --></label>
+        <name>Contract_Type__c</name>
+        <picklistValues>
+            <masterLabel>Attributable</masterLabel>
+            <translation><!-- Attributable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation><!-- Fixed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed/Attributable</masterLabel>
+            <translation><!-- Fixed/Attributable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grid</masterLabel>
+            <translation><!-- Grid --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Populated by Customer Service when the client is live on support. --></help>
+        <label><!-- Client Profile URL MindTouch --></label>
+        <name>DataFeed_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datanyze_Website_Technologies_c --></label>
+        <name>Datanyze_Website_Technologies_c__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates current Email Service Provider (ESP) used. --></help>
+        <label><!-- ESP --></label>
+        <name>ESP__c</name>
+        <picklistValues>
+            <masterLabel>Adhost</masterLabel>
+            <translation><!-- Adhost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Air2Web</masterLabel>
+            <translation><!-- Air2Web --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Artegic</masterLabel>
+            <translation><!-- Artegic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Axciom Digital</masterLabel>
+            <translation><!-- Axciom Digital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bronto</masterLabel>
+            <translation><!-- Bronto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheetahmail (Experian)</masterLabel>
+            <translation><!-- Cheetahmail (Experian) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Constant Contact</masterLabel>
+            <translation><!-- Constant Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cool Savings</masterLabel>
+            <translation><!-- Cool Savings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DoubleClick</masterLabel>
+            <translation><!-- DoubleClick --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EmailVision</masterLabel>
+            <translation><!-- EmailVision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emarsys</masterLabel>
+            <translation><!-- Emarsys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Epsilon Interactive</masterLabel>
+            <translation><!-- Epsilon Interactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eway Direct</masterLabel>
+            <translation><!-- Eway Direct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exact Target-Salesforce</masterLabel>
+            <translation><!-- Exact Target-Salesforce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GSI Commerce (e-Dialog)</masterLabel>
+            <translation><!-- GSI Commerce (e-Dialog) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold Lasso</masterLabel>
+            <translation><!-- Gold Lasso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Harte-Hanks</masterLabel>
+            <translation><!-- Harte-Hanks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-house</masterLabel>
+            <translation><!-- In-house --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lashback</masterLabel>
+            <translation><!-- Lashback --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lyris</masterLabel>
+            <translation><!-- Lyris --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAPP</masterLabel>
+            <translation><!-- MAPP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MailChimp</masterLabel>
+            <translation><!-- MailChimp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NeoLane</masterLabel>
+            <translation><!-- NeoLane --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optivo</masterLabel>
+            <translation><!-- Optivo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recontek</masterLabel>
+            <translation><!-- Recontek --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Responsys</masterLabel>
+            <translation><!-- Responsys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return Path</masterLabel>
+            <translation><!-- Return Path --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SailThru</masterLabel>
+            <translation><!-- SailThru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silverpop</masterLabel>
+            <translation><!-- Silverpop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>StrongMail</masterLabel>
+            <translation><!-- StrongMail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teradata</masterLabel>
+            <translation><!-- Teradata --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thindata</masterLabel>
+            <translation><!-- Thindata --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unica</masterLabel>
+            <translation><!-- Unica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UnsubCentral</masterLabel>
+            <translation><!-- UnsubCentral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WhatCounts</masterLabel>
+            <translation><!-- WhatCounts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yesmail</masterLabel>
+            <translation><!-- Yesmail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zustek</masterLabel>
+            <translation><!-- Zustek --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>eOn Communications</masterLabel>
+            <translation><!-- eOn Communications --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- E-Commerce Platform --></label>
+        <name>E_Commerce_Platform__c</name>
+        <picklistValues>
+            <masterLabel>3dCart</masterLabel>
+            <translation><!-- 3dCart --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATG</masterLabel>
+            <translation><!-- ATG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alexander Interactive</masterLabel>
+            <translation><!-- Alexander Interactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amazon Services</masterLabel>
+            <translation><!-- Amazon Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>American Eagle</masterLabel>
+            <translation><!-- American Eagle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amplience</masterLabel>
+            <translation><!-- Amplience --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apache</masterLabel>
+            <translation><!-- Apache --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aquity</masterLabel>
+            <translation><!-- Aquity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AspDotNetStorefront</masterLabel>
+            <translation><!-- AspDotNetStorefront --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BEA WebLogic</masterLabel>
+            <translation><!-- BEA WebLogic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broad Vision</masterLabel>
+            <translation><!-- Broad Vision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Channel Intelligence</masterLabel>
+            <translation><!-- Channel Intelligence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ChannelAdvisor</masterLabel>
+            <translation><!-- ChannelAdvisor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DemandWare</masterLabel>
+            <translation><!-- DemandWare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Epicor</masterLabel>
+            <translation><!-- Epicor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escalate Retail</masterLabel>
+            <translation><!-- Escalate Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fry</masterLabel>
+            <translation><!-- Fry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GSI</masterLabel>
+            <translation><!-- GSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home grown</masterLabel>
+            <translation><!-- Home grown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hybris</masterLabel>
+            <translation><!-- Hybris --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IBM Websphere</masterLabel>
+            <translation><!-- IBM Websphere --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-house</masterLabel>
+            <translation><!-- In-house --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InterWorld</masterLabel>
+            <translation><!-- InterWorld --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intershop</masterLabel>
+            <translation><!-- Intershop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interspire</masterLabel>
+            <translation><!-- Interspire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J2EE</masterLabel>
+            <translation><!-- J2EE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Java classes and JSP pages</masterLabel>
+            <translation><!-- Java classes and JSP pages --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Javelin (Carmel)</masterLabel>
+            <translation><!-- Javelin (Carmel) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KalioCommerce (DMInSite)</masterLabel>
+            <translation><!-- KalioCommerce (DMInSite) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAMP</masterLabel>
+            <translation><!-- LAMP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LaGarde</masterLabel>
+            <translation><!-- LaGarde --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MadMobile</masterLabel>
+            <translation><!-- MadMobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Magento</masterLabel>
+            <translation><!-- Magento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MarketLive</masterLabel>
+            <translation><!-- MarketLive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microsoft .NET</masterLabel>
+            <translation><!-- Microsoft .NET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microsoft Commerce Server</masterLabel>
+            <translation><!-- Microsoft Commerce Server --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NetSuite SuiteCommerce</masterLabel>
+            <translation><!-- NetSuite SuiteCommerce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle</masterLabel>
+            <translation><!-- Oracle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Osiris</masterLabel>
+            <translation><!-- Osiris --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFS Web</masterLabel>
+            <translation><!-- PFS Web --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portal Tech</masterLabel>
+            <translation><!-- Portal Tech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retek</masterLabel>
+            <translation><!-- Retek --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOLR</masterLabel>
+            <translation><!-- SOLR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Commerce Cloud</masterLabel>
+            <translation><!-- Salesforce Commerce Cloud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salmon (Safe)</masterLabel>
+            <translation><!-- Salmon (Safe) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shopify</masterLabel>
+            <translation><!-- Shopify --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shopvisible</masterLabel>
+            <translation><!-- Shopvisible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shopware</masterLabel>
+            <translation><!-- Shopware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Snow Valley</masterLabel>
+            <translation><!-- Snow Valley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spree</masterLabel>
+            <translation><!-- Spree --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tomcat Application</masterLabel>
+            <translation><!-- Tomcat Application --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VTEX</masterLabel>
+            <translation><!-- VTEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vcommerce</masterLabel>
+            <translation><!-- Vcommerce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Venda</masterLabel>
+            <translation><!-- Venda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volusion</masterLabel>
+            <translation><!-- Volusion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Xenocast</masterLabel>
+            <translation><!-- Xenocast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y Services</masterLabel>
+            <translation><!-- Y Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yahoo Stores</masterLabel>
+            <translation><!-- Yahoo Stores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yahoo!</masterLabel>
+            <translation><!-- Yahoo! --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>eCommera</masterLabel>
+            <translation><!-- eCommera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>osCommerce</masterLabel>
+            <translation><!-- osCommerce --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Account Manager’s Executive connection at the client. Facilitating account expansion opportunities and acting as a support for client escalations.  Assignments managed by Jake Bailey, VP Product Marketing and Solutions. --></help>
+        <label><!-- Executive Sponsor --></label>
+        <name>Executive_Sponsor__c</name>
+        <picklistValues>
+            <masterLabel>Alan Moore</masterLabel>
+            <translation><!-- Alan Moore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amanda Berger</masterLabel>
+            <translation><!-- Amanda Berger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arun Theivendirarajah</masterLabel>
+            <translation><!-- Arun Theivendirarajah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bill Growney</masterLabel>
+            <translation><!-- Bill Growney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bill Pearce</masterLabel>
+            <translation><!-- Bill Pearce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>David Ogidi</masterLabel>
+            <translation><!-- David Ogidi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Devang Sachdev</masterLabel>
+            <translation><!-- Devang Sachdev --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diane Kegley</masterLabel>
+            <translation><!-- Diane Kegley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eduardo Sanchez</masterLabel>
+            <translation><!-- Eduardo Sanchez --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Holly Gordon</masterLabel>
+            <translation><!-- Holly Gordon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jake Bailey</masterLabel>
+            <translation><!-- Jake Bailey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>John Dickson</masterLabel>
+            <translation><!-- John Dickson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kevin Duffey</masterLabel>
+            <translation><!-- Kevin Duffey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MK Marsden</masterLabel>
+            <translation><!-- MK Marsden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mahesh Tyagarajan</masterLabel>
+            <translation><!-- Mahesh Tyagarajan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marc Hayem</masterLabel>
+            <translation><!-- Marc Hayem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matthieu Chouard</masterLabel>
+            <translation><!-- Matthieu Chouard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mike DeCourcey</masterLabel>
+            <translation><!-- Mike DeCourcey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tyler Kohn</masterLabel>
+            <translation><!-- Tyler Kohn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zach Koekemoer</masterLabel>
+            <translation><!-- Zach Koekemoer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Feed Type --></label>
+        <name>Feed_Type__c</name>
+        <picklistValues>
+            <masterLabel>Catalog API</masterLabel>
+            <translation><!-- Catalog API --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Content Feed</masterLabel>
+            <translation><!-- Content Feed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delta Attributes Feed</masterLabel>
+            <translation><!-- Delta Attributes Feed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delta file</masterLabel>
+            <translation><!-- Delta file --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flat file</masterLabel>
+            <translation><!-- Flat file --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offline Feed</masterLabel>
+            <translation><!-- Offline Feed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference Content</masterLabel>
+            <translation><!-- Reference Content --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Region feed</masterLabel>
+            <translation><!-- Region feed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKU feed</masterLabel>
+            <translation><!-- SKU feed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Segment Feed</masterLabel>
+            <translation><!-- Segment Feed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Streaming API</masterLabel>
+            <translation><!-- Streaming API --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XML</masterLabel>
+            <translation><!-- XML --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used to localize marketing campaigns (for all contacts under the account).  Indicates the preferred language to use when communicating with the customer. --></help>
+        <label><!-- First Language --></label>
+        <name>First_Language__c</name>
+        <picklistValues>
+            <masterLabel>CHINESE</masterLabel>
+            <translation><!-- CHINESE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CZECH</masterLabel>
+            <translation><!-- CZECH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DANISH</masterLabel>
+            <translation><!-- DANISH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DUTCH</masterLabel>
+            <translation><!-- DUTCH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENGLISH</masterLabel>
+            <translation><!-- ENGLISH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FINNISH</masterLabel>
+            <translation><!-- FINNISH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FRENCH</masterLabel>
+            <translation><!-- FRENCH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GERMAN</masterLabel>
+            <translation><!-- GERMAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HUNGARIAN</masterLabel>
+            <translation><!-- HUNGARIAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ITALIAN</masterLabel>
+            <translation><!-- ITALIAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JAPANESE</masterLabel>
+            <translation><!-- JAPANESE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NORWEGIAN</masterLabel>
+            <translation><!-- NORWEGIAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POLISH</masterLabel>
+            <translation><!-- POLISH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PORTUGUESE</masterLabel>
+            <translation><!-- PORTUGUESE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROMANIAN</masterLabel>
+            <translation><!-- ROMANIAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RUSSIAN</masterLabel>
+            <translation><!-- RUSSIAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPANISH</masterLabel>
+            <translation><!-- SPANISH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SWEDISH</masterLabel>
+            <translation><!-- SWEDISH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TURKISH</masterLabel>
+            <translation><!-- TURKISH --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Check this box if we are monitoring key placements on the site via Gomez. --></help>
+        <label><!-- Gomez --></label>
+        <name>Gomez__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Opportunity --></label>
+        <name>Has_Opportunity__c</name>
+    </fields>
+    <fields>
+        <label><!-- IR500 --></label>
+        <name>IR500__c</name>
+    </fields>
+    <fields>
+        <help><!-- If the client is currently using software that is a competitor to RichRelevance&apos;s Recommend product, indicate the product.  Used for competitive selling. --></help>
+        <label><!-- Incumbent Recommend Provider --></label>
+        <name>Incumbent_Competitor__c</name>
+        <picklistValues>
+            <masterLabel>ATTRAQT</masterLabel>
+            <translation><!-- ATTRAQT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accenture</masterLabel>
+            <translation><!-- Accenture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdRoll</masterLabel>
+            <translation><!-- AdRoll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adobe</masterLabel>
+            <translation><!-- Adobe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adtelligence</masterLabel>
+            <translation><!-- Adtelligence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agilone</masterLabel>
+            <translation><!-- Agilone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apptus</masterLabel>
+            <translation><!-- Apptus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baynote</masterLabel>
+            <translation><!-- Baynote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bazaarvoice</masterLabel>
+            <translation><!-- Bazaarvoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bloomreach</masterLabel>
+            <translation><!-- Bloomreach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certona</masterLabel>
+            <translation><!-- Certona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chaordic</masterLabel>
+            <translation><!-- Chaordic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Devatics</masterLabel>
+            <translation><!-- Devatics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dynamic Yield</masterLabel>
+            <translation><!-- Dynamic Yield --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Early Birds</masterLabel>
+            <translation><!-- Early Birds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Econda</masterLabel>
+            <translation><!-- Econda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Epoq</masterLabel>
+            <translation><!-- Epoq --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fredhopper</masterLabel>
+            <translation><!-- Fredhopper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hooklogic</masterLabel>
+            <translation><!-- Hooklogic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IBM</masterLabel>
+            <translation><!-- IBM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Igodigital</masterLabel>
+            <translation><!-- Igodigital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-house</masterLabel>
+            <translation><!-- In-house --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Listrak</masterLabel>
+            <translation><!-- Listrak --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maxymiser</masterLabel>
+            <translation><!-- Maxymiser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monetate</masterLabel>
+            <translation><!-- Monetate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MyBuys</masterLabel>
+            <translation><!-- MyBuys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NUUKIK</masterLabel>
+            <translation><!-- NUUKIK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neemu</masterLabel>
+            <translation><!-- Neemu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NetWave</masterLabel>
+            <translation><!-- NetWave --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nosto</masterLabel>
+            <translation><!-- Nosto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Omniture</masterLabel>
+            <translation><!-- Omniture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle</masterLabel>
+            <translation><!-- Oracle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peerius</masterLabel>
+            <translation><!-- Peerius --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platform Recommendations</masterLabel>
+            <translation><!-- Platform Recommendations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prudsys</masterLabel>
+            <translation><!-- Prudsys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qubit</masterLabel>
+            <translation><!-- Qubit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Raptor</masterLabel>
+            <translation><!-- Raptor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reflekt</masterLabel>
+            <translation><!-- Reflekt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RichRelevance</masterLabel>
+            <translation><!-- RichRelevance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SLI Systems</masterLabel>
+            <translation><!-- SLI Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sailthru</masterLabel>
+            <translation><!-- Sailthru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce</masterLabel>
+            <translation><!-- Salesforce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smartfocus / Predictive Intent</masterLabel>
+            <translation><!-- Smartfocus / Predictive Intent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sparkow / Compario</masterLabel>
+            <translation><!-- Sparkow / Compario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Target2Sell</masterLabel>
+            <translation><!-- Target2Sell --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TriggerMail</masterLabel>
+            <translation><!-- TriggerMail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VTEX</masterLabel>
+            <translation><!-- VTEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>no personalised merchandising yet</masterLabel>
+            <translation><!-- no personalised merchandising yet --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If the client is currently using software that is a competitor to RichRelevance&apos;s Engage product, indicate the contract date their current software expires.  Used for competitive selling. --></help>
+        <label><!-- Incumbent Engage Contract Exp. --></label>
+        <name>Incumbent_Engage_Contract_Exp__c</name>
+    </fields>
+    <fields>
+        <help><!-- If the client is currently using software that is a competitor to RichRelevance&apos;s Engage product, indicate the product. Used for competitive selling. --></help>
+        <label><!-- Incumbent Engage Provider --></label>
+        <name>Incumbent_Engage_Provider__c</name>
+        <picklistValues>
+            <masterLabel>ATTRAQT</masterLabel>
+            <translation><!-- ATTRAQT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accenture</masterLabel>
+            <translation><!-- Accenture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdRoll</masterLabel>
+            <translation><!-- AdRoll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adobe</masterLabel>
+            <translation><!-- Adobe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adtelligence</masterLabel>
+            <translation><!-- Adtelligence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agilone</masterLabel>
+            <translation><!-- Agilone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apptus</masterLabel>
+            <translation><!-- Apptus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baynote</masterLabel>
+            <translation><!-- Baynote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bazaarvoice</masterLabel>
+            <translation><!-- Bazaarvoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bloomreach</masterLabel>
+            <translation><!-- Bloomreach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certona</masterLabel>
+            <translation><!-- Certona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chaordic</masterLabel>
+            <translation><!-- Chaordic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Devatics</masterLabel>
+            <translation><!-- Devatics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dynamic Yield</masterLabel>
+            <translation><!-- Dynamic Yield --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Econda</masterLabel>
+            <translation><!-- Econda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Epoq</masterLabel>
+            <translation><!-- Epoq --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fredhopper</masterLabel>
+            <translation><!-- Fredhopper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hooklogic</masterLabel>
+            <translation><!-- Hooklogic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IBM</masterLabel>
+            <translation><!-- IBM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Igodigital</masterLabel>
+            <translation><!-- Igodigital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-house</masterLabel>
+            <translation><!-- In-house --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Listrak</masterLabel>
+            <translation><!-- Listrak --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maxymiser</masterLabel>
+            <translation><!-- Maxymiser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monetate</masterLabel>
+            <translation><!-- Monetate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MyBuys</masterLabel>
+            <translation><!-- MyBuys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NUUKIK</masterLabel>
+            <translation><!-- NUUKIK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NetWave</masterLabel>
+            <translation><!-- NetWave --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nosto</masterLabel>
+            <translation><!-- Nosto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Omniture</masterLabel>
+            <translation><!-- Omniture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optimizely</masterLabel>
+            <translation><!-- Optimizely --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peerius</masterLabel>
+            <translation><!-- Peerius --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platform Recommendations</masterLabel>
+            <translation><!-- Platform Recommendations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prudsys</masterLabel>
+            <translation><!-- Prudsys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qubit</masterLabel>
+            <translation><!-- Qubit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Raptor</masterLabel>
+            <translation><!-- Raptor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reflekt</masterLabel>
+            <translation><!-- Reflekt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RichRelevance</masterLabel>
+            <translation><!-- RichRelevance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SLI Systems</masterLabel>
+            <translation><!-- SLI Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sailthru</masterLabel>
+            <translation><!-- Sailthru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce</masterLabel>
+            <translation><!-- Salesforce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smartfocus / Predictive Intent</masterLabel>
+            <translation><!-- Smartfocus / Predictive Intent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strands</masterLabel>
+            <translation><!-- Strands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Target2Sell</masterLabel>
+            <translation><!-- Target2Sell --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TriggerMail</masterLabel>
+            <translation><!-- TriggerMail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>no personalised merchandising yet</masterLabel>
+            <translation><!-- no personalised merchandising yet --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If the client is currently using software that is a competitor to RichRelevance&apos;s Recommend product, indicate the contract date their current software expires. --></help>
+        <label><!-- Incumbent Recommend Contract Exp. --></label>
+        <name>Incumbent_Recs_Contract_Expiration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dont Use: Industry Vertical --></label>
+        <name>Industry_vertical__c</name>
+        <picklistValues>
+            <masterLabel>Apparel &amp; Accessories</masterLabel>
+            <translation><!-- Apparel &amp; Accessories --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arts &amp; Crafts</masterLabel>
+            <translation><!-- Arts &amp; Crafts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automotive</masterLabel>
+            <translation><!-- Automotive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Big Box</masterLabel>
+            <translation><!-- Big Box --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Books/Music/Videos</masterLabel>
+            <translation><!-- Books/Music/Videos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Child/Baby Care</masterLabel>
+            <translation><!-- Child/Baby Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Computer Hardware</masterLabel>
+            <translation><!-- Computer Hardware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Computer Software</masterLabel>
+            <translation><!-- Computer Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Appliances</masterLabel>
+            <translation><!-- Consumer Appliances --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Electronics</masterLabel>
+            <translation><!-- Consumer Electronics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Department store</masterLabel>
+            <translation><!-- Department store --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education</masterLabel>
+            <translation><!-- Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event &amp; Movie Tickets</masterLabel>
+            <translation><!-- Event &amp; Movie Tickets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Services</masterLabel>
+            <translation><!-- Financial Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flowers, Greetings, &amp; Specialty Gifts</masterLabel>
+            <translation><!-- Flowers, Greetings, &amp; Specialty Gifts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grocery/ Food/ Bev</masterLabel>
+            <translation><!-- Grocery/ Food/ Bev --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hardware/Home Improvement</masterLabel>
+            <translation><!-- Hardware/Home Improvement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health/Wellness/Beauty</masterLabel>
+            <translation><!-- Health/Wellness/Beauty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Housewares &amp; Home furnishings</masterLabel>
+            <translation><!-- Housewares &amp; Home furnishings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial Machinery &amp; Equipment</masterLabel>
+            <translation><!-- Industrial Machinery &amp; Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial/ Janitorial Supplies</masterLabel>
+            <translation><!-- Industrial/ Janitorial Supplies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jewelry</masterLabel>
+            <translation><!-- Jewelry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media</masterLabel>
+            <translation><!-- Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Supplies</masterLabel>
+            <translation><!-- Medical Supplies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office Supplies</masterLabel>
+            <translation><!-- Office Supplies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pets</masterLabel>
+            <translation><!-- Pets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharma</masterLabel>
+            <translation><!-- Pharma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shoes &amp; Athletic Footwear</masterLabel>
+            <translation><!-- Shoes &amp; Athletic Footwear --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specialty / non-Apparel</masterLabel>
+            <translation><!-- Specialty / non-Apparel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sporting Goods &amp; Outdoor Activities</masterLabel>
+            <translation><!-- Sporting Goods &amp; Outdoor Activities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telcom</masterLabel>
+            <translation><!-- Telcom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Toys, Games &amp; Hobbies</masterLabel>
+            <translation><!-- Toys, Games &amp; Hobbies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel/ Hospitality</masterLabel>
+            <translation><!-- Travel/ Hospitality --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Initial contract term in months. --></help>
+        <label><!-- Initial Contract Term --></label>
+        <name>Initial_Contract_Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Intacct Customer ID --></label>
+        <name>Intacct_Customer_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Intacct Revenue YTD --></label>
+        <name>Intacct_Revenue_YTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Type --></label>
+        <name>Integration_Type__c</name>
+        <picklistValues>
+            <masterLabel>Autocomplete API</masterLabel>
+            <translation><!-- Autocomplete API --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client side JS</masterLabel>
+            <translation><!-- Client side JS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client side REST API</masterLabel>
+            <translation><!-- Client side REST API --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dynamic Experiences</masterLabel>
+            <translation><!-- Dynamic Experiences --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Experience Browser</masterLabel>
+            <translation><!-- Experience Browser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Experience Designer</masterLabel>
+            <translation><!-- Experience Designer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Find API</masterLabel>
+            <translation><!-- Find API --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Find Overlay</masterLabel>
+            <translation><!-- Find Overlay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Server side API</masterLabel>
+            <translation><!-- Server side API --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- LinkedIn Company Id --></label>
+        <name>LID__LinkedIn_Company_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Last date that a reference was provided by someone at this account.  This is used to track reference history, and ensure that contacts at accounts are not being asked too frequently for a reference. --></help>
+        <label><!-- Last Date Provided Reference --></label>
+        <name>Last_Date_Provided_Reference__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box if the customer has been introduced and rolled out on the support plan --></help>
+        <label><!-- Live On Support --></label>
+        <name>Live_On_Support__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sales Development Rep (SDR) is the person in sales development assigned to the account.  This role typically pre-qualifies the lead prior to making a contact and/or account. --></help>
+        <label><!-- Sales Development Rep (SDR) --></label>
+        <name>MDR__c</name>
+        <relationshipLabel><!-- Accounts (Sales Development Rep (SDR)) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Marketing Clause --></label>
+        <name>Marketing_Clause__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Marketing Opp Source (Reporting Only) --></label>
+        <name>Marketing_Opp_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Sub-vertical --></label>
+        <name>Marketing_Primary_Vertical__c</name>
+        <picklistValues>
+            <masterLabel>Aerospace Defense</masterLabel>
+            <translation><!-- Aerospace Defense --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apparel &amp; Accessories</masterLabel>
+            <translation><!-- Apparel &amp; Accessories --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto Parts</masterLabel>
+            <translation><!-- Auto Parts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beauty</masterLabel>
+            <translation><!-- Beauty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Big Box</masterLabel>
+            <translation><!-- Big Box --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Solutions</masterLabel>
+            <translation><!-- Business Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemicals</masterLabel>
+            <translation><!-- Chemicals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Computer Electronics</masterLabel>
+            <translation><!-- Computer Electronics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Department store</masterLabel>
+            <translation><!-- Department store --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drug Store/Pharmacy</masterLabel>
+            <translation><!-- Drug Store/Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronics</masterLabel>
+            <translation><!-- Electronics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flash Sale</masterLabel>
+            <translation><!-- Flash Sale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grocery</masterLabel>
+            <translation><!-- Grocery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hardware Home Improvement DIY</masterLabel>
+            <translation><!-- Hardware Home Improvement DIY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthcare Pharmaceuticals</masterLabel>
+            <translation><!-- Healthcare Pharmaceuticals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Machinery</masterLabel>
+            <translation><!-- Machinery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketplace</masterLabel>
+            <translation><!-- Marketplace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Materials</masterLabel>
+            <translation><!-- Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office Supplies</masterLabel>
+            <translation><!-- Office Supplies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Speciality (Pets)</masterLabel>
+            <translation><!-- Other Speciality (Pets) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Specialty (Adult)</masterLabel>
+            <translation><!-- Other Specialty (Adult) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Specialty (Auto)</masterLabel>
+            <translation><!-- Other Specialty (Auto) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Specialty (Beverages)</masterLabel>
+            <translation><!-- Other Specialty (Beverages) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Specialty (Cameras)</masterLabel>
+            <translation><!-- Other Specialty (Cameras) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Specialty (Couponing)</masterLabel>
+            <translation><!-- Other Specialty (Couponing) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Specialty (Currency)</masterLabel>
+            <translation><!-- Other Specialty (Currency) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Specialty (DIY)</masterLabel>
+            <translation><!-- Other Specialty (DIY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Specialty (Education)</masterLabel>
+            <translation><!-- Other Specialty (Education) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Specialty (Flowers)</masterLabel>
+            <translation><!-- Other Specialty (Flowers) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Specialty (Gaming)</masterLabel>
+            <translation><!-- Other Specialty (Gaming) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Specialty (Gardening)</masterLabel>
+            <translation><!-- Other Specialty (Gardening) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Specialty (Healthcare)</masterLabel>
+            <translation><!-- Other Specialty (Healthcare) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Specialty (Home)</masterLabel>
+            <translation><!-- Other Specialty (Home) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Specialty (Luxury)</masterLabel>
+            <translation><!-- Other Specialty (Luxury) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Specialty (Medical)</masterLabel>
+            <translation><!-- Other Specialty (Medical) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Specialty (Music)</masterLabel>
+            <translation><!-- Other Specialty (Music) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Specialty (Outdoor)</masterLabel>
+            <translation><!-- Other Specialty (Outdoor) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Specialty (Software)</masterLabel>
+            <translation><!-- Other Specialty (Software) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Specialty (Sports)</masterLabel>
+            <translation><!-- Other Specialty (Sports) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Specialty (Toys)</masterLabel>
+            <translation><!-- Other Specialty (Toys) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Specialty (Vision)</masterLabel>
+            <translation><!-- Other Specialty (Vision) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Specialty (Wine)</masterLabel>
+            <translation><!-- Other Specialty (Wine) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Petroleum Energy</masterLabel>
+            <translation><!-- Petroleum Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail Specialty</masterLabel>
+            <translation><!-- Retail Specialty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warehouse Club</masterLabel>
+            <translation><!-- Warehouse Club --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Max Opportunity Stage (Reporting Only) --></label>
+        <name>Max_Opportunity_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vertical Industry --></label>
+        <name>Merchant_Type__c</name>
+        <picklistValues>
+            <masterLabel>B2B</masterLabel>
+            <translation><!-- B2B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Branded Manufacturer</masterLabel>
+            <translation><!-- Branded Manufacturer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Services</masterLabel>
+            <translation><!-- Financial Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospitality</masterLabel>
+            <translation><!-- Hospitality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media &amp; Entertainment</masterLabel>
+            <translation><!-- Media &amp; Entertainment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Publishing</masterLabel>
+            <translation><!-- Publishing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail-Omni-Channel B2C</masterLabel>
+            <translation><!-- Retail-Omni-Channel B2C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail-Online B2C</masterLabel>
+            <translation><!-- Retail-Online B2C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telco</masterLabel>
+            <translation><!-- Telco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel</masterLabel>
+            <translation><!-- Travel --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- # of Brick and Mortar Stores --></label>
+        <name>Number_of_Brick_and_Mortar_Stores__c</name>
+    </fields>
+    <fields>
+        <label><!-- Online Annual Revenue --></label>
+        <name>Online_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Count --></label>
+        <name>Opportunity_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please enter the Ranking of this account based on your Tab Accounts --></help>
+        <label><!-- Owner Ranking --></label>
+        <name>Owner_Ranking__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used for Partner accounts only. --></help>
+        <label><!-- Partner Business Model --></label>
+        <name>Partner_Business_Model__c</name>
+        <picklistValues>
+            <masterLabel>Delivery Partner</masterLabel>
+            <translation><!-- Delivery Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributor</masterLabel>
+            <translation><!-- Distributor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Active</masterLabel>
+            <translation><!-- Not Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OEM</masterLabel>
+            <translation><!-- OEM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Prospect</masterLabel>
+            <translation><!-- Partner Prospect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral</masterLabel>
+            <translation><!-- Referral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reseller</masterLabel>
+            <translation><!-- Reseller --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RichRelevance Product Resell</masterLabel>
+            <translation><!-- RichRelevance Product Resell --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teaming</masterLabel>
+            <translation><!-- Teaming --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Integration</masterLabel>
+            <translation><!-- Technical Integration --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Captures Partner Information at a high level, such as, &quot;Receives 10% of all deals sold.&quot;  Used for Partner accounts only. --></help>
+        <label><!-- Partner Business Terms Per Agreement --></label>
+        <name>Partner_Business_Terms_Per_Agreement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Type --></label>
+        <name>Partner_Type__c</name>
+        <picklistValues>
+            <masterLabel>Business Process Outsourcer (BPO)</masterLabel>
+            <translation><!-- Business Process Outsourcer (BPO) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact Center</masterLabel>
+            <translation><!-- Contact Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Content Management System (CMS)</masterLabel>
+            <translation><!-- Content Management System (CMS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Management Platform (DMP)</masterLabel>
+            <translation><!-- Data Management Platform (DMP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ECommerce Platform</masterLabel>
+            <translation><!-- ECommerce Platform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email Service Provider (ESP/Marketing)</masterLabel>
+            <translation><!-- Email Service Provider (ESP/Marketing) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-Store</masterLabel>
+            <translation><!-- In-Store --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loyalty</masterLabel>
+            <translation><!-- Loyalty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation><!-- Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Search</masterLabel>
+            <translation><!-- Search --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social</masterLabel>
+            <translation><!-- Social --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System Integrator (SI) / Digital Agency</masterLabel>
+            <translation><!-- System Integrator (SI) / Digital Agency --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The C-Level connection with our most important accounts, and the highest level of escalation/account expansion.  Assignment managed by Jake Bailey, VP Product Marketing and Solutions. --></help>
+        <label><!-- Presidential Sponsor --></label>
+        <name>Presidential_Sponsor__c</name>
+        <picklistValues>
+            <masterLabel>Bill Pierce</masterLabel>
+            <translation><!-- Bill Pierce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eduardo Sanchez</masterLabel>
+            <translation><!-- Eduardo Sanchez --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MK Marsden</masterLabel>
+            <translation><!-- MK Marsden --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Support Team will reach this contact whenever {rr} has maintenance. --></help>
+        <label><!-- Primary Contact for Maintenance --></label>
+        <name>Primary_Contact_for_Maintenance__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Account Profile Complete Date --></label>
+        <name>Profile_Complete_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profile Complete --></label>
+        <name>Profile_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profile Completed By --></label>
+        <name>Profile_Completed_By__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter notes relevant to the last reference such as who provided the reference, who they provided the reference to, and any other helpful information. --></help>
+        <label><!-- Reference Notes --></label>
+        <name>Reference_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Notes --></label>
+        <name>Renewal_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Renewal term in months. --></help>
+        <label><!-- Renewal Term --></label>
+        <name>Renewal_Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDC Jira account id --></label>
+        <name>SFDC_Jira_account_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Override DupeCatcher --></label>
+        <name>SFSSDupeCatcher__Override_DupeCatcher__c</name>
+    </fields>
+    <fields>
+        <label><!-- DONT USE: Sales Region --></label>
+        <name>Sales_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Score Card Date --></label>
+        <name>Score_Card_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Score Card URL --></label>
+        <name>Score_Card__c</name>
+    </fields>
+    <fields>
+        <label><!-- SD Checked Date --></label>
+        <name>Sifdata__SD_Checked_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- SD Linkedin URL --></label>
+        <name>Sifdata__SD_Linkedin_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- SD Tracking --></label>
+        <name>Sifdata__SD_Tracking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site Search Contract Exp. --></label>
+        <name>Site_Search_Contract_Exp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site Search Provider --></label>
+        <name>Site_Search_Provider__c</name>
+        <picklistValues>
+            <masterLabel>3dCart</masterLabel>
+            <translation><!-- 3dCart --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3ssolutions.com</masterLabel>
+            <translation><!-- 3ssolutions.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Active Decisions</masterLabel>
+            <translation><!-- Active Decisions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alexander Interactive</masterLabel>
+            <translation><!-- Alexander Interactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baynote</masterLabel>
+            <translation><!-- Baynote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BloomReach</masterLabel>
+            <translation><!-- BloomReach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Celebros</masterLabel>
+            <translation><!-- Celebros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demandware</masterLabel>
+            <translation><!-- Demandware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EasyAsk</masterLabel>
+            <translation><!-- EasyAsk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ElasticSearch</masterLabel>
+            <translation><!-- ElasticSearch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Empathy Broker</masterLabel>
+            <translation><!-- Empathy Broker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escalate Retail</masterLabel>
+            <translation><!-- Escalate Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAST</masterLabel>
+            <translation><!-- FAST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FactFinder (by Omikron)</masterLabel>
+            <translation><!-- FactFinder (by Omikron) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FredHopper</masterLabel>
+            <translation><!-- FredHopper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GSI Commerce</masterLabel>
+            <translation><!-- GSI Commerce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Google</masterLabel>
+            <translation><!-- Google --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GroupBy</masterLabel>
+            <translation><!-- GroupBy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-house</masterLabel>
+            <translation><!-- In-house --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Linx (Chaordic/ Neemu)</masterLabel>
+            <translation><!-- Linx (Chaordic/ Neemu) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Locayta</masterLabel>
+            <translation><!-- Locayta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lucene</masterLabel>
+            <translation><!-- Lucene --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MarketLive</masterLabel>
+            <translation><!-- MarketLive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nextopia</masterLabel>
+            <translation><!-- Nextopia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Omniture (Adobe)</masterLabel>
+            <translation><!-- Omniture (Adobe) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle ATG</masterLabel>
+            <translation><!-- Oracle ATG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle Commerce Cloud</masterLabel>
+            <translation><!-- Oracle Commerce Cloud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle Endeca</masterLabel>
+            <translation><!-- Oracle Endeca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Progress EasyAsk</masterLabel>
+            <translation><!-- Progress EasyAsk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RichRelevance/Find</masterLabel>
+            <translation><!-- RichRelevance/Find --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP hybris SOLR</masterLabel>
+            <translation><!-- SAP hybris SOLR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SLI</masterLabel>
+            <translation><!-- SLI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOLR</masterLabel>
+            <translation><!-- SOLR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiny Clues</masterLabel>
+            <translation><!-- Tiny Clues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verity</masterLabel>
+            <translation><!-- Verity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPhrase</masterLabel>
+            <translation><!-- iPhrase --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Designates the Client Services Squad responsible for managing the account. --></help>
+        <label><!-- Squad --></label>
+        <name>Squad__c</name>
+        <picklistValues>
+            <masterLabel>Customer Support</masterLabel>
+            <translation><!-- Customer Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Consulting</masterLabel>
+            <translation><!-- Data Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EU - Black</masterLabel>
+            <translation><!-- EU - Black --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EU - Green</masterLabel>
+            <translation><!-- EU - Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US - Gold</masterLabel>
+            <translation><!-- US - Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US - Red</masterLabel>
+            <translation><!-- US - Red --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status Last Updated --></label>
+        <name>Status_Last_Updated__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates the health of current customers.  Gold=Referenceable Customer, Green= Customer in Good Standing, Yellow=Some Trouble at the Account, Work required to get in Good Standing, Red= Account is at risk.  Action required to improve account. --></help>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>1 - Gold</masterLabel>
+            <translation><!-- 1 - Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Green</masterLabel>
+            <translation><!-- 2 - Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Yellow</masterLabel>
+            <translation><!-- 3 - Yellow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Red</masterLabel>
+            <translation><!-- 4 - Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Termination</masterLabel>
+            <translation><!-- Termination --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sub Region --></label>
+        <name>Sub_Region__c</name>
+        <picklistValues>
+            <masterLabel>APAC Other</masterLabel>
+            <translation><!-- APAC Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia</masterLabel>
+            <translation><!-- Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brazil</masterLabel>
+            <translation><!-- Brazil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DACH</masterLabel>
+            <translation><!-- DACH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Asia</masterLabel>
+            <translation><!-- East Asia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FraBeLux</masterLabel>
+            <translation><!-- FraBeLux --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japan</masterLabel>
+            <translation><!-- Japan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LATAM</masterLabel>
+            <translation><!-- LATAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LATAM Other</masterLabel>
+            <translation><!-- LATAM Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico</masterLabel>
+            <translation><!-- Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middle East &amp; Africa</masterLabel>
+            <translation><!-- Middle East &amp; Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nordics</masterLabel>
+            <translation><!-- Nordics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russia</masterLabel>
+            <translation><!-- Russia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE Europe &amp; CIS</masterLabel>
+            <translation><!-- SE Europe &amp; CIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEA</masterLabel>
+            <translation><!-- SEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK</masterLabel>
+            <translation><!-- UK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US East</masterLabel>
+            <translation><!-- US East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US West</masterLabel>
+            <translation><!-- US West --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA</masterLabel>
+            <translation><!-- USA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Support level the customer is on.  Standard is the default.  Other levels are assigned as contractually agreed with the customer, or on special exception basis. --></help>
+        <label><!-- Support Package --></label>
+        <name>Support_Package__c</name>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation><!-- Custom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plus</masterLabel>
+            <translation><!-- Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation><!-- Standard --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Support Region --></label>
+        <name>Support_Region__c</name>
+        <picklistValues>
+            <masterLabel>EU</masterLabel>
+            <translation><!-- EU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US</masterLabel>
+            <translation><!-- US --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Technical Account Manager --></label>
+        <name>Technical_Account_Manager__c</name>
+        <relationshipLabel><!-- Accounts (Technical Account Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Term for convenience days --></label>
+        <name>Term_for_convenience_days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Termination Date --></label>
+        <name>Termination_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Testing Platform --></label>
+        <name>Testing_Platform__c</name>
+        <picklistValues>
+            <masterLabel>Adobe Target</masterLabel>
+            <translation><!-- Adobe Target --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dynamic Yield</masterLabel>
+            <translation><!-- Dynamic Yield --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Grown</masterLabel>
+            <translation><!-- Home Grown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maximizer</masterLabel>
+            <translation><!-- Maximizer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monetate</masterLabel>
+            <translation><!-- Monetate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optimizely</masterLabel>
+            <translation><!-- Optimizely --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sitespect</masterLabel>
+            <translation><!-- Sitespect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VWO</masterLabel>
+            <translation><!-- VWO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used to indicate if using type ahead search (Y/N) flag. --></help>
+        <label><!-- Type Ahead Search --></label>
+        <name>Type_Ahead_Search__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Installed web analytics tool --></help>
+        <label><!-- Web Analytics Tool --></label>
+        <name>Web_Analytics_Tool__c</name>
+        <picklistValues>
+            <masterLabel>A/B Tasty</masterLabel>
+            <translation><!-- A/B Tasty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CoreMetrics</masterLabel>
+            <translation><!-- CoreMetrics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fireclick</masterLabel>
+            <translation><!-- Fireclick --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ForeSee</masterLabel>
+            <translation><!-- ForeSee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Google Analytics</masterLabel>
+            <translation><!-- Google Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-house</masterLabel>
+            <translation><!-- In-house --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IndexTools</masterLabel>
+            <translation><!-- IndexTools --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Informatica</masterLabel>
+            <translation><!-- Informatica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net-Insight</masterLabel>
+            <translation><!-- Net-Insight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Omniture</masterLabel>
+            <translation><!-- Omniture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retek</masterLabel>
+            <translation><!-- Retek --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WebTrends</masterLabel>
+            <translation><!-- WebTrends --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webmetrics</masterLabel>
+            <translation><!-- Webmetrics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webtrekk</masterLabel>
+            <translation><!-- Webtrekk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yahoo!</masterLabel>
+            <translation><!-- Yahoo! --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Insight --></label>
+        <name>mkto_si__Sales_Insight__c</name>
+    </fields>
+    <fields>
+        <help><!-- This records the worker correlation key used within the erp system. --></help>
+        <label><!-- ERP Worker Correlation --></label>
+        <name>pse__ERP_Worker_Correlation_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Services Billing Time Period Type --></label>
+        <name>pse__Services_Billing_Time_Period_Type__c</name>
+        <picklistValues>
+            <masterLabel>Month</masterLabel>
+            <translation><!-- Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarter</masterLabel>
+            <translation><!-- Quarter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week</masterLabel>
+            <translation><!-- Week --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year</masterLabel>
+            <translation><!-- Year --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>SaaS Account Layout</layout>
+        <sections>
+            <label><!-- Account Acquisition --></label>
+            <section>Account Acquisition</section>
+        </sections>
+        <sections>
+            <label><!-- Account Management --></label>
+            <section>Account Management</section>
+        </sections>
+        <sections>
+            <label><!-- Client Services and Customer Support --></label>
+            <section>Client Services and Customer Support</section>
+        </sections>
+        <sections>
+            <label><!-- Finance Details --></label>
+            <section>Finance Details</section>
+        </sections>
+        <sections>
+            <label><!-- LinkedIn Company Page --></label>
+            <section>LinkedIn Company Page</section>
+        </sections>
+        <sections>
+            <label><!-- Marketo Sales Insite --></label>
+            <section>Marketo Sales Insite</section>
+        </sections>
+        <sections>
+            <label><!-- Master Contract Terms --></label>
+            <section>Master Contract Terms</section>
+        </sections>
+        <sections>
+            <label><!-- SE Handoff Checklist --></label>
+            <section>SE Handoff Checklist</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Case --></label>
+        <name>Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Child Account --></label>
+        <name>Child_Account</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Contact --></label>
+        <name>Contact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>Log_a_Call</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log A Note --></label>
+        <name>Note</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Task --></label>
+        <name>Task</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- SaaS --></description>
+        <label><!-- SaaS --></label>
+        <name>SaaS</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- CompanyId should be a numeric value --></errorMessage>
+        <name>LID__Check_CompanyId_Value</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only system admins can change the ownership. --></errorMessage>
+        <name>Only_sysadmin_can_change_owner</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For Customers, you must select a Support Package before the record can be saved. --></errorMessage>
+        <name>Support_Package_for_Customers</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Support Region only required when Relationship = Customer. --></errorMessage>
+        <name>Support_Region</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Support Region is required for all partners so that cases opened by partners can be routed to the correct support team. --></errorMessage>
+        <name>Support_Region_for_Partners</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only system admins can change Account Names --></errorMessage>
+        <name>User_cannot_change_Account_Name</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Clone --></label>
+        <name>Clone</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Edit --></label>
+        <name>Mass_Edit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Update --></label>
+        <name>Mass_Update</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Tasks_Accounts --></label>
+        <name>activities__Create_Tasks_Accounts</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Download_Attachments --></label>
+        <name>attachmentzip__Download_Attachments</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_to_EchoSign --></label>
+        <name>echosign_dev1__Send_to_EchoSign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Watch_List --></label>
+        <name>mkto_si__Add_to_Watch_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Watch_List_Detail --></label>
+        <name>mkto_si__Add_to_Watch_List_Detail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Account_Billing --></label>
+        <name>pse__Account_Billing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Change_Request --></label>
+        <name>pse__Create_Change_Request</name>
+    </webLinks>
+</CustomObjectTranslation>
